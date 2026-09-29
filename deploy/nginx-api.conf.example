@@ -1,0 +1,14 @@
+# Replace the host after DNS resolves to this VPS. Certbot adds the TLS listener.
+server {
+    listen 80;
+    server_name api.myfund.142-132-205-30.sslip.io;
+    location /api/ {
+        proxy_pass http://127.0.0.1:4310;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Origin $http_origin;
+        proxy_set_header Referer $http_referer;
+        proxy_read_timeout 15s;
+    }
+}

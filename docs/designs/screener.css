@@ -1,0 +1,79 @@
+/* Tokens.xyz table treatment, adapted from solana-foundation/tokens (MIT).
+   See licenses/tokens-MIT.txt. Uses the shared app theme. */
+#stocks{font-family:var(--font-body);color:#202124;padding-bottom:12px}
+#stocks .stock-heading{text-align:center;padding:40px 0 12px}
+#stocks h1{font-family:inherit;font-size:36px;font-weight:550;letter-spacing:-1.3px;margin-bottom:12px}
+#stocks .stock-heading>.muted{font-size:14px;font-weight:400;color:#63666c}
+#stocks .snapshot-note{font-size:12px;color:#686b72;margin-top:8px}
+#stocks .stock-toolbar{display:grid;grid-template-columns:1fr auto auto;gap:10px;margin:20px 0 14px;align-items:center}
+#stocks .stock-search{position:relative;min-width:0;max-width:500px}
+#stocks .stock-search input{height:44px;min-height:44px;padding:10px 16px 10px 42px;margin:0;border:1px solid #dfe1e5;border-radius:24px;background:#fff;font:400 14px var(--font-body);box-shadow:0 2px 4px #00000004}
+.search-glyph{position:absolute;left:16px;top:8px;font-size:22px;color:#72757a;line-height:26px}
+#stocks .stock-toolbar select,#stocks .stock-toolbar>button{min-height:44px;height:44px;margin:0;padding:8px 12px;border:1px solid #e0e2e6;border-radius:8px;font-size:12px;background:#fff;font-weight:450}
+#stock-count{font-size:12px;margin:12px 0;color:#676b72}
+#stock-results{border:1px solid #e3e5e8;border-radius:18px;background:#fff;overflow:hidden;box-shadow:0 4px 24px #00000003}
+#stocks .stock-table{table-layout:fixed;width:100%;font-size:14px;border-collapse:collapse}
+#stocks .stock-table th{height:48px;padding:0 16px;background:#f5f6f7;border-bottom:1px solid #e6e7eb;font-size:12px;font-weight:450;color:#62666d}
+#stocks .stock-table th:first-child{width:34%;padding-left:20px}
+#stocks .stock-table th:nth-child(2){width:13%}
+#stocks .stock-table th:nth-child(3){width:12%}
+#stocks .stock-table th:nth-child(4){width:16%}
+#stocks .stock-table th:nth-child(5){width:17%}
+#stocks .stock-table th:last-child{width:8%;padding-right:16px}
+#stocks .stock-table td{height:64px;padding:0 16px;border-bottom:1px solid #f0f1f3;vertical-align:middle;font-size:14px;font-weight:450;letter-spacing:-.2px}
+#stocks .stock-table tr:last-child td{border-bottom:0}
+#stocks .stock-table td:first-child{padding-left:20px;max-width:none}
+#stocks .stock-table tbody tr:hover{background:#f9fafb}
+#stocks .column-sort{display:flex;justify-content:flex-end;gap:6px;align-items:center;width:100%;min-height:44px;padding:0;border:0;border-radius:0;background:transparent;font:inherit;color:inherit}
+#stocks th:first-child .column-sort{justify-content:flex-start}
+.column-sort span{font-size:11px;color:#797c82}
+#stocks .stock-identity{padding:0;min-height:48px;max-width:none;gap:10px;border-radius:0;background:transparent;transition:none}
+#stocks .stock-avatar{width:28px;height:28px;font-size:9px;background:#eef0f3;color:#51555d;display:grid;border-radius:50%;overflow:hidden}
+.stock-avatar img{display:block;object-fit:contain;background:#fff;width:28px;height:28px}
+.stock-title{flex:1;min-width:0}
+.stock-name-line{display:flex;align-items:baseline;gap:7px;min-width:0}
+#stocks .stock-name-line strong{font-size:14px;font-weight:500;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;letter-spacing:-.2px}
+.stock-ticker{font-size:11px;color:#767a82;flex-shrink:0;font-weight:450}
+#stocks .stock-issuer{font-size:11px;color:#767a82;line-height:1.3;margin-top:3px;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#stocks .stock-action button{border:1px solid #e6e7eb;border-radius:50%;width:36px;height:44px;min-width:44px;min-height:44px;padding:0;font-size:20px;color:#777b82;background:transparent}
+#stocks .stock-action button:hover{background:#202124;color:white;border-color:#202124}
+#stocks .sparkline{width:100%;height:36px;max-width:132px;margin-left:auto}
+.trend-up{color:#138766!important}.trend-down{color:#c84d59!important}
+#stocks .positive{color:#138766}#stocks .negative{color:#c84d59}
+.chart-missing{display:block;text-align:right;color:#a3a6ac;font-weight:400}
+#stocks .stock-pagination{padding:16px 2px}
+#stocks .stock-pagination button{border:1px solid #e1e3e7;border-radius:8px;background:white;min-height:44px;padding:8px 14px;font-size:12px}
+#stocks>.small:last-child{font-size:11px;line-height:1.6;color:#777b82;max-width:760px}
+@media(max-width:767px){
+ #stocks .stock-heading{padding-top:28px}#stocks h1{font-size:30px}
+ #stocks .stock-toolbar{grid-template-columns:1fr 1fr;gap:8px;margin-top:16px}
+ #stocks .stock-search{grid-column:1/-1;max-width:none}
+ #stocks .stock-table th:first-child{width:52%;padding-left:12px}
+ #stocks .stock-table th:nth-child(2){width:25%}
+ #stocks .stock-table th:nth-child(3){width:23%}
+ #stocks .stock-table th,#stocks .stock-table td{padding:0 8px;font-size:12px}
+ #stocks .stock-table td:first-child{padding-left:12px}
+ #stocks .stock-table td{height:64px}
+ #stocks .stock-avatar{display:grid;width:24px;height:24px;flex-shrink:0}
+ #stocks .stock-avatar img{width:24px;height:24px}
+ #stocks .stock-identity{gap:8px}
+ .stock-name-line{display:block}
+ #stocks .stock-name-line strong{display:block;font-size:12px}
+ .stock-ticker{display:none}
+ #stocks .stock-issuer{font-size:10px}
+ #stocks .stock-table .numeric{font-size:11px}
+ #stock-results{border-radius:12px}
+}
+#stocks .positive{color:#087b5a}#stocks .negative{color:#bd3548}
+#stocks .stock-ticker,#stocks .stock-issuer{color:#6a6e76}
+@media(max-width:767px){.stock-name-line{display:flex;flex-wrap:wrap;gap:0 5px}.stock-ticker{display:inline;font-size:10px}#stocks .stock-name-line strong{max-width:100%}.stock-issuer{line-height:1.2}}
+.mobile-label{display:none}
+@media(max-width:767px){#stocks .column-sort{gap:4px;font-size:11px}.desktop-label{display:none}.mobile-label{display:inline}}
+/* Category controls replace the title block and redundant sorting toolbar. */
+#stocks .stock-toolbar{display:block;margin:28px 0 22px}
+#stocks .stock-search{display:block;max-width:420px}
+.category-tabs{display:flex;align-items:center;gap:8px;margin:0 0 14px;flex-wrap:wrap}
+#stocks .category-tabs button{border:0;border-radius:24px;padding:8px 18px;min-height:44px;background:transparent;color:#71747a;font:500 15px var(--font-body)}
+#stocks .category-tabs button[aria-pressed=true]{background:#ededee;color:#151619}
+#stocks .category-tabs button:hover{background:#f0f0f2;color:#151619}
+@media(max-width:767px){#stocks .stock-toolbar{margin:20px 0 16px}#stocks .stock-search{max-width:none}.category-tabs{gap:3px;justify-content:space-between}#stocks .category-tabs button{font-size:13px;padding:8px 12px}}

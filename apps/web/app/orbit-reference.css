@@ -1,0 +1,174 @@
+/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V4 · genre: modern-minimal · macrostructure: Stat-Led
+ * design-system: DESIGN.md · designed-as-app
+ * tone: soft technical · anchor hue: indigo · nav: N9 edge-aligned minimal · footer: none · enrichment: none
+ * contrast: pass (40–41) · honest: pass (46) · chrome: pass (47) · tokens: pass (48) · responsive: pass (34,49–57) · slop: pass (58/58)
+ */
+@import '../../../tokens.css';
+
+.asset-avatar{position:relative;display:grid;place-items:center;flex:0 0 36px;width:36px;height:36px;overflow:hidden;border:2px solid var(--surface);border-radius:50%;background:var(--theme-accent-soft);color:var(--ink);font-size:11px;font-weight:750;line-height:1}
+.asset-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:var(--surface)}
+
+html[data-theme='orbit']{--paper:var(--color-paper);--surface:var(--color-surface);--ink:var(--color-ink);--muted:var(--color-muted);--rule:var(--color-rule);--focus:var(--color-focus);--error:var(--color-error);--theme-accent:var(--color-accent);--theme-accent-soft:var(--color-paper-2);--mark-bg:var(--color-ink);--mark-dot:oklch(79% .13 161)}
+html,body{overflow-x:clip}
+html[data-theme='orbit'] body{background:var(--paper);font-size:16px}
+html[data-theme='orbit'] button{transition:background-color var(--dur-medium) var(--ease-out),color var(--dur-medium) var(--ease-out),transform var(--dur-short) var(--ease-out)}
+html[data-theme='orbit'] button:active{transform:translateY(1px)}
+html[data-theme='orbit'] button:focus-visible,html[data-theme='orbit'] a:focus-visible,html[data-theme='orbit'] input:focus-visible,html[data-theme='orbit'] select:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+html[data-theme='orbit'] .shell{width:min(1184px,calc(100% - 48px))}
+html[data-theme='orbit'] .main{padding-top:32px}
+html[data-theme='orbit'] h1{min-width:0;overflow-wrap:anywhere}
+html[data-theme='orbit'] button,html[data-theme='orbit'] nav a{white-space:nowrap}
+
+html[data-theme='orbit'] .topbar{background:var(--paper)}
+html[data-theme='orbit'] .topbar-inner{min-height:96px;border-bottom:0;gap:0}
+html[data-theme='orbit'] .topbar .brand{min-height:48px}
+html[data-theme='orbit'] .topbar .brand-logo{width:164px}
+html[data-theme='orbit'] .topbar nav{gap:8px;margin-left:44px}
+html[data-theme='orbit'] .topbar nav a,html[data-theme='orbit'] .topbar nav button{min-height:48px;padding-inline:20px;border-radius:999px;font-size:15px;font-weight:560}
+html[data-theme='orbit'] .topbar nav a.active,html[data-theme='orbit'] .topbar nav button.active{background:var(--color-paper-2);font-weight:700}
+html[data-theme='orbit'] .theme-switcher{gap:4px}
+html[data-theme='orbit'] .theme-switcher-label{margin-right:8px;font-size:13px}
+html[data-theme='orbit'] .theme-switcher button{min-height:48px;padding-inline:16px;border-radius:999px;font-size:13px}
+html[data-theme='orbit'] .theme-switcher button[aria-pressed='true']{border-color:var(--rule);background:var(--surface);font-weight:750}
+html[data-theme='orbit'] .topbar .account-actions{margin-left:16px}
+html[data-theme='orbit'] .topbar .account-control{min-height:48px;padding-inline:20px;border-radius:999px;background:var(--surface);font-size:14px;font-weight:650}
+
+html[data-theme='orbit'] .portfolio-page{padding-top:0}
+html[data-theme='orbit'] .portfolio-welcome{border:0;border-radius:28px;background:var(--color-stage)}
+html[data-theme='orbit'] .portfolio-welcome h1{font-size:clamp(44px,6vw,76px)}
+html[data-theme='orbit'] .portfolio-summary{display:grid;grid-template-columns:minmax(330px,.88fr) minmax(430px,1.12fr);grid-template-rows:auto 1fr;gap:16px 48px;align-items:stretch;min-height:390px;margin:0 0 32px;padding:40px 40px 32px;border-radius:28px;background:var(--color-stage);color:var(--ink)}
+html[data-theme='orbit'] .portfolio-summary>.portfolio-summary-copy,html[data-theme='orbit'] .portfolio-summary>.portfolio-summary-actions,html[data-theme='orbit'] .portfolio-summary>.portfolio-performance{padding:0;border-radius:0;background:transparent}
+html[data-theme='orbit'] .portfolio-summary-copy{grid-column:1;grid-row:1/3;align-self:center}
+html[data-theme='orbit'] .portfolio-summary h1{margin:0 0 24px;font-size:32px;font-weight:650;line-height:1;letter-spacing:-.045em}
+html[data-theme='orbit'] .portfolio-label{margin:0 0 4px;color:var(--muted);font-size:14px}
+html[data-theme='orbit'] .portfolio-total{display:block;margin:0 0 8px;font-family:var(--theme-display);font-size:clamp(64px,7vw,86px);font-weight:520;line-height:1;letter-spacing:-.065em;font-variant-numeric:tabular-nums}
+html[data-theme='orbit'] .portfolio-return{margin:0;font-size:16px;font-weight:650}
+html[data-theme='orbit'] .portfolio-help{margin:8px 0 0;color:var(--muted);font-size:14px}
+html[data-theme='orbit'] .portfolio-summary-actions{grid-column:2;grid-row:1;display:flex;justify-content:flex-end;align-items:start}
+html[data-theme='orbit'] .portfolio-summary-actions .primary{min-width:132px;min-height:48px;border-radius:10px;background:var(--theme-accent);border-color:var(--theme-accent);color:var(--color-accent-ink)}
+html[data-theme='orbit'] .portfolio-summary>.portfolio-performance{grid-column:2;grid-row:2;display:flex;min-width:0;padding-top:8px;flex-direction:column;justify-content:flex-end;color:var(--muted);font-size:13px}
+html[data-theme='orbit'] .portfolio-chart-head,html[data-theme='orbit'] .portfolio-chart-foot{display:flex;justify-content:space-between;gap:16px}
+html[data-theme='orbit'] .portfolio-chart-empty{position:relative;display:grid;place-items:center;min-height:184px;margin:8px 0 12px;border-bottom:1px solid var(--rule)}
+html[data-theme='orbit'] .portfolio-chart-empty>span{position:absolute;right:0;bottom:-1px;left:0;border-top:1px dashed var(--rule)}
+html[data-theme='orbit'] .portfolio-chart-empty p{max-width:28ch;margin:0;text-align:center}
+html[data-theme='orbit'] .portfolio-funds-head{margin:0 0 16px}
+html[data-theme='orbit'] .portfolio-funds-head h2{font-size:24px;font-weight:700}
+html[data-theme='orbit'] .portfolio-fund-list{overflow:hidden;border:0;border-radius:24px;background:var(--surface)}
+html[data-theme='orbit'] .portfolio-fund-row{display:grid;grid-template-columns:minmax(190px,1.25fr) minmax(130px,.8fr) minmax(110px,.65fr) minmax(110px,.7fr);gap:24px;align-items:center;min-height:108px;padding:20px 24px;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:var(--surface);color:var(--ink);text-align:left}
+html[data-theme='orbit'] .portfolio-fund-row:last-child{border-bottom:0}
+html[data-theme='orbit'] .portfolio-fund-row .fund-info{display:grid;gap:7px;min-width:0}
+html[data-theme='orbit'] .portfolio-fund-row .fund-info strong{overflow:hidden;font-family:var(--theme-display);font-size:17px;font-weight:650;text-overflow:ellipsis;white-space:nowrap}
+html[data-theme='orbit'] .portfolio-fund-row small{color:var(--muted);font-size:12px;font-weight:450}
+html[data-theme='orbit'] .portfolio-fund-assets{display:flex;align-items:center;min-width:0;padding-left:8px}
+html[data-theme='orbit'] .portfolio-fund-assets .asset-avatar{margin-left:-8px}
+html[data-theme='orbit'] .portfolio-asset-count{display:grid;place-items:center;width:36px;height:36px;margin-left:-8px;border:2px solid var(--surface);border-radius:50%;background:var(--color-paper-2);font-size:11px;font-weight:750}
+html[data-theme='orbit'] .portfolio-fund-row .fund-amount{text-align:right;font-family:var(--theme-display);font-size:20px;font-weight:650;font-variant-numeric:tabular-nums}
+html[data-theme='orbit'] .portfolio-fund-row .fund-amount small{display:block;margin-top:4px;font-family:var(--theme-body)}
+html[data-theme='orbit'] .fund-schedule{display:grid;gap:4px;text-align:left}
+html[data-theme='orbit'] .fund-schedule strong{font-size:13px;font-weight:650}
+html[data-theme='orbit'] .portfolio-first-fund{min-height:190px;padding:44px 28px;border:0;border-radius:24px;text-align:left}
+html[data-theme='orbit'] .portfolio-first-fund h3{font-size:22px}
+html[data-theme='orbit'] .portfolio-first-fund .primary{margin-top:16px}
+
+html[data-theme='orbit'] .fund-detail{padding-top:0}
+html[data-theme='orbit'] .fund-detail .back{margin:0 0 16px;color:var(--muted)}
+html[data-theme='orbit'] .fund-detail-heading{align-items:end}
+html[data-theme='orbit'] .fund-detail-heading h1{margin:0 0 4px;font-size:clamp(36px,5vw,54px);font-weight:650;line-height:1;letter-spacing:-.055em}
+html[data-theme='orbit'] .fund-detail-heading p{font-size:15px}
+html[data-theme='orbit'] .fund-detail-actions button{min-height:46px;border-radius:10px;background:var(--surface)}
+html[data-theme='orbit'] .fund-detail-actions button:last-child{background:var(--theme-accent);border-color:var(--theme-accent);color:var(--color-accent-ink);font-weight:650}
+html[data-theme='orbit'] .fund-detail-overview{display:grid;grid-template-columns:minmax(300px,.85fr) minmax(420px,1.15fr);gap:44px;min-height:330px;margin:28px 0 32px;padding:32px 40px;border-radius:28px;background:var(--color-stage)}
+html[data-theme='orbit'] .fund-detail-overview>.fund-detail-value,html[data-theme='orbit'] .fund-detail-overview>.fund-detail-performance{padding:0;border-radius:0;background:transparent}
+html[data-theme='orbit'] .fund-detail-value{align-self:center}
+html[data-theme='orbit'] .fund-detail-value>span{display:block;margin-bottom:7px;color:var(--muted);font-size:14px}
+html[data-theme='orbit'] .fund-detail-value strong{font-size:clamp(64px,7vw,86px);font-weight:520;letter-spacing:-.065em}
+html[data-theme='orbit'] .fund-detail-value p{font-size:15px;font-weight:650}
+html[data-theme='orbit'] .fund-detail-overview>.fund-detail-performance{justify-content:flex-end;padding:0}
+html[data-theme='orbit'] .fund-detail-chart-empty{position:relative;display:grid;place-items:center;min-height:200px;margin:8px 0 12px;border-bottom:1px solid var(--rule)}
+html[data-theme='orbit'] .fund-detail-chart-empty>span{position:absolute;right:0;bottom:-1px;left:0;border-top:1px dashed var(--rule)}
+html[data-theme='orbit'] .fund-detail-chart-empty p{max-width:28ch;margin:0;color:var(--muted);text-align:center}
+html[data-theme='orbit'] .fund-detail-card{border:0;border-radius:24px;background:var(--surface)}
+html[data-theme='orbit'] .fund-detail-card header{min-height:60px;padding-inline:24px;background:var(--surface)}
+html[data-theme='orbit'] .fund-detail-card h2{font-size:18px}
+html[data-theme='orbit'] .fund-detail-empty-allocation{min-height:258px;padding:28px 24px}
+html[data-theme='orbit'] .fund-detail-target{display:grid;grid-template-columns:36px minmax(0,1fr) auto;gap:12px;align-items:center;min-height:88px;padding:16px 24px}
+html[data-theme='orbit'] .fund-detail-target-copy{min-width:0}
+html[data-theme='orbit'] .fund-detail-target-copy strong,html[data-theme='orbit'] .fund-detail-target-copy span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+html[data-theme='orbit'] .fund-detail-target-copy span{margin-top:4px;color:var(--muted);font-size:13px}
+html[data-theme='orbit'] .fund-detail-target-weight{text-align:right;font-variant-numeric:tabular-nums}
+html[data-theme='orbit'] .fund-detail-target-weight strong,html[data-theme='orbit'] .fund-detail-target-weight span{display:block}
+html[data-theme='orbit'] .fund-detail-target-weight span{margin-top:4px;color:var(--muted);font-size:12px;font-weight:450}
+html[data-theme='orbit'] .fund-detail-card-note{padding:16px 24px}
+html[data-theme='orbit'] .fund-detail-plans{margin-top:24px}
+html[data-theme='orbit'] .fund-detail-activity{margin-top:40px}
+html[data-theme='orbit'] .fund-activity-tabs{gap:20px}
+html[data-theme='orbit'] .fund-activity-tabs button{padding-inline:0}
+html[data-theme='orbit'] .fund-activity-panel{border:0;border-radius:0 0 24px 24px}
+
+@media(hover:hover) and (pointer:fine){
+  html[data-theme='orbit'] .portfolio-fund-row:hover{background:var(--color-paper-2)}
+  html[data-theme='orbit'] .portfolio-summary-actions .primary:hover,html[data-theme='orbit'] .fund-detail-actions button:last-child:hover{background:var(--ink);border-color:var(--ink)}
+}
+
+@media(max-width:900px){
+  html[data-theme='orbit'] .portfolio-summary{grid-template-columns:minmax(260px,.8fr) minmax(340px,1.2fr);gap:12px 28px;padding-inline:32px}
+  html[data-theme='orbit'] .portfolio-fund-row{grid-template-columns:minmax(180px,1fr) minmax(115px,.7fr) minmax(100px,.6fr)}
+  html[data-theme='orbit'] .fund-schedule{display:none}
+  html[data-theme='orbit'] .fund-detail-overview{grid-template-columns:minmax(260px,.8fr) minmax(340px,1.2fr);gap:28px;padding-inline:32px}
+}
+
+@media(max-width:700px){
+  html[data-theme='orbit'] .shell{width:min(100% - 28px,1184px)}
+  html[data-theme='orbit'] .topbar-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:44px 44px;gap:4px 8px;padding:8px 0}
+  html[data-theme='orbit'] .topbar .brand{grid-column:1;grid-row:1;min-width:0}
+  html[data-theme='orbit'] .topbar .brand-logo{width:138px}
+  html[data-theme='orbit'] .topbar .account-actions,html[data-theme='orbit'] .topbar-inner>.account-control{grid-column:2;grid-row:1;width:auto;margin:0}
+  html[data-theme='orbit'] .topbar .account-control{min-height:44px;max-width:142px;padding-inline:12px;overflow:hidden;font-size:12px;text-overflow:ellipsis}
+  html[data-theme='orbit'] .topbar nav{grid-column:1/-1;grid-row:2;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;margin:0;gap:4px}
+  html[data-theme='orbit'] .topbar nav a,html[data-theme='orbit'] .topbar nav button{min-height:44px;padding-inline:8px;font-size:13px}
+  html[data-theme='orbit'] .theme-switcher{grid-column:1/-1;grid-row:3;display:flex;width:100%;margin:0;gap:4px}
+  html[data-theme='orbit'] .theme-switcher-label{display:none}
+  html[data-theme='orbit'] .theme-switcher button{flex:1;min-height:44px;padding-inline:8px}
+  html[data-theme='orbit'] .main{padding-top:20px}
+  html[data-theme='orbit'] .portfolio-welcome{padding:64px 24px;border-radius:24px}
+  html[data-theme='orbit'] .portfolio-welcome h1{font-size:clamp(40px,12vw,60px)}
+  html[data-theme='orbit'] .portfolio-summary{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto;gap:24px;min-height:0;padding:24px;border-radius:24px}
+  html[data-theme='orbit'] .portfolio-summary-copy{grid-column:1;grid-row:1}
+  html[data-theme='orbit'] .portfolio-summary h1{margin-bottom:24px;font-size:29px}
+  html[data-theme='orbit'] .portfolio-total{font-size:clamp(58px,18vw,78px)}
+  html[data-theme='orbit'] .portfolio-return{font-size:14px}
+  html[data-theme='orbit'] .portfolio-summary-actions{grid-column:1;grid-row:2;justify-content:flex-start}
+  html[data-theme='orbit'] .portfolio-summary-actions .primary{width:100%}
+  html[data-theme='orbit'] .portfolio-summary>.portfolio-performance{grid-column:1;grid-row:3;padding-top:4px}
+  html[data-theme='orbit'] .portfolio-chart-empty{min-height:152px}
+  html[data-theme='orbit'] .portfolio-funds-head{margin-top:32px}
+  html[data-theme='orbit'] .portfolio-funds-head h2{font-size:21px}
+  html[data-theme='orbit'] .portfolio-fund-row{grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto auto;gap:12px 16px;min-height:120px;padding:16px}
+  html[data-theme='orbit'] .portfolio-fund-assets{grid-column:1;grid-row:2}
+  html[data-theme='orbit'] .portfolio-fund-row .fund-amount{grid-column:2;grid-row:1/3;align-self:center;font-size:17px}
+  html[data-theme='orbit'] .portfolio-first-fund{text-align:left}
+  html[data-theme='orbit'] .fund-detail .back{margin-bottom:16px}
+  html[data-theme='orbit'] .fund-detail-heading{display:block}
+  html[data-theme='orbit'] .fund-detail-heading h1{font-size:36px}
+  html[data-theme='orbit'] .fund-detail-overview{grid-template-columns:minmax(0,1fr);gap:32px;min-height:0;margin:20px 0 24px;padding:24px;border-radius:24px}
+  html[data-theme='orbit'] .fund-detail-value strong{font-size:clamp(58px,18vw,78px)}
+  html[data-theme='orbit'] .fund-detail-value p{font-size:14px}
+  html[data-theme='orbit'] .fund-detail-chart-empty{min-height:150px}
+  html[data-theme='orbit'] .fund-detail-grid{grid-template-columns:minmax(0,1fr);gap:16px}
+  html[data-theme='orbit'] .fund-detail-card header{padding-inline:16px}
+  html[data-theme='orbit'] .fund-detail-target{padding-inline:16px}
+  html[data-theme='orbit'] .fund-detail-target-weight span{max-width:92px;white-space:normal}
+  html[data-theme='orbit'] .fund-detail-card-note{padding-inline:16px}
+  html[data-theme='orbit'] .fund-detail-plans{margin-top:20px}
+  html[data-theme='orbit'] .fund-detail-activity{margin-top:32px}
+}
+
+@media(max-width:380px){
+  html[data-theme='orbit'] .shell{width:min(100% - 20px,1184px)}
+  html[data-theme='orbit'] .topbar .brand-logo{width:126px}
+  html[data-theme='orbit'] .topbar .account-control{max-width:116px;padding-inline:8px}
+  html[data-theme='orbit'] .portfolio-summary,html[data-theme='orbit'] .fund-detail-overview{padding-inline:16px}
+  html[data-theme='orbit'] .portfolio-total,html[data-theme='orbit'] .fund-detail-value strong{font-size:54px}
+}
+
+@media(prefers-reduced-motion:reduce){html[data-theme='orbit'] button{transition:none}}

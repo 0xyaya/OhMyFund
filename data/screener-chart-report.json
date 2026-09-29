@@ -1,0 +1,3545 @@
+{
+  "fetchedAt": "2026-09-15T15:41:47.525489+00:00",
+  "from": 1789400373,
+  "to": 1789486773,
+  "totalMints": 640,
+  "statuses": {
+    "available": 244,
+    "insufficient_history": 396
+  },
+  "missing": [
+    {
+      "mint": "sctmAy9zFfZznZUWxEMgGtF6PHZ3gwoiCGcfwRua1AZ",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=sctmAy9zFfZznZUWxEMgGtF6PHZ3gwoiCGcfwRua1AZ&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "cPQPBN7WubB3zyQDpzTK2ormx1BMdAym9xkrYUJsctm",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=cPQPBN7WubB3zyQDpzTK2ormx1BMdAym9xkrYUJsctm&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "sctmB7GPi5L2Q5G9tUSzXvhZ4YiDMEGcRov9KfArQpx",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=sctmB7GPi5L2Q5G9tUSzXvhZ4YiDMEGcRov9KfArQpx&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aeroXvCT6tjGVNyTvZy86tFDwE4sYsKCh7FbNDcrcxF",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=aeroXvCT6tjGVNyTvZy86tFDwE4sYsKCh7FbNDcrcxF&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Gekfj7SL2fVpTDxJZmeC46cTYxinjB6gkAnb6EGT6mnn",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=Gekfj7SL2fVpTDxJZmeC46cTYxinjB6gkAnb6EGT6mnn&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "gateMurAxe4YFoUR6J63gXGKtkbTfdkMdLjZrCmThFP",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=gateMurAxe4YFoUR6J63gXGKtkbTfdkMdLjZrCmThFP&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "DEF1NXSZ8Th9n28hYBayrFtx9bj1EwwTiy3mhHEB9oyA",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=DEF1NXSZ8Th9n28hYBayrFtx9bj1EwwTiy3mhHEB9oyA&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "hy1oXYgrBW6PVcJ4s6s2FKavRdwgWTXdfE69AxT7kPT",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=hy1oXYgrBW6PVcJ4s6s2FKavRdwgWTXdfE69AxT7kPT&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "BULKoNSGzxtCqzwTvg5hFJg8fx6dqZRScyXe5LYMfxrn",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=BULKoNSGzxtCqzwTvg5hFJg8fx6dqZRScyXe5LYMfxrn&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "BonK1YhkXEGLZzwtcvRTip3gAL9nCeQD7ppZBLXhtTs",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=BonK1YhkXEGLZzwtcvRTip3gAL9nCeQD7ppZBLXhtTs&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "CDCSoLckzozyktpAp9FWT3w92KFJVEUxAU7cNu2Jn3aX",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=CDCSoLckzozyktpAp9FWT3w92KFJVEUxAU7cNu2Jn3aX&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789434000,
+          "close": 113.48501279006952
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "LnTRntk2kTfWEY6cVB8K9649pgJbt6dJLS1Ns1GZCWg",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=LnTRntk2kTfWEY6cVB8K9649pgJbt6dJLS1Ns1GZCWg&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "CorvuSSoLxPKLoXWXSfn8pFSMhCRHhe7Uwqe874cmwvg",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=CorvuSSoLxPKLoXWXSfn8pFSMhCRHhe7Uwqe874cmwvg&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Ra1so1sTkvX3PorAM9ewqrsUMz9sPSbfFZ5oZUjN4oc",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=Ra1so1sTkvX3PorAM9ewqrsUMz9sPSbfFZ5oZUjN4oc&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 137.86109170341035
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "haSo1Vz5aTsqEnz8nisfnEsipvbAAWpgzRDh2WhhMEh",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=haSo1Vz5aTsqEnz8nisfnEsipvbAAWpgzRDh2WhhMEh&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "picobAEvs6w7QEknPce34wAE4gknZA9v5tTonnmHYdX",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=picobAEvs6w7QEknPce34wAE4gknZA9v5tTonnmHYdX&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "phaseZSfPxTDBpiVb96H4XFSD8xHeHxZre5HerehBJG",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=phaseZSfPxTDBpiVb96H4XFSD8xHeHxZre5HerehBJG&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "sctmadV2fcLtrxjzYhTZzwAGjXUXKtYSBrrM36EtdcY",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=sctmadV2fcLtrxjzYhTZzwAGjXUXKtYSBrrM36EtdcY&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "MpsoLp1YBDqeiuSrVrYH4DoAGJ3myAMmMy6crYNVSTo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=MpsoLp1YBDqeiuSrVrYH4DoAGJ3myAMmMy6crYNVSTo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 110.23860225772566
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "MangmsBgFqJhW4cLUR9LxfVgMboY1xAoP8UUBiWwwuY",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=MangmsBgFqJhW4cLUR9LxfVgMboY1xAoP8UUBiWwwuY&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "HALALGvdNJ8u1J3uFFSsba1tyYPRF3vnYfCQ3CpJasfD",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=HALALGvdNJ8u1J3uFFSsba1tyYPRF3vnYfCQ3CpJasfD&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "HausGKcq9G9zM3azwNmgZyzUvYeeqR8h8663PmZpxuDj",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=HausGKcq9G9zM3azwNmgZyzUvYeeqR8h8663PmZpxuDj&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "HUBsveNpjo5pWqNkH57QzxjQASdTVXcSK7bVKTSZtcSX",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=HUBsveNpjo5pWqNkH57QzxjQASdTVXcSK7bVKTSZtcSX&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "3bfv2scCdbvumVBc3Sar5QhYXx7Ecsi8EFF2akjxe329",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=3bfv2scCdbvumVBc3Sar5QhYXx7Ecsi8EFF2akjxe329&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "CgnTSoL3DgY9SFHxcLj6CgCgKKoTBr6tp4CPAEWy25DE",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=CgnTSoL3DgY9SFHxcLj6CgCgKKoTBr6tp4CPAEWy25DE&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789426800,
+          "close": 133.1370548678993
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "uPtSoL2qszk4SuPHNE2zqk1gDtqCq21ZE1yZCqvFTqq",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=uPtSoL2qszk4SuPHNE2zqk1gDtqCq21ZE1yZCqvFTqq&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "sntn1oVhhKuytG42jyjneMYnGAtzkpJsBxHNEskTfGp",
+      "chartSource": "https://tokens.xyz/api/v1/assets/solana/ohlcv?mint=sntn1oVhhKuytG42jyjneMYnGAtzkpJsBxHNEskTfGp&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 114.63932290387847
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "21BTCo9hWHjGYYUQQLqjLgDBxjcn8vDt4Zic7TB3UbNE",
+      "chartSource": "https://tokens.xyz/api/v1/assets/bitcoin/ohlcv?mint=21BTCo9hWHjGYYUQQLqjLgDBxjcn8vDt4Zic7TB3UbNE&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "9hX59xHHnaZXLU6quvm5uGY2iDiT3jczaReHy6A6TYKw",
+      "chartSource": "https://tokens.xyz/api/v1/assets/bitcoin/ohlcv?mint=9hX59xHHnaZXLU6quvm5uGY2iDiT3jczaReHy6A6TYKw&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Huyb2fyDDjSuDKCRWsN9ci2rmcgPo6NFiLbx9ZDondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sk-hynix/ohlcv?mint=Huyb2fyDDjSuDKCRWsN9ci2rmcgPo6NFiLbx9ZDondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsnhgGRQwhExfS2bmWzR6EYddKGPRGDEjeJsatkmKqU",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sk-hynix/ohlcv?mint=XsnhgGRQwhExfS2bmWzR6EYddKGPRGDEjeJsatkmKqU&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "EJmUVvDqAdfH5zEohkdS4234bi3c6iunqEMobjmondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sandisk/ohlcv?mint=EJmUVvDqAdfH5zEohkdS4234bi3c6iunqEMobjmondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 1568.5782465070927
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xswbpc8UqU6e1j9QZEWCjBMjyvz4twqD7PCy6j2e7jj",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sandisk/ohlcv?mint=Xswbpc8UqU6e1j9QZEWCjBMjyvz4twqD7PCy6j2e7jj&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xss5RAku5EH6UViFdvW7ss9xQjwQLsrs2opPMhb3k43",
+      "chartSource": "https://tokens.xyz/api/v1/assets/roblox/ohlcv?mint=Xss5RAku5EH6UViFdvW7ss9xQjwQLsrs2opPMhb3k43&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsRrH4fDA27xfyDjpcwefvcBdHCXs34krUuaXGEXzqz",
+      "chartSource": "https://tokens.xyz/api/v1/assets/xstock-tron/ohlcv?mint=XsRrH4fDA27xfyDjpcwefvcBdHCXs34krUuaXGEXzqz&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "HXFrTf9v9NdjGUTnx4sojR3Cf92hoBsQFUxKTN7ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/reddit/ohlcv?mint=HXFrTf9v9NdjGUTnx4sojR3Cf92hoBsQFUxKTN7ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsiRaD8qZm1P3KViowDYFS8rZ8BYT2g7ZEeyztthRye",
+      "chartSource": "https://tokens.xyz/api/v1/assets/costco/ohlcv?mint=XsiRaD8qZm1P3KViowDYFS8rZ8BYT2g7ZEeyztthRye&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "C9xNaNujcF1a5fidWAAFReFYqhLRVbyk4yPyGqzondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/amc-entertainment/ohlcv?mint=C9xNaNujcF1a5fidWAAFReFYqhLRVbyk4yPyGqzondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789401600,
+          "close": 2.5308599978594
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xs4uNhvBDAcp2mz3g9XR5q3vzLgmF1ANWxJgWk2d5u3",
+      "chartSource": "https://tokens.xyz/api/v1/assets/wendy-s/ohlcv?mint=Xs4uNhvBDAcp2mz3g9XR5q3vzLgmF1ANWxJgWk2d5u3&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Gc1aT3ay7FXL3qdAW7cNSXYPDsGavy7qiACuxwxondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/grindr/ohlcv?mint=Gc1aT3ay7FXL3qdAW7cNSXYPDsGavy7qiACuxwxondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aznKt8v32CwYMEcTcB4bGTv8DXWStCpHrcCtyy7ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/gamestop/ohlcv?mint=aznKt8v32CwYMEcTcB4bGTv8DXWStCpHrcCtyy7ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsGVi5eo1Dh2zUpic4qACcjuWGjNv8GCt3dm5XcX6Dn",
+      "chartSource": "https://tokens.xyz/api/v1/assets/johnson-and-johnson/ohlcv?mint=XsGVi5eo1Dh2zUpic4qACcjuWGjNv8GCt3dm5XcX6Dn&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XspncLEk5B19BMLwvC26DqNtJxKWWxuBKq9phbCG8ff",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sui/ohlcv?mint=XspncLEk5B19BMLwvC26DqNtJxKWWxuBKq9phbCG8ff&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "1zvb9ELBFShBCWKEk5jRTJAaPAwtVt7quEXx1X4ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/alibaba/ohlcv?mint=1zvb9ELBFShBCWKEk5jRTJAaPAwtVt7quEXx1X4ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "FovBwhoV5KQjZCdhoM6jgXYwXLX3F8vgAfvmLH7ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/marvell/ohlcv?mint=FovBwhoV5KQjZCdhoM6jgXYwXLX3F8vgAfvmLH7ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789401600,
+          "close": 220.73281531203708
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Gwh9fPsX1qWATXy63vNaJnAFfwebWQtZaVmPko6ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/pfizer/ohlcv?mint=Gwh9fPsX1qWATXy63vNaJnAFfwebWQtZaVmPko6ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789462800,
+          "close": 29.210484576279022
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsDmtC5EpfzJoCzDN2SJP98xpCsSR2CqdZauJSvHNXT",
+      "chartSource": "https://tokens.xyz/api/v1/assets/lululemon/ohlcv?mint=XsDmtC5EpfzJoCzDN2SJP98xpCsSR2CqdZauJSvHNXT&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsAtbqkAP1HJxy7hFDeq7ok6yM43DQ9mQ1Rh861X8rw",
+      "chartSource": "https://tokens.xyz/api/v1/assets/pfizer/ohlcv?mint=XsAtbqkAP1HJxy7hFDeq7ok6yM43DQ9mQ1Rh861X8rw&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ivdDracs2s7jCP698dJXKSEQdVrNj9hasJL1Uq1ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/shopify/ohlcv?mint=ivdDracs2s7jCP698dJXKSEQdVrNj9hasJL1Uq1ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "15SsCZqCsM9fZGhTmP4rdJTPT9WGZKazDSsgeQ8ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/arm-holdings-plc/ohlcv?mint=15SsCZqCsM9fZGhTmP4rdJTPT9WGZKazDSsgeQ8ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "qCYD74QnXzd9pzv6pGHQKJVwoibL6sNcPQDnpDiondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/exxon-mobil/ohlcv?mint=qCYD74QnXzd9pzv6pGHQKJVwoibL6sNcPQDnpDiondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789455600,
+          "close": 168.55561827452019
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XshuHQ6o6SVpUNawvnnTMxsZ4tacZsNgVCLorv7TkFq",
+      "chartSource": "https://tokens.xyz/api/v1/assets/asml/ohlcv?mint=XshuHQ6o6SVpUNawvnnTMxsZ4tacZsNgVCLorv7TkFq&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xsv99frTRUeornyvCfvhnDesQDWuvns1M852Pez91vF",
+      "chartSource": "https://tokens.xyz/api/v1/assets/pepsico/ohlcv?mint=Xsv99frTRUeornyvCfvhnDesQDWuvns1M852Pez91vF&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789470000,
+          "close": 140.84263314992575
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "gud6b3fYekjhMG5F818BALwbg2vt4JKoow59Md9ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/pepsico/ohlcv?mint=gud6b3fYekjhMG5F818BALwbg2vt4JKoow59Md9ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 140.85495292555692
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "d4Rc6KvP3nQT8zC86Z31zM1DJCSfUD6y424cKnZondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-d4rc6kvp/ohlcv?mint=d4Rc6KvP3nQT8zC86Z31zM1DJCSfUD6y424cKnZondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 153.8704014268174
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "GeV7S8vjP8qdYZpdGv2Xi6e7MUMCk8NAAp2z7g5ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/novo-nordisk/ohlcv?mint=GeV7S8vjP8qdYZpdGv2Xi6e7MUMCk8NAAp2z7g5ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "m6oDLvJT7rY7M1TxuLWP3pWmAPg2cCWDQR1NKiEondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/oklo/ohlcv?mint=m6oDLvJT7rY7M1TxuLWP3pWmAPg2cCWDQR1NKiEondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsJb1p4Ks6VFggq68JyMz7S3kdRfkqh4wA6EMyxi4DD",
+      "chartSource": "https://tokens.xyz/api/v1/assets/oklo/ohlcv?mint=XsJb1p4Ks6VFggq68JyMz7S3kdRfkqh4wA6EMyxi4DD&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsafvsGtzFqqHgTnA3aPC83EAMkacU5mcGtcSayhpVV",
+      "chartSource": "https://tokens.xyz/api/v1/assets/tsmc/ohlcv?mint=XsafvsGtzFqqHgTnA3aPC83EAMkacU5mcGtcSayhpVV&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789448400,
+          "close": 430.74056553791826
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsYMHtwJcWon5GkPHzdDbCCztKtKzEurJnbydxgjsqS",
+      "chartSource": "https://tokens.xyz/api/v1/assets/bending-spoons/ohlcv?mint=XsYMHtwJcWon5GkPHzdDbCCztKtKzEurJnbydxgjsqS&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "cskxd6aqyqJMYgLZmFYfYecWkjasRJDEtm1QVxsondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-cskxd6aq/ohlcv?mint=cskxd6aqyqJMYgLZmFYfYecWkjasRJDEtm1QVxsondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789470000,
+          "close": 260.64171925241504
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "tiitb2Z1HtpB2DpVr6V7tdCFS3jmTinLeuGj9EVondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/vaneck-rare-earth-and-strategic-metals-etf/ohlcv?mint=tiitb2Z1HtpB2DpVr6V7tdCFS3jmTinLeuGj9EVondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 69.21245660837735
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ivnSAcjCqEtWYTKFbqYe8YoqRZqCBfT4BGP5G1nondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ivnsacjc/ohlcv?mint=ivnSAcjCqEtWYTKFbqYe8YoqRZqCBfT4BGP5G1nondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789401600,
+          "close": 5.1151461034985415
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "mqL8yXQpeSvc7NgrAtLLPtRvUiWyLoG5RWLv16iondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sofi-technologies/ohlcv?mint=mqL8yXQpeSvc7NgrAtLLPtRvUiWyLoG5RWLv16iondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789408800,
+          "close": 17.61999963212289
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsAsZLF4MmsvS1sDxRMrUz7REjHfwbC9UAMXSRBqgEB",
+      "chartSource": "https://tokens.xyz/api/v1/assets/uber/ohlcv?mint=XsAsZLF4MmsvS1sDxRMrUz7REjHfwbC9UAMXSRBqgEB&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "hKVpWfYwP1VJ9BcBTPRcovcSpEkvnaN8eXwFoCMondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-hkvpwfyw/ohlcv?mint=hKVpWfYwP1VJ9BcBTPRcovcSpEkvnaN8eXwFoCMondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789408800,
+          "close": 182.9592504283922
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jCCU4GwukjNxAXJowG2S4KCrr5g6YyUB61WHYvGondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/vanguard-total-stock-market-etf/ohlcv?mint=jCCU4GwukjNxAXJowG2S4KCrr5g6YyUB61WHYvGondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789437600,
+          "close": 376.788274109187
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "h6MW8GFpfzxFa1JNn6hZNnBF3t4fj9SHAXKy6LXondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/vistra/ohlcv?mint=h6MW8GFpfzxFa1JNn6hZNnBF3t4fj9SHAXKy6LXondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789408800,
+          "close": 141.65144604599678
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xs936JPaWKEXmpu54DZ149GETV7PmsnTqnMWxgcPNAj",
+      "chartSource": "https://tokens.xyz/api/v1/assets/vistra/ohlcv?mint=Xs936JPaWKEXmpu54DZ149GETV7PmsnTqnMWxgcPNAj&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aheEdmuryJU8ymy8LjYheZH5i2BW1UMsfuWQKD2ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/equinix/ohlcv?mint=aheEdmuryJU8ymy8LjYheZH5i2BW1UMsfuWQKD2ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789426800,
+          "close": 1026.9524354298867
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "y6kSRF4i9tfMMjZziPHtQE1PeUS6bWEHTzZMFgXondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/strcon/ohlcv?mint=y6kSRF4i9tfMMjZziPHtQE1PeUS6bWEHTzZMFgXondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789437600,
+          "close": 103.53060996813835
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "14Z8rQQe2Aza33YgEUmj3g3QGNz8DXLiFPuCnsD1ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/applovin/ohlcv?mint=14Z8rQQe2Aza33YgEUmj3g3QGNz8DXLiFPuCnsD1ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789423200,
+          "close": 333.11654449241286
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsPdAVBi8Zc1xvv53k4JcMrQaEDTgkGqKYeh7AYgPHV",
+      "chartSource": "https://tokens.xyz/api/v1/assets/applovin/ohlcv?mint=XsPdAVBi8Zc1xvv53k4JcMrQaEDTgkGqKYeh7AYgPHV&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "m9GcsVgdjaL3KsdtSFHimnhtsUMpTHkjtwEG4Tzondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/grab-holdings/ohlcv?mint=m9GcsVgdjaL3KsdtSFHimnhtsUMpTHkjtwEG4Tzondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsPLBFy59Q3hY59KLAJur8QyvziMF4xUxGTxXqXE7cT",
+      "chartSource": "https://tokens.xyz/api/v1/assets/bit-digital/ohlcv?mint=XsPLBFy59Q3hY59KLAJur8QyvziMF4xUxGTxXqXE7cT&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "E5Gczsavxcomqf6Cw1sGCKLabL1xYD2FzKxVoB4ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/jpmorgan-chase/ohlcv?mint=E5Gczsavxcomqf6Cw1sGCKLabL1xYD2FzKxVoB4ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "hqJXutLF6f7DxStrWCrnZDfXzbNTZmvi3KheVi6ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/d-wave-quantum/ohlcv?mint=hqJXutLF6f7DxStrWCrnZDfXzbNTZmvi3KheVi6ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsApJFV9MAktqnAc6jqzsHVujxkGm9xcSUffaBoYLKC",
+      "chartSource": "https://tokens.xyz/api/v1/assets/mastercard/ohlcv?mint=XsApJFV9MAktqnAc6jqzsHVujxkGm9xcSUffaBoYLKC&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789441200,
+          "close": 556.5635813578674
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZtAY65FCh3YB9H1wkbjRxxY5nXt9VfuTTz3Mzbuondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ztay65fc/ohlcv?mint=ZtAY65FCh3YB9H1wkbjRxxY5nXt9VfuTTz3Mzbuondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 331.6115524634536
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "14W1itEkV7k1W819mLSknFTaMmkCtPokbF2tRkPUondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/proshares-ultrapro-qqq/ohlcv?mint=14W1itEkV7k1W819mLSknFTaMmkCtPokbF2tRkPUondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 69.67086013059317
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "EWwdgGshGngcMpDV34pWZRSu5bkAuiKuKTTHKQ8ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/mercadolibre/ohlcv?mint=EWwdgGshGngcMpDV34pWZRSu5bkAuiKuKTTHKQ8ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "iPFqjcZQTNMNXA4kbShbMhfAVD8yr8Uq9UtXMV6ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/starbucks/ohlcv?mint=iPFqjcZQTNMNXA4kbShbMhfAVD8yr8Uq9UtXMV6ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 100.46263624404776
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "7DWcZE1uVc8m2mf9pV8KNov28ET7HsvHkhrhgr9ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/cisco/ohlcv?mint=7DWcZE1uVc8m2mf9pV8KNov28ET7HsvHkhrhgr9ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 112.37237209564515
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xs5UJzmCRQ8DWZjskExdSQDnbE6iLkRu2jjrRAB1JSU",
+      "chartSource": "https://tokens.xyz/api/v1/assets/accenture/ohlcv?mint=Xs5UJzmCRQ8DWZjskExdSQDnbE6iLkRu2jjrRAB1JSU&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789455600,
+          "close": 185.51605332440627
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xs31mE5EiqjSHEaiX9QDKCN6NvSGCqpJ6f1FNq2wri5",
+      "chartSource": "https://tokens.xyz/api/v1/assets/riot-platforms/ohlcv?mint=Xs31mE5EiqjSHEaiX9QDKCN6NvSGCqpJ6f1FNq2wri5&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "v12TwfofSbvVqQ5N5KGG4d3J8rtEi4BjGfn2apyondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/li-auto/ohlcv?mint=v12TwfofSbvVqQ5N5KGG4d3J8rtEi4BjGfn2apyondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "12LxMMJYVSf4LoeqjFE47BQQNRciaH9E3nbDfjH4ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/accenture/ohlcv?mint=12LxMMJYVSf4LoeqjFE47BQQNRciaH9E3nbDfjH4ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789426800,
+          "close": 199.81737695866428
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xsr3pdLQyXvDJBFgpR5nexCEZwXvigb8wbPYp4YoNFf",
+      "chartSource": "https://tokens.xyz/api/v1/assets/cisco/ohlcv?mint=Xsr3pdLQyXvDJBFgpR5nexCEZwXvigb8wbPYp4YoNFf&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsYdjDjNUygZ7yGKfQaB6TxLh2gC6RRjzLtLAGJrhzV",
+      "chartSource": "https://tokens.xyz/api/v1/assets/procter-and-gamble/ohlcv?mint=XsYdjDjNUygZ7yGKfQaB6TxLh2gC6RRjzLtLAGJrhzV&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789430400,
+          "close": 149.54503874335683
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "i6f3DvZBuLpnGSqS8x6WPeStJ7jNe5KewD6afD5ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/riot-platforms/ohlcv?mint=i6f3DvZBuLpnGSqS8x6WPeStJ7jNe5KewD6afD5ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789462800,
+          "close": 20.60714618348225
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XswsQk4duEQmCbGzfqUUWYmi7pV7xpJ9eEmLHXCaEQP",
+      "chartSource": "https://tokens.xyz/api/v1/assets/bank-of-america/ohlcv?mint=XswsQk4duEQmCbGzfqUUWYmi7pV7xpJ9eEmLHXCaEQP&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "mmy8WbFRNrjoDsPGqpYmzQAVu7PfGhMCdSRLxZLondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-mmy8wbfr/ohlcv?mint=mmy8WbFRNrjoDsPGqpYmzQAVu7PfGhMCdSRLxZLondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 7.9863757894782035
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ueEYw3Djy9GVu9mrP6jum8qNpxshgcy7gMfmntWondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ueeyw3dj/ohlcv?mint=ueEYw3Djy9GVu9mrP6jum8qNpxshgcy7gMfmntWondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 18.713677720356745
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "12Rh6JhfW4X5fKP16bbUdb4pcVCKDHFB48x8GG33ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/adobe/ohlcv?mint=12Rh6JhfW4X5fKP16bbUdb4pcVCKDHFB48x8GG33ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 264.4512879187828
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "MkN2TZSYTFBdMRLf9EVcfhstTwnazH8knd9hpepondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/vertiv/ohlcv?mint=MkN2TZSYTFBdMRLf9EVcfhstTwnazH8knd9hpepondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsDZMGEU8zadWFCkTtPBoPWYcUX3JHVmghnwf2Mve2q",
+      "chartSource": "https://tokens.xyz/api/v1/assets/adobe/ohlcv?mint=XsDZMGEU8zadWFCkTtPBoPWYcUX3JHVmghnwf2Mve2q&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsHtf5RpxsQ7jeJ9ivNewouZKJHbPxhPoEy6yYvULr7",
+      "chartSource": "https://tokens.xyz/api/v1/assets/abbott/ohlcv?mint=XsHtf5RpxsQ7jeJ9ivNewouZKJHbPxhPoEy6yYvULr7&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789401600,
+          "close": 105.95227921343565
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsEdDDTcVGJU6nvdRdVnj53eKTrsCkvtrVfXGmUK68V",
+      "chartSource": "https://tokens.xyz/api/v1/assets/vanguard-total-world/ohlcv?mint=XsEdDDTcVGJU6nvdRdVnj53eKTrsCkvtrVfXGmUK68V&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "b8UDyp3Yx19rcdaBUNegoojyUdhPpiPQ46bFrtQQQon",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-b8udyp3y/ohlcv?mint=b8UDyp3Yx19rcdaBUNegoojyUdhPpiPQ46bFrtQQQon&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xs7xXqkcK7K8urEqGg52SECi79dRp2cEKKuYjUePYDw",
+      "chartSource": "https://tokens.xyz/api/v1/assets/crowdstrike/ohlcv?mint=Xs7xXqkcK7K8urEqGg52SECi79dRp2cEKKuYjUePYDw&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "P7hTXnKk2d2DyqWnefp5BSroE1qjjKpKxg9SxQqondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/abrdn-physical-palladium-shares-etf/ohlcv?mint=P7hTXnKk2d2DyqWnefp5BSroE1qjjKpKxg9SxQqondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "o3pnLke4uti6hY3LTfb2wVBpHeWG7znjJHj6VXtondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-o3pnlke4/ohlcv?mint=o3pnLke4uti6hY3LTfb2wVBpHeWG7znjJHj6VXtondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 11.61519651138048
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "kbmF7ERJWMaaDswMprrH9gHSLya5D2RMBNgKqg3ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/toyota/ohlcv?mint=kbmF7ERJWMaaDswMprrH9gHSLya5D2RMBNgKqg3ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789401600,
+          "close": 199.5761194743388
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "isRSJECP9yFPv9YejzGUdjzAGHbF2x5DpVeDqAiondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-isrsjecp/ohlcv?mint=isRSJECP9yFPv9YejzGUdjzAGHbF2x5DpVeDqAiondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789419600,
+          "close": 102.45559499783994
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XshWQWYVp5ff8CrAEsGmLVKD47nBWi3Ygn5v8wXK27G",
+      "chartSource": "https://tokens.xyz/api/v1/assets/paypal/ohlcv?mint=XshWQWYVp5ff8CrAEsGmLVKD47nBWi3Ygn5v8wXK27G&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "f9nfUo4SdhCGfHmm81m3ArgDsatwo2jLjEcgCcYondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-f9nfuo4s/ohlcv?mint=f9nfUo4SdhCGfHmm81m3ArgDsatwo2jLjEcgCcYondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789419600,
+          "close": 195.068994432274
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "kSbeWEe64qpoVb1ZSVxgRnekZ1PwGNJkLyL5gJWondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ksbewee6/ohlcv?mint=kSbeWEe64qpoVb1ZSVxgRnekZ1PwGNJkLyL5gJWondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "mrNSd1y72F7Dx2Uip4vidtsJKKd8iJatTKGX6Pvondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-mrnsd1y7/ohlcv?mint=mrNSd1y72F7Dx2Uip4vidtsJKKd8iJatTKGX6Pvondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 70.24602207124003
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsgaUyp4jd1fNBCxgtTKkW64xnnhQcvgaxzsbAq5ZD1",
+      "chartSource": "https://tokens.xyz/api/v1/assets/goldman-sachs/ohlcv?mint=XsgaUyp4jd1fNBCxgtTKkW64xnnhQcvgaxzsbAq5ZD1&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "uwh6Z6c2F8WZfUSK1A8VBfA9AwJKN5T2bvQwVFLondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-uwh6z6c2/ohlcv?mint=uwh6Z6c2F8WZfUSK1A8VBfA9AwJKN5T2bvQwVFLondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 63.74451010746748
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "cfxyRHXjqoKN6hF3oEGu1bpEEFGcEiVXoNG4UUCondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-cfxyrhxj/ohlcv?mint=cfxyRHXjqoKN6hF3oEGu1bpEEFGcEiVXoNG4UUCondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789466400,
+          "close": 381.7440924417854
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jiwgLgWJ8f6aEsM6hcSCrXLNnGpYfjmCVbqqAcwondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-jiwglgwj/ohlcv?mint=jiwgLgWJ8f6aEsM6hcSCrXLNnGpYfjmCVbqqAcwondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "5hT2o25X9tGXipwhLckaUdgnxrZ6Y8eiUwdhpLeondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ford-motor/ohlcv?mint=5hT2o25X9tGXipwhLckaUdgnxrZ6Y8eiUwdhpLeondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789419600,
+          "close": 14.174348698656724
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "FGmUDXqA3AbWfo5b3NUcsvwoUFCF4tr9ea6uercondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/carvana/ohlcv?mint=FGmUDXqA3AbWfo5b3NUcsvwoUFCF4tr9ea6uercondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789434000,
+          "close": 353.67178482943694
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "soLM6jRVdG1PdurSAQDz5qRtwWxXPM6EBvwrkBjondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-solm6jrv/ohlcv?mint=soLM6jRVdG1PdurSAQDz5qRtwWxXPM6EBvwrkBjondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "m7mWfvhyPikY3esNwTk8U1JRbcBijmzHgqiqx3xondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-m7mwfvhy/ohlcv?mint=m7mWfvhyPikY3esNwTk8U1JRbcBijmzHgqiqx3xondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 754.5238255241912
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "BWxe2FVciUbwrCUZQPUKiREBh5LmVa5AiUqNLAkondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/block/ohlcv?mint=BWxe2FVciUbwrCUZQPUKiREBh5LmVa5AiUqNLAkondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789430400,
+          "close": 79.73896844212015
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsWAnFM77x6YvpdaZoos79R12o4Yj4r7EVkaTWddzhU",
+      "chartSource": "https://tokens.xyz/api/v1/assets/schwab-intl/ohlcv?mint=XsWAnFM77x6YvpdaZoos79R12o4Yj4r7EVkaTWddzhU&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "bjbrNi96mXAzgvxSuGJ2SRJ5U4N8agbG7wUAKAjondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-bjbrni96/ohlcv?mint=bjbrNi96mXAzgvxSuGJ2SRJ5U4N8agbG7wUAKAjondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789419600,
+          "close": 218.34973813963066
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "esgtAV7yKf7Ei3Q92VmXcEGkoqY2UqCHzZvCWhgondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-esgtav7y/ohlcv?mint=esgtAV7yKf7Ei3Q92VmXcEGkoqY2UqCHzZvCWhgondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789459200,
+          "close": 34.02095753194205
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "igu1coP6n3GPaWmbd8J9Z7UAyLpV254uQFFNfydondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/verizon/ohlcv?mint=igu1coP6n3GPaWmbd8J9Z7UAyLpV254uQFFNfydondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789441200,
+          "close": 53.05490386288557
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "iFcwEB2LfeYLWKgZ2vogEzC5dP7s7xbhVX81XFwondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ifcweb2l/ohlcv?mint=iFcwEB2LfeYLWKgZ2vogEzC5dP7s7xbhVX81XFwondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 34.97882640537223
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jYcn4hHgyq1fS46YgecQY9N1gLU3sAxKA3DZVAPondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-jycn4hhg/ohlcv?mint=jYcn4hHgyq1fS46YgecQY9N1gLU3sAxKA3DZVAPondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "pDY4GPJfZcNETPG7myXeafQfgJqqVkn81bMYDyfondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/t-mobile/ohlcv?mint=pDY4GPJfZcNETPG7myXeafQfgJqqVkn81bMYDyfondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XswCi2U1G6Ppbw1QhG45yKb8UKuR1FKLJrquv2FZSD4",
+      "chartSource": "https://tokens.xyz/api/v1/assets/t-mobile/ohlcv?mint=XswCi2U1G6Ppbw1QhG45yKb8UKuR1FKLJrquv2FZSD4&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsnQnU7AdbRZYe2akqqpibDdXjkieGFfSkbkjX1Sd1X",
+      "chartSource": "https://tokens.xyz/api/v1/assets/merck/ohlcv?mint=XsnQnU7AdbRZYe2akqqpibDdXjkieGFfSkbkjX1Sd1X&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "bn1fb8dwzafGePqNPrM8m8cbAKQiFqeEPuZkPySondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/merck/ohlcv?mint=bn1fb8dwzafGePqNPrM8m8cbAKQiFqeEPuZkPySondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 146.24042077010654
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Edik9MoFp8LAXS9HNu2gRFyihwYqDqv4ZmNmVT9ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/linde/ohlcv?mint=Edik9MoFp8LAXS9HNu2gRFyihwYqDqv4ZmNmVT9ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789430400,
+          "close": 468.44060081382815
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jDoTgDRKSgVzkKdkaHZL3DiVmDM4YtYWwRG6Tgfondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-jdotgdrk/ohlcv?mint=jDoTgDRKSgVzkKdkaHZL3DiVmDM4YtYWwRG6Tgfondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jjnSEAsi8UbCez7x9XCbWntLWRHBdc2tWSdC3uoondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-jjnseasi/ohlcv?mint=jjnSEAsi8UbCez7x9XCbWntLWRHBdc2tWSdC3uoondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789452000,
+          "close": 80.30219475053197
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "iicfp8Efr4WfGAP9gXmYzdxmNFi1LV3iVudAmCnondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-iicfp8ef/ohlcv?mint=iicfp8Efr4WfGAP9gXmYzdxmNFi1LV3iVudAmCnondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789426800,
+          "close": 108.44406556011278
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsSr8anD1hkvNMu8XQiVcmiaTP7XGvYu7Q58LdmtE8Z",
+      "chartSource": "https://tokens.xyz/api/v1/assets/linde/ohlcv?mint=XsSr8anD1hkvNMu8XQiVcmiaTP7XGvYu7Q58LdmtE8Z&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsczbcQ3zfcgAEt9qHQES8pxKAVG5rujPSHQEXi4kaN",
+      "chartSource": "https://tokens.xyz/api/v1/assets/salesforce/ohlcv?mint=XsczbcQ3zfcgAEt9qHQES8pxKAVG5rujPSHQEXi4kaN&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 258.3448970792888
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Z8aFb6uQJgwFJ4KYKrT8n53aP66xqihodfAu4AKondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-z8afb6uq/ohlcv?mint=Z8aFb6uQJgwFJ4KYKrT8n53aP66xqihodfAu4AKondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 38.88165667574559
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "UP5s1srLaHDc4SwJqLPa3A48x5R7ofN3hZWxWEZondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/pgande/ohlcv?mint=UP5s1srLaHDc4SwJqLPa3A48x5R7ofN3hZWxWEZondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "wuzf2FDZTRbRY3ZnndMeQ38Wk9YTDGGXTA63nUyondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-wuzf2fdz/ohlcv?mint=wuzf2FDZTRbRY3ZnndMeQ38Wk9YTDGGXTA63nUyondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 115.53308357772761
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "7D7ukbcnUNYt7Et5vtsDZhAy28MKu9pkHka1Hp9ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/salesforce/ohlcv?mint=7D7ukbcnUNYt7Et5vtsDZhAy28MKu9pkHka1Hp9ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "mJf1xT3suXtkXBCfZcE9oUUuyxkvSgqYBWiX7v1ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/disney/ohlcv?mint=mJf1xT3suXtkXBCfZcE9oUUuyxkvSgqYBWiX7v1ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789423200,
+          "close": 109.2900088753502
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsqML71RLbyUM3CmY4EYN88zE6BJkpvJACnUKBdGD3x",
+      "chartSource": "https://tokens.xyz/api/v1/assets/atandt/ohlcv?mint=XsqML71RLbyUM3CmY4EYN88zE6BJkpvJACnUKBdGD3x&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "gKkrSgVjRjdQX4LFErBka1izQhoW2VHXFcCS5Vbondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-gkkrsgvj/ohlcv?mint=gKkrSgVjRjdQX4LFErBka1izQhoW2VHXFcCS5Vbondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789405200,
+          "close": 43.07858519187801
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "kBUAHgGHFthfnwarWxqYxHqVDnqqieJkXb6kvroondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-kbuahggh/ohlcv?mint=kBUAHgGHFthfnwarWxqYxHqVDnqqieJkXb6kvroondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aHFrgfBHMGEScG8j64cN324jeoQ4EVXLmiHxtuPondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ahfrgfbh/ohlcv?mint=aHFrgfBHMGEScG8j64cN324jeoQ4EVXLmiHxtuPondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789459200,
+          "close": 241.393298220776
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "cdVNL7wK8mf1UCDqM6zdrziRv4hmvqWhXeTcck2ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ishares-core-msci-eafe-etf/ohlcv?mint=cdVNL7wK8mf1UCDqM6zdrziRv4hmvqWhXeTcck2ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "C9J9vZ8N79GzzxFoRkPWCkGtMKU8akg4FhUk4r9ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ishares-core-msci-eafe-etf/ohlcv?mint=C9J9vZ8N79GzzxFoRkPWCkGtMKU8akg4FhUk4r9ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789423200,
+          "close": 102.27930258943631
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "nwPWRVFCbU3cdXWdJsuwomC5u459xPFdP2vYsmVondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-nwpwrvfc/ohlcv?mint=nwPWRVFCbU3cdXWdJsuwomC5u459xPFdP2vYsmVondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789401600,
+          "close": 74.76922712449098
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "12BvLZtzjdssAycxPeBQUjukhmgQpULAvy6SroYdondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/rtx/ohlcv?mint=12BvLZtzjdssAycxPeBQUjukhmgQpULAvy6SroYdondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789473600,
+          "close": 196.70478138959314
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "bBMTGF7atoCizHMT3KCeqJzqR2gXFSUXr53AEDgondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-bbmtgf7a/ohlcv?mint=bBMTGF7atoCizHMT3KCeqJzqR2gXFSUXr53AEDgondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "LmTMwmZLNZszn3qpjmnbhfP12U4qWDivaEBwSBSondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/analog-devices/ohlcv?mint=LmTMwmZLNZszn3qpjmnbhfP12U4qWDivaEBwSBSondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789416000,
+          "close": 364.29465916419747
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aKzjn2ZdWySSGPSSDTY2HUpcSCmemSahTXihrpyondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/southern/ohlcv?mint=aKzjn2ZdWySSGPSSDTY2HUpcSCmemSahTXihrpyondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "TnfswqdE1jAJ8sfnf5J7kSVLEH1cfpAYZ8MWmKfondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/plug-power/ohlcv?mint=TnfswqdE1jAJ8sfnf5J7kSVLEH1cfpAYZ8MWmKfondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsGtpmjhmC8kyjVSWL4VicGu36ceq9u55PTgF8bhGv6",
+      "chartSource": "https://tokens.xyz/api/v1/assets/open/ohlcv?mint=XsGtpmjhmC8kyjVSWL4VicGu36ceq9u55PTgF8bhGv6&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aGn43ed4kjATwbVqsAuwAT24XcG9xABCcyQsFpqondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-agn43ed4/ohlcv?mint=aGn43ed4kjATwbVqsAuwAT24XcG9xABCcyQsFpqondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 65.53717986876289
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ou1uE526v7zmUYP2qCb2LJgfXAyWAtWS9SETtr8ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/open/ohlcv?mint=ou1uE526v7zmUYP2qCb2LJgfXAyWAtWS9SETtr8ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ahvtJqt6pkzjnYTMaCKrvjPQszSKyWraiXKvuWKondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ahvtjqt6/ohlcv?mint=ahvtJqt6pkzjnYTMaCKrvjPQszSKyWraiXKvuWKondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789470000,
+          "close": 332.7785817540694
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "NKyzy31w2J7odLb2CW3Ft4fpKXkW3LBt1pvpkVLondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/coupang/ohlcv?mint=NKyzy31w2J7odLb2CW3Ft4fpKXkW3LBt1pvpkVLondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 15.125485509363129
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "vE2qArmjto6VfeMngyGAnzp2ipLYeXsxiARDnnXondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/soundhound-ai/ohlcv?mint=vE2qArmjto6VfeMngyGAnzp2ipLYeXsxiARDnnXondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsguBZPkM9BDmxspmWe29EmrYZBv21ENcC27Pqh7grB",
+      "chartSource": "https://tokens.xyz/api/v1/assets/mara/ohlcv?mint=XsguBZPkM9BDmxspmWe29EmrYZBv21ENcC27Pqh7grB&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 177.34677131726
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsbELVbLGBkn7xfMfyYuUipKGt1iRUc2B7pYRvFTFu3",
+      "chartSource": "https://tokens.xyz/api/v1/assets/russell-2000/ohlcv?mint=XsbELVbLGBkn7xfMfyYuUipKGt1iRUc2B7pYRvFTFu3&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsFnZawJdLdXfBSEt5Vw29K5vdBiHotdPLjUPafpfHs",
+      "chartSource": "https://tokens.xyz/api/v1/assets/core-msci-em/ohlcv?mint=XsFnZawJdLdXfBSEt5Vw29K5vdBiHotdPLjUPafpfHs&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsaQGz41BEQkS9xAB44uvUtuXcdLJAXEU1dogEzWMZ8",
+      "chartSource": "https://tokens.xyz/api/v1/assets/strategy-pp-fixed/ohlcv?mint=XsaQGz41BEQkS9xAB44uvUtuXcdLJAXEU1dogEzWMZ8&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ETCJUmuhs5aY62xgEVWCZ5JR8KPdeXUaJz3LuC5ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/mara/ohlcv?mint=ETCJUmuhs5aY62xgEVWCZ5JR8KPdeXUaJz3LuC5ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsssYEQjzxBCFgvYFFNuhJFBeHNdLWYeUSP8F45cDr9",
+      "chartSource": "https://tokens.xyz/api/v1/assets/vanguard/ohlcv?mint=XsssYEQjzxBCFgvYFFNuhJFBeHNdLWYeUSP8F45cDr9&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "cfPLN9WXD2BTkbZhRZMVXPmVSiRo44hJWRtnaC8ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ishares-core-sandp-midcap-etf/ohlcv?mint=cfPLN9WXD2BTkbZhRZMVXPmVSiRo44hJWRtnaC8ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Z7G1bRFYH47se4g1ppqSgtMzeJs4JjzzFPmt7iAondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-z7g1brfy/ohlcv?mint=Z7G1bRFYH47se4g1ppqSgtMzeJs4JjzzFPmt7iAondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789412400,
+          "close": 148.56051128181232
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "CPWkMURVvcnX8hGjqCTb8i5LkzV3VSvyk7SeJi8ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ishares-core-sandp-total-us-stock-market-etf/ohlcv?mint=CPWkMURVvcnX8hGjqCTb8i5LkzV3VSvyk7SeJi8ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "dvj2kKFSyjpnyYSYppgFdAEVfgjMEoQGi9VaV23ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ishares-russell-2000-etf/ohlcv?mint=dvj2kKFSyjpnyYSYppgFdAEVfgjMEoQGi9VaV23ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "MFerpBVGKZh2jXN7cbJdXRXQTp6j6pbSnSZrfWrondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/abbvie/ohlcv?mint=MFerpBVGKZh2jXN7cbJdXRXQTp6j6pbSnSZrfWrondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "D1tu7Fnm3cCpKyyPXrqm5GXShPqMj7a2SEjjq9fondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/proshares-ultrapro-short-qqq/ohlcv?mint=D1tu7Fnm3cCpKyyPXrqm5GXShPqMj7a2SEjjq9fondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XswbinNKyPmzTa5CskMbCPvMW6G5CMnZXZEeQSSQoie",
+      "chartSource": "https://tokens.xyz/api/v1/assets/abbvie/ohlcv?mint=XswbinNKyPmzTa5CskMbCPvMW6G5CMnZXZEeQSSQoie&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "1WxT6NdK7uqpfXuKpALxL2n3f7Rq61XXeHA8UM4ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/american-express/ohlcv?mint=1WxT6NdK7uqpfXuKpALxL2n3f7Rq61XXeHA8UM4ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "DX7g7WNjDpVzNK9CG81v7wb6ZbiNzYfkdzH2Xs5ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ishares-russell-2000-value-etf/ohlcv?mint=DX7g7WNjDpVzNK9CG81v7wb6ZbiNzYfkdzH2Xs5ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XstYR6KGqZFchAuhHoEe4mL8W2kL9aqGW1EDBKRrmGB",
+      "chartSource": "https://tokens.xyz/api/v1/assets/american-express/ohlcv?mint=XstYR6KGqZFchAuhHoEe4mL8W2kL9aqGW1EDBKRrmGB&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsR4LAtaBgTKTRUhiijY1ba13nx4bepeEcag2Pr4dZ1",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ast-spacemobile/ohlcv?mint=XsR4LAtaBgTKTRUhiijY1ba13nx4bepeEcag2Pr4dZ1&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "5H1VpMzRuoNtRbPTRCz35ETtEUtnkt8hJuQb9v7ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/blackrock/ohlcv?mint=5H1VpMzRuoNtRbPTRCz35ETtEUtnkt8hJuQb9v7ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsHt1AVPshZpfFWGGpooJ8tdeGknUQVJ9CwhvKrnZrw",
+      "chartSource": "https://tokens.xyz/api/v1/assets/bitfufu/ohlcv?mint=XsHt1AVPshZpfFWGGpooJ8tdeGknUQVJ9CwhvKrnZrw&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XseQvfvuDT3KHKiwPNW1gcjfHbFjEMVTV5NJzDdNQmu",
+      "chartSource": "https://tokens.xyz/api/v1/assets/booking/ohlcv?mint=XseQvfvuDT3KHKiwPNW1gcjfHbFjEMVTV5NJzDdNQmu&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "A9PFmw9Hu8zzxDUoU351pio1E1XWBWBfWnjT9qoondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/bullish/ohlcv?mint=A9PFmw9Hu8zzxDUoU351pio1E1XWBWBfWnjT9qoondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsRiRZg9NGkL3WEZZmqnxvxEoyeHG8LhgzMQF2HRE6F",
+      "chartSource": "https://tokens.xyz/api/v1/assets/bullish/ohlcv?mint=XsRiRZg9NGkL3WEZZmqnxvxEoyeHG8LhgzMQF2HRE6F&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xsn3H7ACEpSF2ULxeiD6kW4jRZXpurh8ZPttyfoS56W",
+      "chartSource": "https://tokens.xyz/api/v1/assets/cleanspark/ohlcv?mint=Xsn3H7ACEpSF2ULxeiD6kW4jRZXpurh8ZPttyfoS56W&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsvKCaNsxg2GN8jjUmq71qukMJr7Q1c5R2Mk9P8kcS8",
+      "chartSource": "https://tokens.xyz/api/v1/assets/comcast/ohlcv?mint=XsvKCaNsxg2GN8jjUmq71qukMJr7Q1c5R2Mk9P8kcS8&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xseo8tgCZfkHxWS9xbFYeKFyMSbWEvZGFV1Gh53GtCV",
+      "chartSource": "https://tokens.xyz/api/v1/assets/danaher/ohlcv?mint=Xseo8tgCZfkHxWS9xbFYeKFyMSbWEvZGFV1Gh53GtCV&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsBGEXxbBcuu8Nrokj14G8v4ezT3JYWWLneTzXK8t6Z",
+      "chartSource": "https://tokens.xyz/api/v1/assets/core-scientific/ohlcv?mint=XsBGEXxbBcuu8Nrokj14G8v4ezT3JYWWLneTzXK8t6Z&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xs1CqRVt2mGVfMSHf7M6cDhkjpw8HDF14XbQNzDnGg4",
+      "chartSource": "https://tokens.xyz/api/v1/assets/duolingo/ohlcv?mint=Xs1CqRVt2mGVfMSHf7M6cDhkjpw8HDF14XbQNzDnGg4&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsDYSbgLh3T7oh59UmRX1F5WjDgJD3nmzACaG5LR1MB",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ebay/ohlcv?mint=XsDYSbgLh3T7oh59UmRX1F5WjDgJD3nmzACaG5LR1MB&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xs5ywCCaayf3TFdxFxuJCr25XMoqY6vdfJKkSHE4D6r",
+      "chartSource": "https://tokens.xyz/api/v1/assets/blackrock/ohlcv?mint=Xs5ywCCaayf3TFdxFxuJCr25XMoqY6vdfJKkSHE4D6r&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aLDdFsr3VTUQaHFK6yNvQxztvxQ8nxW4AMuSGC7ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/figma/ohlcv?mint=aLDdFsr3VTUQaHFK6yNvQxztvxQ8nxW4AMuSGC7ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xs3c2aZenyRQwXjki5MDxJEJ2km27ef2rWQMFWx7QKJ",
+      "chartSource": "https://tokens.xyz/api/v1/assets/galaxy-digital/ohlcv?mint=Xs3c2aZenyRQwXjki5MDxJEJ2km27ef2rWQMFWx7QKJ&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XssfYT48PeXG2EmNdEaVtQcveNhxYnM42KTqdjmiBS9",
+      "chartSource": "https://tokens.xyz/api/v1/assets/figma/ohlcv?mint=XssfYT48PeXG2EmNdEaVtQcveNhxYnM42KTqdjmiBS9&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsFj75v4Tw8TWSDaDoVTHF8RAjEEkmUeKgoRjB9DHsf",
+      "chartSource": "https://tokens.xyz/api/v1/assets/expedia/ohlcv?mint=XsFj75v4Tw8TWSDaDoVTHF8RAjEEkmUeKgoRjB9DHsf&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "MtEXKVN3Pcggy8MPA3eJr15H6SK3RXheScqj9qtondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/home-depot/ohlcv?mint=MtEXKVN3Pcggy8MPA3eJr15H6SK3RXheScqj9qtondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XszjVtyhowGjSC5odCqBpW1CtXXwXjYokymrk7fGKD3",
+      "chartSource": "https://tokens.xyz/api/v1/assets/home-depot/ohlcv?mint=XszjVtyhowGjSC5odCqBpW1CtXXwXjYokymrk7fGKD3&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsRbLZthfABAPAfumWNEJhPyiKDW6TvDVeAeW7oKqA2",
+      "chartSource": "https://tokens.xyz/api/v1/assets/honeywell/ohlcv?mint=XsRbLZthfABAPAfumWNEJhPyiKDW6TvDVeAeW7oKqA2&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsyusqQvb8RDULsY9szwvUv2CxrDKa642w7kecZPdRM",
+      "chartSource": "https://tokens.xyz/api/v1/assets/monster/ohlcv?mint=XsyusqQvb8RDULsY9szwvUv2CxrDKa642w7kecZPdRM&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsG5QyZTQnVSpsXRpD92K5ZGoxXjsmfTyx7fW7r18DV",
+      "chartSource": "https://tokens.xyz/api/v1/assets/hut-8/ohlcv?mint=XsG5QyZTQnVSpsXRpD92K5ZGoxXjsmfTyx7fW7r18DV&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsDgw22qRLTv5Uwuzn6T63cW69exG41T6gwQhEK22u2",
+      "chartSource": "https://tokens.xyz/api/v1/assets/medtronic/ohlcv?mint=XsDgw22qRLTv5Uwuzn6T63cW69exG41T6gwQhEK22u2&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "M7hVQomhw4Q2D2op3HvBrZjHu9SryjNvD5haEZ1ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/palo-alto-networks/ohlcv?mint=M7hVQomhw4Q2D2op3HvBrZjHu9SryjNvD5haEZ1ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsQ6NfzzLH8nspjrB9X8R2K64Zz7Tnxqu12juDiMPMW",
+      "chartSource": "https://tokens.xyz/api/v1/assets/palo-alto-networks/ohlcv?mint=XsQ6NfzzLH8nspjrB9X8R2K64Zz7Tnxqu12juDiMPMW&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsicTFC7G68d74FaYDctWggkKDgkMx8LpNoFNr81TrF",
+      "chartSource": "https://tokens.xyz/api/v1/assets/helius-medical/ohlcv?mint=XsicTFC7G68d74FaYDctWggkKDgkMx8LpNoFNr81TrF&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsMJtFbb8BwzQtck3oRXyAfs7SAPRuTXnSEDNd7BAVz",
+      "chartSource": "https://tokens.xyz/api/v1/assets/planet-labs/ohlcv?mint=XsMJtFbb8BwzQtck3oRXyAfs7SAPRuTXnSEDNd7BAVz&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsKSh3QDynp6oms9yHjZXbZo3pKzUBoqUFKPHS2g9Bh",
+      "chartSource": "https://tokens.xyz/api/v1/assets/rocket-lab/ohlcv?mint=XsKSh3QDynp6oms9yHjZXbZo3pKzUBoqUFKPHS2g9Bh&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "iLDu2jjp2i3Uqc2Vm7K7GLiUj3hR4Un49MtD7c4ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sharplink-gaming/ohlcv?mint=iLDu2jjp2i3Uqc2Vm7K7GLiUj3hR4Un49MtD7c4ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsEoih2x6nZuUjFwzGoba6MFmtzCkzW2c4YAm6baQbq",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sharplink-gaming/ohlcv?mint=XsEoih2x6nZuUjFwzGoba6MFmtzCkzW2c4YAm6baQbq&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "JrTYw7A9jihX5TwpRStYviEbsYf2X2VJpZ13719ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sandp-global/ohlcv?mint=JrTYw7A9jihX5TwpRStYviEbsYf2X2VJpZ13719ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsTuW2zaiPbzgrnQ7b4Z99zeULMM7gPxppE61CtpyDj",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sandp-global/ohlcv?mint=XsTuW2zaiPbzgrnQ7b4Z99zeULMM7gPxppE61CtpyDj&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsjXR5jf4d4GNpJXwLvEBTMwK3ZYro2qZGgvUCzyJrx",
+      "chartSource": "https://tokens.xyz/api/v1/assets/target/ohlcv?mint=XsjXR5jf4d4GNpJXwLvEBTMwK3ZYro2qZGgvUCzyJrx&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "exYfSJt6Fgfhfnp3bAD4roYy97hLF9npjYaLyEXondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/terawulf/ohlcv?mint=exYfSJt6Fgfhfnp3bAD4roYy97hLF9npjYaLyEXondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsuwUbQSzCJN2wZabD1Gxf1MER2Ypa7hMzVMYB2WawJ",
+      "chartSource": "https://tokens.xyz/api/v1/assets/terawulf/ohlcv?mint=XsuwUbQSzCJN2wZabD1Gxf1MER2Ypa7hMzVMYB2WawJ&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xsba6tUnSjDae2VcopDB6FGGDaxRrewFCDa5hKn5vT3",
+      "chartSource": "https://tokens.xyz/api/v1/assets/philip-morris/ohlcv?mint=Xsba6tUnSjDae2VcopDB6FGGDaxRrewFCDa5hKn5vT3&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "T699bgtXQw4CJ59rQ4VzLsupVQUzoL5RmuhHnKrondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/thermo-fisher/ohlcv?mint=T699bgtXQw4CJ59rQ4VzLsupVQUzoL5RmuhHnKrondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XscE4GUcsYhcyZu5ATiGUMmhxYa1D5fwbpJw4K6K4dp",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ton/ohlcv?mint=XscE4GUcsYhcyZu5ATiGUMmhxYa1D5fwbpJw4K6K4dp&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsBgbNRDujfznQq8P4NLKEkRTbPxUVt4v1xwkDzMMtQ",
+      "chartSource": "https://tokens.xyz/api/v1/assets/tempus-ai/ohlcv?mint=XsBgbNRDujfznQq8P4NLKEkRTbPxUVt4v1xwkDzMMtQ&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xsgrm4D6VBTfDx5bs7GNdjtmWDgZ8V79r3YpsYwf5py",
+      "chartSource": "https://tokens.xyz/api/v1/assets/virgin-galactic/ohlcv?mint=Xsgrm4D6VBTfDx5bs7GNdjtmWDgZ8V79r3YpsYwf5py&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "128qNYovdGv2YqayErcJgU7gDwbNVX1VuoxbtWz8ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/airbnb/ohlcv?mint=128qNYovdGv2YqayErcJgU7gDwbNVX1VuoxbtWz8ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "XsZUSqxAXKJkEimvD4CoVvEb4WUC92TFgj5zRtBxFeL",
+      "chartSource": "https://tokens.xyz/api/v1/assets/warner-bros/ohlcv?mint=XsZUSqxAXKJkEimvD4CoVvEb4WUC92TFgj5zRtBxFeL&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Xs8drBWy3Sd5QY3aifG9kt9KFs2K3PGZmx7jWrsrk57",
+      "chartSource": "https://tokens.xyz/api/v1/assets/thermo-fisher/ohlcv?mint=Xs8drBWy3Sd5QY3aifG9kt9KFs2K3PGZmx7jWrsrk57&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "14VXAhoa1R74vi1ZuiQyGLJrnDMfoFBPJSCpGVz3ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/apollo-global-management/ohlcv?mint=14VXAhoa1R74vi1ZuiQyGLJrnDMfoFBPJSCpGVz3ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "54CoRF2FYMZNJg9tS36xq5BUcLZ7rju1r59jGc2ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/baidu/ohlcv?mint=54CoRF2FYMZNJg9tS36xq5BUcLZ7rju1r59jGc2ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Ao5rKFRQ54W3DKSAtqfhBRPNHewwWRLNLao2JL9ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/futu-holdings/ohlcv?mint=Ao5rKFRQ54W3DKSAtqfhBRPNHewwWRLNLao2JL9ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "83P1gCFBZfGRCwJuBt9juxJKEsZwejJoG66eTZ6ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/doordash/ohlcv?mint=83P1gCFBZfGRCwJuBt9juxJKEsZwejJoG66eTZ6ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "CozoH5HBTyyeYSQxHcWpGzd4Sq5XBaKzBzvTtN3ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/intuit/ohlcv?mint=CozoH5HBTyyeYSQxHcWpGzd4Sq5XBaKzBzvTtN3ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "5owVsVFSHACQuippFYdLp3qWRobp2EGcwxMmsr6ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/chipotle/ohlcv?mint=5owVsVFSHACQuippFYdLp3qWRobp2EGcwxMmsr6ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "E1aUS5nyv7kaBzdQzPVJW5zfaMgoUJpKYzdnFS2ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/jd-com/ohlcv?mint=E1aUS5nyv7kaBzdQzPVJW5zfaMgoUJpKYzdnFS2ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "WNZBSkNBNP3Ct1pcFn6Fu4sZQFhnu48EsM9voCEondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/cipher-mining/ohlcv?mint=WNZBSkNBNP3Ct1pcFn6Fu4sZQFhnu48EsM9voCEondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "hrmX7MV5hifoaBVjnrdpz698yABxrbBNAcWtWo9ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/qualcomm/ohlcv?mint=hrmX7MV5hifoaBVjnrdpz698yABxrbBNAcWtWo9ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "PjtfUiw6Hwd8PZ94EcUw8mBSYxp7SjjzSLeNTDKondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/citigroup/ohlcv?mint=PjtfUiw6Hwd8PZ94EcUw8mBSYxp7SjjzSLeNTDKondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZmHxc6Gt27RJKxD2ay6UL4n9yQ7mKAq4XZQUeVhondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/figure-technology-solutions/ohlcv?mint=ZmHxc6Gt27RJKxD2ay6UL4n9yQ7mKAq4XZQUeVhondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "RTb54gpqAx6RpLAHRGnqQ3ciQ845CHqhg21ZzEJondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/talen-energy/ohlcv?mint=RTb54gpqAx6RpLAHRGnqQ3ciQ845CHqhg21ZzEJondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "13qtwy5fZi9Przz14pzo9xqFSr8QHmLyUpUCvP1xondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/on-semiconductor/ohlcv?mint=13qtwy5fZi9Przz14pzo9xqFSr8QHmLyUpUCvP1xondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "c5ug15fwZRfQhhVa6LHscFY33ebVDHcVCezYpj7ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/iboxx-high-yield-corporate-bond-etf/ohlcv?mint=c5ug15fwZRfQhhVa6LHscFY33ebVDHcVCezYpj7ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "G7pTVoSECz5RQWubEnTP7AC83KHUsSyoiqYR1R2ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/servicenow/ohlcv?mint=G7pTVoSECz5RQWubEnTP7AC83KHUsSyoiqYR1R2ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jzCvs2Pk8tDcfsFRqnEMjurgaQW4iQfEkandUR8ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/spotify/ohlcv?mint=jzCvs2Pk8tDcfsFRqnEMjurgaQW4iQfEkandUR8ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "GRciFCqJ5y2hbiD6U5mGkohY65BZTXGuGUrCqf7ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/petrobras/ohlcv?mint=GRciFCqJ5y2hbiD6U5mGkohY65BZTXGuGUrCqf7ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "9wYZetvT8J2ptfsRca5gzLBGvcUug38mp9yT3xaondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/american-airlines-group/ohlcv?mint=9wYZetvT8J2ptfsRca5gzLBGvcUug38mp9yT3xaondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "KcCVQxG9LhFYP5o9DWFKTFgFShPPQkDEemVbiFyondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/archer-aviation/ohlcv?mint=KcCVQxG9LhFYP5o9DWFKTFgFShPPQkDEemVbiFyondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "SS6AEWhzRrxhL2cXzKKjhFt3rCzmHHGKmFyugDTondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/amgen/ohlcv?mint=SS6AEWhzRrxhL2cXzKKjhFt3rCzmHHGKmFyugDTondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "7eRX747PSbVtGVx3qD5UFdkNM2BfTy86ikUiCMhondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/applied-materials/ohlcv?mint=7eRX747PSbVtGVx3qD5UFdkNM2BfTy86ikUiCMhondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "k6BPp2Xmf2TYgrZiUyWfUoZBKeqaDbvPoAVgSx2ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ishares-tips-bond-etf/ohlcv?mint=k6BPp2Xmf2TYgrZiUyWfUoZBKeqaDbvPoAVgSx2ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "9PMjLqd8zPdKkJUXarnit5t7tPL3cCscwHzy7ATondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/trip-com-group/ohlcv?mint=9PMjLqd8zPdKkJUXarnit5t7tPL3cCscwHzy7ATondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Cq6QtvHpXbJWtFaiMhUDtHy8YVZ95gcD1oZ1cohondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/arista-networks/ohlcv?mint=Cq6QtvHpXbJWtFaiMhUDtHy8YVZ95gcD1oZ1cohondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "mhZ69E1vDnAsQJXAwarLYSX5tmgeMajXBJ2rXAcondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ishares-flexible-income-active-etf/ohlcv?mint=mhZ69E1vDnAsQJXAwarLYSX5tmgeMajXBJ2rXAcondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "cBnVXDyZgaaLZM18wAmqsUKnRUFAEJWbq6VuUoaondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/b2gold/ohlcv?mint=cBnVXDyZgaaLZM18wAmqsUKnRUFAEJWbq6VuUoaondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "doPqjCxi6UkANkvMz5fSuYGEo5PGppVpTZMeB5vondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/kanzhun/ohlcv?mint=doPqjCxi6UkANkvMz5fSuYGEo5PGppVpTZMeB5vondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "14kLsQVmc64qZexYuR4XGop9y8BeMkd77pJUm1Rhondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/bilibili/ohlcv?mint=14kLsQVmc64qZexYuR4XGop9y8BeMkd77pJUm1Rhondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "X68p9qTpEMkR1TLpXUP2ZJo8PG4Qge2Y2ZLdjA2ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/conocophillips/ohlcv?mint=X68p9qTpEMkR1TLpXUP2ZJo8PG4Qge2Y2ZLdjA2ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "YXE7mph6XhsgnyezkMEcTuohSuWhbLWfwx2Hh6mondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/bigbear-ai-holdings/ohlcv?mint=YXE7mph6XhsgnyezkMEcTuohSuWhbLWfwx2Hh6mondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "gnoSQSNTNZHViqVfxCcPDVxcRA29mrJL7C6JqYLondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/wisdomtree-us-quality-dividend-growth-fund/ohlcv?mint=gnoSQSNTNZHViqVfxCcPDVxcRA29mrJL7C6JqYLondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "12J2LD3tuLfdiVKnWZMHRMrbnXDY9rM4yqVLUa5yondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/denison-mines/ohlcv?mint=12J2LD3tuLfdiVKnWZMHRMrbnXDY9rM4yqVLUa5yondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ivBnfPTyuHDNWmMSnbavckhJK6SHZW8h77nZKsEondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/first-trust-global-tactical-commodity-strategy-fund/ohlcv?mint=ivBnfPTyuHDNWmMSnbavckhJK6SHZW8h77nZKsEondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "NrTdGMA3ujUvWXkwXyZKnhoByb32KTjRh5Vo47yondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/gemini-space-station/ohlcv?mint=NrTdGMA3ujUvWXkwXyZKnhoByb32KTjRh5Vo47yondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "1MGRpPrkhEsCm2GCWD3rsvEU77xTTLAzfKXeFgFondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/intuitive-surgical/ohlcv?mint=1MGRpPrkhEsCm2GCWD3rsvEU77xTTLAzfKXeFgFondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "CqQyAZjB9LGFTG95eiadGTkfhd9QA12ProeKsQmondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/deere/ohlcv?mint=CqQyAZjB9LGFTG95eiadGTkfhd9QA12ProeKsQmondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "13QHuepdhtJ3urNsV9i1hdL8nQoca2G7ZaLzb5FYondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/iren/ohlcv?mint=13QHuepdhtJ3urNsV9i1hdL8nQoca2G7ZaLzb5FYondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "KZtqx9BJbpcGY7vdzhqPXM3ECKChxE5YhXaDiwRondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/janus-henderson-aaa-clo-etf/ohlcv?mint=KZtqx9BJbpcGY7vdzhqPXM3ECKChxE5YhXaDiwRondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "149o8ppQf9SzKCKXZ4v3dzHkwumvtQSRzSEkr29uondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/kla/ohlcv?mint=149o8ppQf9SzKCKXZ4v3dzHkwumvtQSRzSEkr29uondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "R3ywbVQ5t8LNmjQsn2Ngv43dSqyZscQwNag9G3Eondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/mastec/ohlcv?mint=R3ywbVQ5t8LNmjQsn2Ngv43dSqyZscQwNag9G3Eondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "wFJoeEYpKg9oRhyJy6BWTT3J95gmXBLvoeikDQNondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/lam-research/ohlcv?mint=wFJoeEYpKg9oRhyJy6BWTT3J95gmXBLvoeikDQNondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "t7eN6cGwRMFaZvsNW2SmVwkedmHtDdrxA4ycNE5ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/nextera-energy/ohlcv?mint=t7eN6cGwRMFaZvsNW2SmVwkedmHtDdrxA4ycNE5ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "V8LRV7kWjrx6Prke9oHEHNUiR122BVtyuPciTCTondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/sprott-nickel-miners-etf/ohlcv?mint=V8LRV7kWjrx6Prke9oHEHNUiR122BVtyuPciTCTondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "td1aY5AvYQuwGD75qNq9aPipMexraN9mQXJwqifondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/invesco-db-commodity-index-tracking-fund/ohlcv?mint=td1aY5AvYQuwGD75qNq9aPipMexraN9mQXJwqifondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "YeK2TdPtGLAme3Phg4pb1GBN2YxKgX5UNVyD4asondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/netease/ohlcv?mint=YeK2TdPtGLAme3Phg4pb1GBN2YxKgX5UNVyD4asondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "7qy1j4Mechfyr6uAST3djH4vk4kiEYC2cjEytXdondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/ondas-holdings/ohlcv?mint=7qy1j4Mechfyr6uAST3djH4vk4kiEYC2cjEytXdondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "gbHFTMkuMQUy5xrgoCBdaQ2XYvNyjWAYcnRPh9Condo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/opera/ohlcv?mint=gbHFTMkuMQUy5xrgoCBdaQ2XYvNyjWAYcnRPh9Condo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "yQ37dFiGAbzrb2FRAEhGNzRy5zFfoYGWYhAepFEondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/nio/ohlcv?mint=yQ37dFiGAbzrb2FRAEhGNzRy5zFfoYGWYhAepFEondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "edLdFJVVR532qhcrNTJjLAmhmyV7NsctbWVokMBondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/lowe-s/ohlcv?mint=edLdFJVVR532qhcrNTJjLAmhmyV7NsctbWVokMBondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "1GNFMryQ6c9ZpMhgNimmsbtgYM21qnBJgRAFoNiondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/occidental-petroleum/ohlcv?mint=1GNFMryQ6c9ZpMhgNimmsbtgYM21qnBJgRAFoNiondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "M6agiXbNgy8Xon9ngiW4ZDPbMFcNCTMkMMkshZyondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/invesco-optimum-yld-dvsfd-cmd-str-no-k-1-etf/ohlcv?mint=M6agiXbNgy8Xon9ngiW4ZDPbMFcNCTMkMMkshZyondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "sxyg1VTSzy5zYANUK7hntNtmFAWoXGJq95AcHuVondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/pinterest/ohlcv?mint=sxyg1VTSzy5zYANUK7hntNtmFAWoXGJq95AcHuVondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "qKtU9A7ij34XmtxaSzYfxCpkgAZzzFsqnUb2kW2ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/proshares-short-qqq/ohlcv?mint=qKtU9A7ij34XmtxaSzYfxCpkgAZzzFsqnUb2kW2ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "PnjETBCLC318DRejo9cMQKAmET9PvW8AEFGWMNtondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/pdd-holdings/ohlcv?mint=PnjETBCLC318DRejo9cMQKAmET9PvW8AEFGWMNtondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "cnc6M1zXLdrGR5LAQVcaJDfgezMiVWNtGQsVy1Kondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/charles-schwab/ohlcv?mint=cnc6M1zXLdrGR5LAQVcaJDfgezMiVWNtGQsVy1Kondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "KuiYLPVq65qixD9TgvxBC576C4gG6vVTCdbh2zFondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/vanguard-value-etf/ohlcv?mint=KuiYLPVq65qixD9TgvxBC576C4gG6vVTCdbh2zFondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZDnkXeN5awDioQjP691XFLdgZwDAv19g3fCr9KWondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-zdnkxen5/ohlcv?mint=ZDnkXeN5awDioQjP691XFLdgZwDAv19g3fCr9KWondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Z1K14ngynqmrmfRSC2dRZGs1ghmnDKiiahjaM2condo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-z1k14ngy/ohlcv?mint=Z1K14ngynqmrmfRSC2dRZGs1ghmnDKiiahjaM2condo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZNkQTVtc4WRMQfVCC23PmwYX41577tPcvs2AiXAondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-znkqtvtc/ohlcv?mint=ZNkQTVtc4WRMQfVCC23PmwYX41577tPcvs2AiXAondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "YuFZvc8JCN3a6BUAqwnbY4AnhuVEXD4V7QnBTmwondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-yufzvc8j/ohlcv?mint=YuFZvc8JCN3a6BUAqwnbY4AnhuVEXD4V7QnBTmwondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZWUSgDGQTQPGJyipzgJKcPhxgZzSBi4q6dqQbgCondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-zwusgdgq/ohlcv?mint=ZWUSgDGQTQPGJyipzgJKcPhxgZzSBi4q6dqQbgCondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ThwGDsXZ6iKubWuEQjmDxGwF3bUERDGbBXvcbjFondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/oscar-health/ohlcv?mint=ThwGDsXZ6iKubWuEQjmDxGwF3bUERDGbBXvcbjFondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZcS6FuJ1nAjgwJejUsxkasM6JpEDkdowVyohBCzondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-zcs6fuj1/ohlcv?mint=ZcS6FuJ1nAjgwJejUsxkasM6JpEDkdowVyohBCzondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZifkbVBh94FSETjAfoLw587nxmGsYtXayAAUQgzondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-zifkbvbh/ohlcv?mint=ZifkbVBh94FSETjAfoLw587nxmGsYtXayAAUQgzondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZTABSukbFUFcuCYpMFHxN18aB4kPL2NkpZpgnXPondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ztabsukb/ohlcv?mint=ZTABSukbFUFcuCYpMFHxN18aB4kPL2NkpZpgnXPondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZjYCwYeG85TbV5oXkCkvWQTNPh2PgTQ8X4nxpbyondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-zjycwyeg/ohlcv?mint=ZjYCwYeG85TbV5oXkCkvWQTNPh2PgTQ8X4nxpbyondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZsCDHjWFyndwgbHMs4AHYwJZQMgmAn72ESQj2b5ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-zscdhjwf/ohlcv?mint=ZsCDHjWFyndwgbHMs4AHYwJZQMgmAn72ESQj2b5ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aA1dRckexLmQyppFoWmjKDFjrNFUsZeGzZ7L5xpondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-aa1drcke/ohlcv?mint=aA1dRckexLmQyppFoWmjKDFjrNFUsZeGzZ7L5xpondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "Zfb5PTVfGa8AV6VxrTQJuP8CjMXFPMVkVVNpcAWondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-zfb5ptvf/ohlcv?mint=Zfb5PTVfGa8AV6VxrTQJuP8CjMXFPMVkVVNpcAWondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aCx5G8ewGTSzozEn8KmSsr9cvfyFWzGnr22GjFXondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-acx5g8ew/ohlcv?mint=aCx5G8ewGTSzozEn8KmSsr9cvfyFWzGnr22GjFXondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "amE2ANm5dyG6RTkJHdtzvWcuR8ChBZCEm5Jiqwdondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ame2anm5/ohlcv?mint=amE2ANm5dyG6RTkJHdtzvWcuR8ChBZCEm5Jiqwdondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aq2zXUHqx7Zk6HSJH2GYsNajQJZj9f3dV7gAzfuondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-aq2zxuhq/ohlcv?mint=aq2zXUHqx7Zk6HSJH2GYsNajQJZj9f3dV7gAzfuondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aqEnHXRnXEQwDXEiFSEU4xHziw3Fco4b5JPkTtnondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-aqenhxrn/ohlcv?mint=aqEnHXRnXEQwDXEiFSEU4xHziw3Fco4b5JPkTtnondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "auLvQAhUzPuy2SQBSq2T6AofPGNkR4nZ83P8pjuondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-aulvqahu/ohlcv?mint=auLvQAhUzPuy2SQBSq2T6AofPGNkR4nZ83P8pjuondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ZpJpMhWKCr4m9ZzxApJJwDc5cHiHp2hG1RZdJyvondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-zpjpmhwk/ohlcv?mint=ZpJpMhWKCr4m9ZzxApJJwDc5cHiHp2hG1RZdJyvondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "aV3R9NPU6TkyA6r9NPF5bmAw5XXsjUU7r2whgBqondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-av3r9npu/ohlcv?mint=aV3R9NPU6TkyA6r9NPF5bmAw5XXsjUU7r2whgBqondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "b98FynyBEkdhP4Y3QUvKG36nms4oMsxEZUrCBMvondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-b98fynyb/ohlcv?mint=b98FynyBEkdhP4Y3QUvKG36nms4oMsxEZUrCBMvondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "awCwGaVNbYJH2SyQJzgE3mB54gxa6SQEZSKZaHQondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-awcwgavn/ohlcv?mint=awCwGaVNbYJH2SyQJzgE3mB54gxa6SQEZSKZaHQondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "axbgKgUMscTJ34DjA69kBJuf6UYq4Pzb8B8numYondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-axbgkgum/ohlcv?mint=axbgKgUMscTJ34DjA69kBJuf6UYq4Pzb8B8numYondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "bWrYATfytuRwGoDbpxy16aQbMbCZDv8DURuLCAhondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-bwryatfy/ohlcv?mint=bWrYATfytuRwGoDbpxy16aQbMbCZDv8DURuLCAhondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "bvjmEwQBqbMr6rnx5a74boBz6nmA1DNThujPnNAondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-bvjmewqb/ohlcv?mint=bvjmEwQBqbMr6rnx5a74boBz6nmA1DNThujPnNAondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "bzoe1epsQLx65zmez4pWfBumYzpaFwRTvnmCjZVondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-bzoe1eps/ohlcv?mint=bzoe1epsQLx65zmez4pWfBumYzpaFwRTvnmCjZVondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "cRx9VtwwPTZbVk1DjbMyKzrMWn7nJA22UpMyzFYondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-crx9vtww/ohlcv?mint=cRx9VtwwPTZbVk1DjbMyKzrMWn7nJA22UpMyzFYondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "bz2iUTXWkutnfwG32ziABcTzXoM91sdcgdiJJJdondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-bz2iutxw/ohlcv?mint=bz2iUTXWkutnfwG32ziABcTzXoM91sdcgdiJJJdondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "cY3kDrNWP6DUZcWSQmA6Y4Nf7q5qS5kZ8zF9iLnondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-cy3kdrnw/ohlcv?mint=cY3kDrNWP6DUZcWSQmA6Y4Nf7q5qS5kZ8zF9iLnondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "dYDS22uTX8CtiyixnXY9fMVGAkxbemVAjbCaWVbondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-dyds22ut/ohlcv?mint=dYDS22uTX8CtiyixnXY9fMVGAkxbemVAjbCaWVbondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "dWFwjcUKdc7bPH9GEebpJVmEmUjvQTgEWGVR9WYondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-dwfwjcuk/ohlcv?mint=dWFwjcUKdc7bPH9GEebpJVmEmUjvQTgEWGVR9WYondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "dKGNHXGsZL4GZ4UBTCjpPbaMerqe1EdZ7aFdCxHondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-dkgnhxgs/ohlcv?mint=dKGNHXGsZL4GZ4UBTCjpPbaMerqe1EdZ7aFdCxHondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "crakmaGKTuVRYqSBsFsuqio5CmpEQnpibDrVLbDondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-crakmagk/ohlcv?mint=crakmaGKTuVRYqSBsFsuqio5CmpEQnpibDrVLbDondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "dYF78b65HS62V3pku2uYFyektYzAhx9YACv4hWfondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-dyf78b65/ohlcv?mint=dYF78b65HS62V3pku2uYFyektYzAhx9YACv4hWfondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "bM2VSRfbYPt29YRD9F2wTCSCSQaHtNCuz1znNDCondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-bm2vsrfb/ohlcv?mint=bM2VSRfbYPt29YRD9F2wTCSCSQaHtNCuz1znNDCondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "eCSPcjdpdKL1546PU3RM6BXkebuKn8iH4iuMcTBondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ecspcjdp/ohlcv?mint=eCSPcjdpdKL1546PU3RM6BXkebuKn8iH4iuMcTBondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "eGbh3V9R5ujWYwKJZAyM4Eg3sfzLhwKyr4bGbTsondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-egbh3v9r/ohlcv?mint=eGbh3V9R5ujWYwKJZAyM4Eg3sfzLhwKyr4bGbTsondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "eSu547weHVErV8nax42PyJzPT8JodhBfXLDp5vyondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-esu547we/ohlcv?mint=eSu547weHVErV8nax42PyJzPT8JodhBfXLDp5vyondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "eL1buL9zFxFhfRbjMfyPu2q9HSAJkUUnHVUgkPdondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-el1bul9z/ohlcv?mint=eL1buL9zFxFhfRbjMfyPu2q9HSAJkUUnHVUgkPdondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "eqzwohR9oCR6sravF4y5HyUwyvCDbnfSYqiiFrXondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-eqzwohr9/ohlcv?mint=eqzwohR9oCR6sravF4y5HyUwyvCDbnfSYqiiFrXondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "e83tWWrVsVk1hRGNz5BCwNr9TMBNWixmoUhWgYcondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-e83twwrv/ohlcv?mint=e83tWWrVsVk1hRGNz5BCwNr9TMBNWixmoUhWgYcondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "erp2t2My8UoFgyRt39EmnnSiDUwUM5aNKw5piBKondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-erp2t2my/ohlcv?mint=erp2t2My8UoFgyRt39EmnnSiDUwUM5aNKw5piBKondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "dhEXYTmQKbYBH3wbWTMqeZZpADSRprM4jiGYbUMondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-dhexytmq/ohlcv?mint=dhEXYTmQKbYBH3wbWTMqeZZpADSRprM4jiGYbUMondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "f1yQz2fo7S24NqrsfaWDkmQ8xoa8yU72c9rEEBdondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-f1yqz2fo/ohlcv?mint=f1yQz2fo7S24NqrsfaWDkmQ8xoa8yU72c9rEEBdondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "f4ucqqnktrkdDAnwqcAAiA9Lggz6NAHJ3zFwipnondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-f4ucqqnk/ohlcv?mint=f4ucqqnktrkdDAnwqcAAiA9Lggz6NAHJ3zFwipnondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "fRFzaZfGSXPf2r4oBgBBXpisRovMaJZjv1aCQBsondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-frfzazfg/ohlcv?mint=fRFzaZfGSXPf2r4oBgBBXpisRovMaJZjv1aCQBsondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ey16y4Bk92zmPSvbRznuv3RioAXbVreBkQxrKGDondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ey16y4bk/ohlcv?mint=ey16y4Bk92zmPSvbRznuv3RioAXbVreBkQxrKGDondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "etnBzce6pkJq67QUv78PefkVyCEaA6YBE4hvx1Gondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-etnbzce6/ohlcv?mint=etnBzce6pkJq67QUv78PefkVyCEaA6YBE4hvx1Gondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "fTuoE9pWbVK7EUpUEENBn8Vu226T7kF3YJBTRLPondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ftuoe9pw/ohlcv?mint=fTuoE9pWbVK7EUpUEENBn8Vu226T7kF3YJBTRLPondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "fFTZ9Jckm2X811mdqRBS4ckMz5bRAJVjH4Jwofwondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-fftz9jck/ohlcv?mint=fFTZ9Jckm2X811mdqRBS4ckMz5bRAJVjH4Jwofwondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "feZXF2iFspS6QKE4LSXeSESRXgrtvzbE3dZSyydondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-fezxf2if/ohlcv?mint=feZXF2iFspS6QKE4LSXeSESRXgrtvzbE3dZSyydondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "fkznXN9GALK7f9zVr2RwRHWCPhwoima4zB3JbbNondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-fkznxn9g/ohlcv?mint=fkznXN9GALK7f9zVr2RwRHWCPhwoima4zB3JbbNondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "fcfpT8y5fpEBJjqmjKLpscZYzVjxR95ErJsb31jondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-fcfpt8y5/ohlcv?mint=fcfpT8y5fpEBJjqmjKLpscZYzVjxR95ErJsb31jondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "fznj92AnTcQ6mAFvt68JgLJS5pHag5uPmJ7LmSLondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-fznj92an/ohlcv?mint=fznj92AnTcQ6mAFvt68JgLJS5pHag5uPmJ7LmSLondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "g7vMfs5FrR8JjieeGC3c9sJaYPp4G3jGPfF4tkyondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-g7vmfs5f/ohlcv?mint=g7vMfs5FrR8JjieeGC3c9sJaYPp4G3jGPfF4tkyondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "g3jQMP79SxnH1KisVw3C4SBpa8gSbPAocNJruJFondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-g3jqmp79/ohlcv?mint=g3jQMP79SxnH1KisVw3C4SBpa8gSbPAocNJruJFondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "g4kT9HEg7rN4e5ZaEGHmzpkdM8qMbsZSHJojKeCondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-g4kt9heg/ohlcv?mint=g4kT9HEg7rN4e5ZaEGHmzpkdM8qMbsZSHJojKeCondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "gNhrgh21pQozQoc7YtvhdKF7eJnSKwWa9dzHnaxondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-gnhrgh21/ohlcv?mint=gNhrgh21pQozQoc7YtvhdKF7eJnSKwWa9dzHnaxondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "fVPj4hHHVEeUrzVnad5fvxFEPGAXD5X6wkw1Xjdondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-fvpj4hhh/ohlcv?mint=fVPj4hHHVEeUrzVnad5fvxFEPGAXD5X6wkw1Xjdondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "gPwmyo4BM4qgYYCTVgA4eJmzsnYNVMUJYBecYkCondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-gpwmyo4b/ohlcv?mint=gPwmyo4BM4qgYYCTVgA4eJmzsnYNVMUJYBecYkCondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "gfKuBLive7Q35MYgxPgNx7qx524zQJ9RiDZJFZoondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-gfkubliv/ohlcv?mint=gfKuBLive7Q35MYgxPgNx7qx524zQJ9RiDZJFZoondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "gfTDvjLp8K5gNDFaLMvoTZWJJY6PmVQfdPaUU7eondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-gftdvjlp/ohlcv?mint=gfTDvjLp8K5gNDFaLMvoTZWJJY6PmVQfdPaUU7eondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "gtKc3PtKfUH7vbvYLJ1HCRXCpQK1Wpgevn8e6gUondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-gtkc3ptk/ohlcv?mint=gtKc3PtKfUH7vbvYLJ1HCRXCpQK1Wpgevn8e6gUondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "h73FNVBDq95fqGBy5eunHm2FVfu2jWZNkeXHDieondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-h73fnvbd/ohlcv?mint=h73FNVBDq95fqGBy5eunHm2FVfu2jWZNkeXHDieondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "hESwwvKsJH4p7Xib5rrM921Ng19cwcQGtxyrgSJondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-heswwvks/ohlcv?mint=hESwwvKsJH4p7Xib5rrM921Ng19cwcQGtxyrgSJondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "hieZTEZNBU67bMGULK9hWCB9h5jBPKdpRWiXpwkondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-hieztezn/ohlcv?mint=hieZTEZNBU67bMGULK9hWCB9h5jBPKdpRWiXpwkondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "hpkpc1Xenv5oEpVefk3woWjZa9rxaJxaEaVVA4Fondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-hpkpc1xe/ohlcv?mint=hpkpc1Xenv5oEpVefk3woWjZa9rxaJxaEaVVA4Fondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "hrZ5vs6c6v1iWyvEXjGSHs3sQuuj58VzXikNyRWondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-hrz5vs6c/ohlcv?mint=hrZ5vs6c6v1iWyvEXjGSHs3sQuuj58VzXikNyRWondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "iJAAwDNzJHbgKm5pksL3kXHc3zZewYm37dsZNCPondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ijaawdnz/ohlcv?mint=iJAAwDNzJHbgKm5pksL3kXHc3zZewYm37dsZNCPondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "iJtKb1CWnWdgJhs7HgSZvLmSJABGGMc97QeuG7tondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ijtkb1cw/ohlcv?mint=iJtKb1CWnWdgJhs7HgSZvLmSJABGGMc97QeuG7tondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ieocA48cBX3oiVECgosMGxG649wnf7R8EkVrA5fondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ieoca48c/ohlcv?mint=ieocA48cBX3oiVECgosMGxG649wnf7R8EkVrA5fondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jCPs1JpVKAwevND3jzeDGAUBBFkJ5TUtiu2SxLbondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-jcps1jpv/ohlcv?mint=jCPs1JpVKAwevND3jzeDGAUBBFkJ5TUtiu2SxLbondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jYxKRFuXr6PEkzPpf1wWF7DhLL4gxGJ95Pv2NGrondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-jyxkrfux/ohlcv?mint=jYxKRFuXr6PEkzPpf1wWF7DhLL4gxGJ95Pv2NGrondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jYMxpcgARQCdvQ15H1vvRCnBUbUEEQgSnS6SsfTondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-jymxpcga/ohlcv?mint=jYMxpcgARQCdvQ15H1vvRCnBUbUEEQgSnS6SsfTondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ja4bMvHL3Hw9Ey33VGWyDeXvrHvQWyBnK4GSmCUondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ja4bmvhl/ohlcv?mint=ja4bMvHL3Hw9Ey33VGWyDeXvrHvQWyBnK4GSmCUondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "igWFQo1W64cQN6QUWYRXhM1UvpPuYTYtLELbDYqqqon",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-igwfqo1w/ohlcv?mint=igWFQo1W64cQN6QUWYRXhM1UvpPuYTYtLELbDYqqqon&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jbzBdFNddeEiJXGcVH4DE2qUyYfTtyY2vaHJDEZondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-jbzbdfnd/ohlcv?mint=jbzBdFNddeEiJXGcVH4DE2qUyYfTtyY2vaHJDEZondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "js1cCZRNx8ircYiQJuhBNMnsA9owr6ZLYx6z2uNondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-js1cczrn/ohlcv?mint=js1cCZRNx8ircYiQJuhBNMnsA9owr6ZLYx6z2uNondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jwCKwGoJfx1p4K5XCwqPrq1xyJU1g26Tmf6UcDcondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-jwckwgoj/ohlcv?mint=jwCKwGoJfx1p4K5XCwqPrq1xyJU1g26Tmf6UcDcondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "kTMQKHhnWPTvZsfiZfcdeHdG6dMgZV27wXSiC3Yondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ktmqkhhn/ohlcv?mint=kTMQKHhnWPTvZsfiZfcdeHdG6dMgZV27wXSiC3Yondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "jtnRMv1U3bJHQCsi47E6Lf8Nzkaqsisef7SkHBgondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-jtnrmv1u/ohlcv?mint=jtnRMv1U3bJHQCsi47E6Lf8Nzkaqsisef7SkHBgondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "kWmjV2XdK5tbV6kZrM8grS6EGFmuH5i5HFW3YyLondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-kwmjv2xd/ohlcv?mint=kWmjV2XdK5tbV6kZrM8grS6EGFmuH5i5HFW3YyLondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "kcc5QzXDCQ61qQ5Nbpi2RppnRSzhG1XQNXkjXwoondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-kcc5qzxd/ohlcv?mint=kcc5QzXDCQ61qQ5Nbpi2RppnRSzhG1XQNXkjXwoondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "kmppRwWb2odH6D4JWj8Lq9WshMyyUeCYssWQFhiondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-kmpprwwb/ohlcv?mint=kmppRwWb2odH6D4JWj8Lq9WshMyyUeCYssWQFhiondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "m3XghfWMqmVE81LKLVxd1FVCKjqYAUxH8bMHGhzondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-m3xghfwm/ohlcv?mint=m3XghfWMqmVE81LKLVxd1FVCKjqYAUxH8bMHGhzondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ko48myqhBuXyL9WAp6pTzHWsdKsGKSditJVoGTSondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ko48myqh/ohlcv?mint=ko48myqhBuXyL9WAp6pTzHWsdKsGKSditJVoGTSondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "m3m2HAANsAf2Y3BkdBixDgtrrFHnZDp4NqVh9obondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-m3m2haan/ohlcv?mint=m3m2HAANsAf2Y3BkdBixDgtrrFHnZDp4NqVh9obondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "mPAqB3y5N7fWmEh1BoVtrLhZKBkQe7LjBCrYUNbondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-mpaqb3y5/ohlcv?mint=mPAqB3y5N7fWmEh1BoVtrLhZKBkQe7LjBCrYUNbondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "io3eLhnjT1a94JpzAUMWKqwMYHZRwvtGXjkkXsPondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-io3elhnj/ohlcv?mint=io3eLhnjT1a94JpzAUMWKqwMYHZRwvtGXjkkXsPondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "micfqeFfvD9iDKKzuqRHXerFxG8K5VfY8CgrcQoondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-micfqeff/ohlcv?mint=micfqeFfvD9iDKKzuqRHXerFxG8K5VfY8CgrcQoondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "mV5mof9x8nDirrHwT7g16MarvHbnRvz2zN2S4Cspyon",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-mv5mof9x/ohlcv?mint=mV5mof9x8nDirrHwT7g16MarvHbnRvz2zN2S4Cspyon&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "mFyszXnJf8BFR8H4o33pCZS1T36BH9LjtG3gTpdondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-mfyszxnj/ohlcv?mint=mFyszXnJf8BFR8H4o33pCZS1T36BH9LjtG3gTpdondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "mvAUPvwKPW4rbbTXkqCvcZEG45XCeRHSVcLVym8ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-mvaupvwk/ohlcv?mint=mvAUPvwKPW4rbbTXkqCvcZEG45XCeRHSVcLVym8ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "nDetEKBEk9chztCXSYNrU5F63s2RCEQCxT7BhxDondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ndetekbe/ohlcv?mint=nDetEKBEk9chztCXSYNrU5F63s2RCEQCxT7BhxDondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "nNyVbs9Qty6wU2YcP5KFh4SUxNWTdPtL2W1bTMrondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-nnyvbs9q/ohlcv?mint=nNyVbs9Qty6wU2YcP5KFh4SUxNWTdPtL2W1bTMrondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "nLTgFdT7x37oXMbZoZxbQ1787qSPVRLXo7JPRkLondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-nltgfdt7/ohlcv?mint=nLTgFdT7x37oXMbZoZxbQ1787qSPVRLXo7JPRkLondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "nagL8iWMNLZVuKFk3bUGDaHyT5ZY4bNfUzsdtGHondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-nagl8iwm/ohlcv?mint=nagL8iWMNLZVuKFk3bUGDaHyT5ZY4bNfUzsdtGHondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "nQysX1ZsRJ8yTJg8smZTZ91rWcVBabDRqdUEKZHondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-nqysx1zs/ohlcv?mint=nQysX1ZsRJ8yTJg8smZTZ91rWcVBabDRqdUEKZHondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "ndHvUEgrvZquSR6wZv2cG1AiBr7e7HGuWvfPULcondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-ndhvuegr/ohlcv?mint=ndHvUEgrvZquSR6wZv2cG1AiBr7e7HGuWvfPULcondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "nupQ2BuCfoVeCHVLRDhTjLJanaf5cxZ81KVFqs6ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-nupq2buc/ohlcv?mint=nupQ2BuCfoVeCHVLRDhTjLJanaf5cxZ81KVFqs6ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "nkbH2doD7nU4CkKVwzmd6UV4d2AaGy24NHzsh6tondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-nkbh2dod/ohlcv?mint=nkbH2doD7nU4CkKVwzmd6UV4d2AaGy24NHzsh6tondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "nvvoP8gFyY2aZp6Cxu9Qq4MQqGrMebjtCxWrYfbondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-nvvop8gf/ohlcv?mint=nvvoP8gFyY2aZp6Cxu9Qq4MQqGrMebjtCxWrYfbondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "rsiKbHCdsvmExvDfkYWypAXFsqKz6V8XuoxbkHtondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-rsikbhcd/ohlcv?mint=rsiKbHCdsvmExvDfkYWypAXFsqKz6V8XuoxbkHtondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "rki25TZmDh94spjeoyyGWjkVEYSzcVvaAbddXGuondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-rki25tzm/ohlcv?mint=rki25TZmDh94spjeoyyGWjkVEYSzcVvaAbddXGuondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "n7DwzSkv1SBkcA9qj8LU9sZ9sRn72Z6spU2w2b9ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-n7dwzskv/ohlcv?mint=n7DwzSkv1SBkcA9qj8LU9sZ9sRn72Z6spU2w2b9ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "t29YBAB7g6xzgRJkzmc5NkQ7YRjE3NF8mhsLgppondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-t29ybab7/ohlcv?mint=t29YBAB7g6xzgRJkzmc5NkQ7YRjE3NF8mhsLgppondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "syb82jXkHWbcWgxoRqrvAcoCdsAb3y1fnCYo561ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-syb82jxk/ohlcv?mint=syb82jXkHWbcWgxoRqrvAcoCdsAb3y1fnCYo561ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "t5XWftMCacS1p3xrg14ARaxgEvEM5R241kxHGqrondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-t5xwftmc/ohlcv?mint=t5XWftMCacS1p3xrg14ARaxgEvEM5R241kxHGqrondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "teZfcA6zpP476eKzED1daqBWDtuwbk9e2Ejk2cpondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-tezfca6z/ohlcv?mint=teZfcA6zpP476eKzED1daqBWDtuwbk9e2Ejk2cpondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "th3tot4SRq6jgEyJ568NEh42MM82RSJ3NkiWeNzondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-th3tot4s/ohlcv?mint=th3tot4SRq6jgEyJ568NEh42MM82RSJ3NkiWeNzondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "tzuC3sZnHg7spuAFhdCqivx9qtJg15qUBUpCJx1ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-tzuc3szn/ohlcv?mint=tzuC3sZnHg7spuAFhdCqivx9qtJg15qUBUpCJx1ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "uiSLmtLdqxtbQq5gkwYBvBrZpnSNXZn8h6sjLsDondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-uislmtld/ohlcv?mint=uiSLmtLdqxtbQq5gkwYBvBrZpnSNXZn8h6sjLsDondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "siVse6kjZb9ihaXHaqoG3mhHyTPEnNCkvSDTheoondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-sivse6kj/ohlcv?mint=siVse6kjZb9ihaXHaqoG3mhHyTPEnNCkvSDTheoondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "uzQx2MnWr7drR5gdNXssJrFKQkLFSdw4EpfaQ5Nondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-uzqx2mnw/ohlcv?mint=uzQx2MnWr7drR5gdNXssJrFKQkLFSdw4EpfaQ5Nondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "v34vtrbcjDswpFDixpVFThmUWeM1RTZwtWcp5FBondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-v34vtrbc/ohlcv?mint=v34vtrbcjDswpFDixpVFThmUWeM1RTZwtWcp5FBondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "vr8RQPDmYQBruiYsFSV3KZyoWFEsEejxzMCdWrBondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-vr8rqpdm/ohlcv?mint=vr8RQPDmYQBruiYsFSV3KZyoWFEsEejxzMCdWrBondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "uyWDgDZqL6x2V86i7vwJTKPuyg2u79UYaBe5yt7ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-uywdgdzq/ohlcv?mint=uyWDgDZqL6x2V86i7vwJTKPuyg2u79UYaBe5yt7ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "wCr7YFeYDWyYSebsoMY75g8c9pguGeVB3rT6kYjondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-wcr7yfey/ohlcv?mint=wCr7YFeYDWyYSebsoMY75g8c9pguGeVB3rT6kYjondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "teUYhoQUgqsFp9ZwYBUHfuUHdVvbNx9N8spESGqondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-teuyhoqu/ohlcv?mint=teUYhoQUgqsFp9ZwYBUHfuUHdVvbNx9N8spESGqondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "vZVGEJfSM1hS4XdFVAZL2Fr1cbPzJty9vWyax68ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-vzvgejfs/ohlcv?mint=vZVGEJfSM1hS4XdFVAZL2Fr1cbPzJty9vWyax68ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "wtwpt5yJbButAhjpYhtg4uvUgCQN4LVgvLq2AxEondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-wtwpt5yj/ohlcv?mint=wtwpt5yJbButAhjpYhtg4uvUgCQN4LVgvLq2AxEondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "wxPFbh4dVrTWPGHHbVVeTHH7GK2uQwnTm5C8X3Fondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/stock-wxpfbh4d/ohlcv?mint=wxPFbh4dVrTWPGHHbVVeTHH7GK2uQwnTm5C8X3Fondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "dg1dmo6NZNagkwB6EAfUeaco6CFXFLRhb1KCrsqXTVz",
+      "chartSource": "https://tokens.xyz/api/v1/assets/gold/ohlcv?mint=dg1dmo6NZNagkwB6EAfUeaco6CFXFLRhb1KCrsqXTVz&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789419600,
+          "close": 4309.51364908773
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    },
+    {
+      "mint": "M77ZvkZ8zW5udRbuJCbuwSwavRa7bGAZYMTwru8ondo",
+      "chartSource": "https://tokens.xyz/api/v1/assets/gold/ohlcv?mint=M77ZvkZ8zW5udRbuJCbuwSwavRa7bGAZYMTwru8ondo&interval=1H&from=1789400373&to=1789486773",
+      "chartFrom": 1789400373,
+      "chartTo": 1789486773,
+      "candles": [
+        {
+          "time": 1789401600,
+          "close": 81.13814467287888
+        }
+      ],
+      "chartStatus": "insufficient_history"
+    }
+  ]
+}

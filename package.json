@@ -1,0 +1,25 @@
+{
+  "name": "ohmyfund",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w @ohmyfund/web",
+    "dev:api": "npm run dev -w @ohmyfund/api",
+    "dev:policy-provisioner": "npm run dev:policy-provisioner -w @ohmyfund/api",
+    "db:up": "docker compose -p ohmyfund-local up -d --wait db",
+    "db:migrate": "npm run migrate:local -w @ohmyfund/api",
+    "db:down": "docker compose -p ohmyfund-local down",
+    "db:reset": "docker compose -p ohmyfund-local down --volumes && npm run db:up && npm run db:migrate",
+    "build": "npm run build -w @ohmyfund/contracts && npm run build -w @ohmyfund/api && npm run build -w @ohmyfund/web",
+    "test": "npm run build -w @ohmyfund/contracts && npm run test -w @ohmyfund/contracts && npm run test -w @ohmyfund/api && npm run test -w @ohmyfund/web",
+    "typecheck": "npm run build -w @ohmyfund/contracts && npm run typecheck -w @ohmyfund/contracts && npm run typecheck -w @ohmyfund/api && npm run typecheck -w @ohmyfund/web",
+    "verify": "npm run typecheck && npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "version": "0.2.2"
+}

@@ -1,0 +1,15 @@
+node_modules/
+.next/
+dist/
+.env
+.env.*
+!.env.example
+!apps/api/.env.policy-provisioner.example
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.DS_Store
+.gstack/
+.hallmark/
+.vercel/

@@ -1,0 +1,66 @@
+.portfolio-overview{display:grid;grid-template-columns:2fr 1fr;padding:28px 30px;gap:30px}.portfolio-overview>div+div{border-left:1px solid var(--rule);padding-left:30px}.portfolio-overview strong{display:block;font-size:clamp(24px,3vw,34px);letter-spacing:-.04em}.portfolio-overview p:last-child{max-width:420px;margin:8px 0 0;font-size:14px}.wallet-actions{display:flex;gap:8px}.content-page{padding-top:34px}.content-page .back{margin:0 0 28px}.content-page .section-head h1{margin-bottom:5px}.content-page .empty.lower{margin-top:45px}.content-page .asset-row button{min-height:36px}.topbar nav a.active{background:#f0f1f2;color:var(--ink);font-weight:600}@media(max-width:650px){.portfolio-overview{grid-template-columns:1fr;padding:22px}.portfolio-overview>div+div{border-left:0;border-top:1px solid var(--rule);padding:20px 0 0}.wallet-actions{width:100%}.wallet-actions button{flex:1}.content-page .section-head{align-items:flex-start;flex-direction:column}.content-page .section-head>button{width:100%}}
+.portfolio-welcome{width:100%;max-width:none;margin:0;padding:0 0 32px;border:0;border-radius:0;background:transparent}
+.portfolio-welcome p.portfolio-welcome-kicker{margin:0 0 10px;color:#277b61;font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase}
+.portfolio-welcome h1{max-width:540px;margin:0 0 14px;font-size:clamp(30px,4vw,46px);font-weight:680;line-height:1.14;letter-spacing:-.05em}
+.portfolio-welcome p{max-width:460px;margin:0 0 22px;color:var(--ink);font-size:15px;line-height:1.55}
+.portfolio-welcome .primary{margin:0}
+.portfolio-welcome .small{display:block;margin-top:14px;color:var(--muted)}
+@media(max-width:650px){.portfolio-welcome{padding-bottom:26px}.portfolio-welcome h1{font-size:30px}.portfolio-welcome .primary{width:100%}}
+.portfolio-explore{margin:0;padding-top:24px;border-top:1px solid var(--rule);color:var(--muted);font-size:14px;line-height:1.6}
+.portfolio-explore a{color:var(--ink);font-weight:650;text-decoration:underline;text-underline-offset:3px}
+.portfolio-explore a:hover{color:var(--theme-accent)}
+@media(max-width:650px){.portfolio-explore{padding-top:18px;font-size:13px}}
+.portfolio-page{padding-top:6px}
+.portfolio-summary{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);gap:48px;align-items:center;min-height:246px;margin-bottom:16px}
+.portfolio-summary h1{margin:0 0 24px;font-size:30px;font-weight:680;letter-spacing:-.04em}
+.portfolio-label{margin:0 0 8px;color:var(--muted);font-size:14px}
+.portfolio-total{display:block;margin:0 0 12px;font-size:56px;font-weight:550;line-height:1.1;letter-spacing:-.055em;font-variant-numeric:tabular-nums}
+.portfolio-return{margin:0;font-size:15px}
+.portfolio-help{margin:8px 0 0;color:var(--muted);font-size:14px}
+.portfolio-performance{padding-top:32px;color:var(--muted);font-size:15px}
+.portfolio-performance p:last-child{margin:0}
+.portfolio-funds-head{margin:0 0 14px}
+.portfolio-funds-head h2{font-size:20px}
+.portfolio-funds-head .primary{min-height:44px;border-radius:8px}
+.portfolio-page-skeleton{display:flex;flex-direction:column;gap:16px}
+.portfolio-skeleton-hero{height:340px;border-radius:24px;background:var(--theme-accent-soft,#ded8f7);animation:portfolio-skeleton-pulse 1.4s ease-in-out infinite}
+.portfolio-skeleton-row{height:80px;border-radius:16px;background:var(--surface,#fff);border:1px solid var(--rule,#e3e5e8);animation:portfolio-skeleton-pulse 1.4s ease-in-out infinite}
+@keyframes portfolio-skeleton-pulse{0%,100%{opacity:1}50%{opacity:.6}}
+@media(prefers-reduced-motion:reduce){.portfolio-skeleton-hero,.portfolio-skeleton-row{animation:none}}
+@media(max-width:700px){.portfolio-skeleton-hero{height:300px}.portfolio-skeleton-row{height:100px}}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.portfolio-search{position:relative;margin:0 0 14px}
+.portfolio-search input{width:100%;height:44px;padding:0 16px 0 44px;border:1px solid var(--rule);border-radius:999px;background:#fff;font-size:15px}
+.portfolio-search .search-glyph{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+.portfolio-first-fund{min-height:164px;padding:40px 24px;text-align:left}
+.portfolio-first-fund h3{font-size:17px}
+.portfolio-first-fund p{margin:14px 0 0;font-size:15px}
+.portfolio-fund-row{display:grid;grid-template-columns:minmax(190px,1.25fr) minmax(130px,.8fr) minmax(110px,.65fr) minmax(110px,.7fr);gap:20px;align-items:center;min-height:136px;padding:20px;border:0;border-bottom:1px solid var(--rule);background:#fff}
+.portfolio-fund-row:last-child{border-bottom:0}
+.portfolio-fund-row:hover{background:#f9fafb}
+.portfolio-fund-row .fund-initial{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:#eef0f3;font-size:13px;font-weight:550}
+.portfolio-fund-row .fund-info{display:grid;gap:8px;min-width:0}
+.portfolio-fund-row .fund-info strong{font-size:15px;font-weight:550}
+.portfolio-fund-row .fund-info small{color:var(--muted);font-size:12px}
+.portfolio-fund-assets{display:flex;align-items:center;min-width:0;padding-left:8px}
+.portfolio-fund-assets .asset-avatar{margin-left:-8px}
+.portfolio-asset-count{display:grid;place-items:center;width:36px;height:36px;margin-left:-8px;border:2px solid var(--surface);border-radius:50%;background:var(--theme-accent-soft);font-size:11px;font-weight:750}
+.portfolio-fund-row .fund-amount{text-align:right;font-size:17px;font-weight:550;font-variant-numeric:tabular-nums}
+.portfolio-fund-row .fund-amount small{display:block;margin-top:4px;color:var(--muted);font-size:12px;font-weight:400}
+.fund-schedule{display:grid;gap:4px;text-align:left}
+.fund-schedule small{color:var(--muted);font-size:12px}
+.fund-schedule strong{font-size:13px;font-weight:650}
+@media(max-width:650px){
+ .portfolio-page{padding-top:0}
+ .portfolio-summary{grid-template-columns:1fr;gap:52px;min-height:0;margin-bottom:68px}
+ .portfolio-summary h1{font-size:26px;margin-bottom:18px}
+ .portfolio-total{font-size:44px}
+ .portfolio-performance{padding-top:0}
+ .portfolio-funds-head .primary{width:auto;padding:0 16px}
+ .portfolio-first-fund{min-height:188px;padding:36px 24px}
+ .portfolio-fund-row{grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto auto;gap:10px 16px;padding:16px;min-height:124px}
+ .portfolio-fund-assets{grid-column:1;grid-row:2}
+ .portfolio-fund-row .fund-amount{grid-column:2;grid-row:1/3;align-self:center;font-size:15px}
+ .fund-schedule{display:none}
+ .portfolio-fund-row .fund-info small{font-size:11px}
+}

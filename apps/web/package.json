@@ -1,0 +1,32 @@
+{
+  "name": "@ohmyfund/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "npm run build -w @ohmyfund/contracts && node scripts/sync-screener-logos.mjs --check",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test app/leaderboard/leaderboard-state.test.ts app/orbit-reference.test.tsx app/recurring-activation.test.ts app/wallet-navigation-intent.test.ts proxy.test.ts",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@ohmyfund/contracts": "*",
+    "@turnkey/react-wallet-kit": "^2.5.0",
+    "bs58": "^6.0.0",
+    "next": "^16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "sharp": "^0.35.4",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

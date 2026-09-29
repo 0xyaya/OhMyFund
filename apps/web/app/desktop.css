@@ -1,0 +1,130 @@
+/* Desktop layer (DESIGN.md "Page layout"). Every rule sits behind min-width: 901px, so tablet and
+   phone never see it. Blocks are placed with grid only; source order, and so keyboard order, is
+   unchanged. Imported last so it wins ties with the earlier Orbit layers. */
+@media (min-width: 901px) {
+  html[data-theme='orbit'] { --side-width: 340px; --column-gap: 40px; }
+  html[data-theme='orbit'] .main,
+  html[data-theme='orbit'] .screener-main,
+  html[data-theme='orbit'] .leaderboard-main { padding-top: 40px; padding-bottom: 88px; }
+
+  /* Chrome: a quieter bar with one compact account control. */
+  html[data-theme='orbit'] .topbar-inner { min-height: 68px; }
+  html[data-theme='orbit'] .topbar .brand-logo { width: 146px; }
+  html[data-theme='orbit'] .topbar nav { gap: 28px; margin-left: 56px; }
+  html[data-theme='orbit'] .topbar nav a,
+  html[data-theme='orbit'] .topbar nav button { min-height: 68px; font-size: 14px; }
+  html[data-theme='orbit'] .topbar .account-control { min-width: 0; height: 40px; min-height: 40px; padding: 0 14px; gap: 8px; font-size: 13px; }
+
+  /* One control scale on desktop: 40px, 14px text. Primary actions stay the only filled ones. */
+  html[data-theme='orbit'] :is(.fund-detail-actions button, .fund-detail-section > header button, .fund-detail-plan-actions button, .wallet-screen-actions button, .portfolio-quick-actions button, .portfolio-quick-actions a, .fund-editor-action-buttons button, .fund-editor-section-head button) { min-height: 40px; height: 40px; padding: 0 16px; font-size: 14px; font-weight: 650; }
+
+  /* Page titles: display face, calmer tracking. */
+  html[data-theme='orbit'] :is(.fund-detail-heading h1, .fund-editor-page .fund-editor-header h1, .leaderboard-heading h1) { letter-spacing: -.03em; }
+
+  /* Portfolio, signed out: the landing keeps its split, with a less cramped headline. */
+  html[data-theme='orbit'] .portfolio-signed-out .portfolio-welcome { min-height: 0; padding: 40px 0 72px; }
+  html[data-theme='orbit'] .portfolio-signed-out .portfolio-welcome h1 { font-size: clamp(56px, 5.4vw, 76px); line-height: 1.02; letter-spacing: -.035em; }
+  html[data-theme='orbit'] .portfolio-signed-out .portfolio-welcome .portfolio-welcome-intro { margin-top: 20px; font-size: 17px; }
+  html[data-theme='orbit'] .portfolio-welcome-actions { max-width: 460px; }
+  html[data-theme='orbit'] .portfolio-welcome-actions > * { min-height: 48px; font-size: 15px; }
+  html[data-theme='orbit'] .portfolio-market-art { min-height: 0; }
+  html[data-theme='orbit'] .portfolio-market-tile { min-height: 132px; padding: 24px; font-size: 17px; }
+  html[data-theme='orbit'] .portfolio-signed-out .portfolio-how { margin-top: 8px; }
+  html[data-theme='orbit'] .portfolio-how > h2 { margin-bottom: 18px; font-size: 24px; letter-spacing: -.02em; }
+  html[data-theme='orbit'] .portfolio-how-grid > li { padding: 22px 28px 26px; }
+  html[data-theme='orbit'] .portfolio-how-grid h3 { max-width: 22ch; font-size: 18px; line-height: 1.35; }
+
+  /* Portfolio, signed in (reference: docs/designs/references/ohmyfund-identity-reference.jpg).
+     The value panel leads across the full width with its metrics on the right; the list heading
+     carries the toolbar (search, Create fund, Copy a public fund) on its right, above the list. */
+  html[data-theme='orbit'] .portfolio-with-funds { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 24px; align-items: center; }
+  html[data-theme='orbit'] .portfolio-with-funds > * { grid-column: 1 / -1; max-width: none; }
+  html[data-theme='orbit'] .portfolio-with-funds > .portfolio-summary { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 480px); grid-template-rows: auto auto auto; align-items: end; gap: 0 48px; margin: 0 0 44px; padding: 32px 36px; border-radius: var(--ui-radius); }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-summary > :not(dl) { grid-column: 1; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-summary h1.portfolio-label { margin: 0 0 8px; font-size: 15px; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-total { font-size: 60px; line-height: 1.05; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-total-pending { font-size: 34px; letter-spacing: -.025em; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-help { margin-top: 8px; font-size: 14px; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-metrics { grid-column: 2; grid-row: 1 / -1; margin: 0; padding: 0; border: 0; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-metrics > div + div { padding-left: 20px; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-metrics dt { font-size: 13px; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-metrics dd { margin-top: 6px; font-size: 22px; }
+  html[data-theme='orbit'] .portfolio-with-funds > .portfolio-list-heading { grid-column: 1; margin: 0 0 14px; padding: 0; border: 0; }
+  html[data-theme='orbit'] .portfolio-with-funds > .portfolio-list-heading h2 { font-size: 24px; letter-spacing: -.02em; }
+  html[data-theme='orbit'] .portfolio-with-funds > .portfolio-list-toolbar { grid-column: 2; justify-content: flex-end; }
+  html[data-theme='orbit'] .portfolio-list-toolbar .portfolio-search { flex: 0 1 280px; }
+  html[data-theme='orbit'] .portfolio-list-toolbar .portfolio-quick-actions { margin-left: 0; }
+  html[data-theme='orbit'] .portfolio-list-toolbar .portfolio-search input { min-height: 40px; height: 40px; font-size: 14px; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-action-icon { width: 20px; height: 20px; margin-right: 8px; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-action-icon svg { width: 18px; height: 18px; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-fund-row { grid-template-columns: minmax(180px, 320px) minmax(0, 1fr) 18px; gap: 24px; min-height: 72px; padding: 14px 24px; }
+  html[data-theme='orbit'] .portfolio-with-funds .portfolio-fund-row .portfolio-fund-assets { justify-self: start; }
+
+  /* Fund detail: the basket and its activity on the left, recurring buys in the side column. */
+  html[data-theme='orbit'] .fund-detail { display: grid; grid-template-columns: minmax(0, 1fr) var(--side-width); grid-template-rows: repeat(4, auto) 1fr; column-gap: var(--column-gap); align-items: start; }
+  html[data-theme='orbit'] .fund-detail > * { grid-column: 1; max-width: none; }
+  html[data-theme='orbit'] .fund-detail > :is(.back, .fund-detail-heading, .fund-detail-value-note, p.small) { grid-column: 1 / -1; }
+  html[data-theme='orbit'] .fund-detail > .back { justify-self: start; }
+  html[data-theme='orbit'] .fund-detail > .fund-detail-basket { grid-row: 4; }
+  html[data-theme='orbit'] .fund-detail > .fund-detail-plans { grid-column: 2; grid-row: 4 / -1; }
+  html[data-theme='orbit'] .fund-detail > .fund-detail-activity { grid-row: 5; margin-top: 0; }
+  html[data-theme='orbit'] .fund-detail-heading { align-items: end; padding-bottom: 20px; }
+  html[data-theme='orbit'] .fund-detail-heading h1 { font-size: 44px; line-height: 1.08; }
+  html[data-theme='orbit'] .fund-detail-value-note { margin: 16px 0 36px; }
+  html[data-theme='orbit'] .fund-detail-section > header h2,
+  html[data-theme='orbit'] .fund-detail-activity > h2 { font-size: 20px; letter-spacing: -.01em; }
+  html[data-theme='orbit'] .fund-detail-plans .fund-detail-plan-actions { gap: 8px; margin-top: 12px; }
+
+  /* Edit fund: the form takes the main column; the total and Save sit beside it and stay in view. */
+  html[data-theme='orbit'] .fund-editor.fund-editor-page { max-width: none; }
+  html[data-theme='orbit'] .fund-editor-page .fund-editor-header { margin-bottom: 28px; padding-bottom: 20px; }
+  html[data-theme='orbit'] .fund-editor-page .fund-editor-header h1 { font-size: 44px; line-height: 1.08; }
+  html[data-theme='orbit'] .fund-editor-page form { display: grid; grid-template-columns: minmax(0, 1fr) var(--side-width); column-gap: var(--column-gap); align-items: start; }
+  html[data-theme='orbit'] .fund-editor-page .fund-editor-actions { position: sticky; top: 24px; display: grid; justify-content: stretch; gap: 16px; text-align: left; margin: 0; padding: 22px; border: 1px solid var(--ui-line); border-radius: var(--ui-radius); background: var(--ui-surface); }
+  html[data-theme='orbit'] .fund-editor-page .fund-editor-total strong { font-size: 14px; }
+  html[data-theme='orbit'] .fund-editor-page .fund-editor-total strong span { display: block; margin-top: 4px; font-family: var(--theme-display); font-size: 34px; line-height: 1.1; }
+  html[data-theme='orbit'] .fund-editor-page .fund-editor-total small { margin-top: 4px; font-size: 13px; }
+  html[data-theme='orbit'] .fund-editor-page .fund-editor-action-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  html[data-theme='orbit'] .fund-editor-page .fund-editor-note { margin: 14px 0 0; }
+
+  /* Screener: search and snapshot note share one line; tabs, then the full-width table. */
+  html[data-theme='orbit'] .screener-main { display: grid; grid-template-columns: minmax(0, 400px) minmax(0, 1fr); column-gap: 24px; align-items: center; }
+  html[data-theme='orbit'] .screener-main > * { grid-column: 1 / -1; }
+  html[data-theme='orbit'] .screener-main > .screener-toolbar { grid-column: 1; max-width: none; margin: 0; }
+  html[data-theme='orbit'] .screener-main > .screener-freshness { grid-column: 2; margin: 0; text-align: right; }
+  html[data-theme='orbit'] .screener-tabs { gap: 24px; margin-top: 24px; }
+  html[data-theme='orbit'] .screener-table-wrap { margin-top: 20px; }
+  html[data-theme='orbit'] .screener-table { table-layout: fixed; width: 100%; }
+  html[data-theme='orbit'] .screener-table th { height: 44px; background: var(--ui-canvas); font-size: 12px; }
+  html[data-theme='orbit'] .screener-table td { height: 64px; }
+  html[data-theme='orbit'] .screener-table :is(th, td):first-child { width: 30%; padding-left: 20px; }
+  html[data-theme='orbit'] .screener-table :is(th, td):nth-child(2) { width: 14%; }
+  html[data-theme='orbit'] .screener-table :is(th, td):nth-child(3) { width: 13%; }
+  html[data-theme='orbit'] .screener-table :is(th, td).chart-col { width: 23%; padding-inline: 28px; text-align: center; }
+  html[data-theme='orbit'] .screener-table .chart-col svg { display: block; width: 100%; max-width: 160px; margin-inline: auto; }
+  html[data-theme='orbit'] .screener-table :is(th, td):nth-child(5) { width: 13%; }
+  html[data-theme='orbit'] .screener-table :is(th, td).action-col { width: 7%; padding-right: 20px; text-align: right; }
+  html[data-theme='orbit'] .screener-pagination { margin-top: 20px; }
+
+  /* Leaderboard: a short heading with its totals on the right, then one full-width ruled table. */
+  html[data-theme='orbit'] .leaderboard-heading { display: flex; align-items: end; justify-content: space-between; gap: 40px; max-width: none; padding-bottom: 28px; border-bottom: 1px solid var(--ui-line); }
+  html[data-theme='orbit'] .leaderboard-heading h1 { max-width: none; font-size: 44px; line-height: 1.08; }
+  html[data-theme='orbit'] .leaderboard-heading p { max-width: 60ch; margin-top: 12px; }
+  html[data-theme='orbit'] .leaderboard-summary { gap: 40px; padding: 0; }
+  html[data-theme='orbit'] .leaderboard-summary strong { font-size: 32px; }
+  html[data-theme='orbit'] .leaderboard-disclosure { margin: 16px 0 20px; }
+  html[data-theme='orbit'] .leaderboard-list ol.leaderboard-items { max-width: none; }
+  html[data-theme='orbit'] .leaderboard-item { grid-template-columns: 32px minmax(0, 1fr) minmax(0, 1.2fr) auto; grid-template-areas: 'rank name weights copy'; gap: 24px; min-height: 76px; padding: 14px 24px; }
+  html[data-theme='orbit'] .leaderboard-item:hover { background: var(--ui-canvas); }
+  html[data-theme='orbit'] .leaderboard-item-rank { font-size: 15px; }
+  html[data-theme='orbit'] .leaderboard-item-weights { margin: 0; color: var(--ui-muted); font-size: 14px; }
+
+  /* Wallet: balance in the main column, address and account actions in the side column. */
+  html[data-theme='orbit'] .wallet-screen { display: grid; grid-template-columns: minmax(0, 1fr) var(--side-width); grid-template-rows: auto auto 1fr; column-gap: var(--column-gap); align-items: start; max-width: none; }
+  html[data-theme='orbit'] .wallet-screen > .wallet-summary { grid-column: 1; grid-row: 1 / -1; min-height: 216px; padding: 32px 36px; }
+  html[data-theme='orbit'] .wallet-screen .wallet-amount { font-size: 60px; }
+  html[data-theme='orbit'] .wallet-screen > :not(.wallet-summary) { grid-column: 2; }
+  html[data-theme='orbit'] .wallet-screen > .wallet-address-section { margin: 0; padding: 0; border: 0; }
+  html[data-theme='orbit'] .wallet-screen .wallet-address { font-size: 13px; }
+  html[data-theme='orbit'] .wallet-screen > .wallet-sign-out { justify-self: start; margin-top: 8px; }
+}

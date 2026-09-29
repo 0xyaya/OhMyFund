@@ -1,0 +1,99 @@
+/* App-wide components, matched to the approved screener. */
+body{font-weight:400}
+h1,h2,h3{font-weight:550;letter-spacing:-.035em;text-wrap:balance}
+h1{font-size:30px}h2{font-size:18px}h3{font-size:17px}
+button,.button{min-height:44px;padding:10px 16px;font-size:14px;font-weight:450;box-shadow:0 2px 4px #00000004}
+button.primary,.button.primary{color:#fff}
+.text-button,.icon{box-shadow:none;background:transparent}
+.text-button{padding-inline:8px;text-decoration:none}
+.text-button:hover{text-decoration:underline}
+.top{min-height:88px}.brand{font-size:22px}.mark{font-size:27px}
+nav{gap:8px}nav a{padding:8px 16px;border-radius:24px;font-size:14px}
+nav a[aria-current=page]{background:#ededee;text-decoration:none}
+.preview-note{background:var(--color-paper-2);border-bottom:1px solid var(--color-rule);font-size:12px}
+.preview-note select{background:var(--color-surface);font-size:12px}
+.hero{padding:28px 0;gap:24px;align-items:stretch}
+.hero>div:first-child{padding:4px 0}.hero h1{margin-bottom:20px}
+.balance{font-size:56px;letter-spacing:-.055em;margin:10px 0 12px;font-weight:500}
+.return-line{font-size:14px}.cash{align-self:center;background:var(--color-surface);border:1px solid var(--color-rule);padding:24px;border-radius:var(--radius-panel)}
+.cash .row{font-size:14px}.cash strong{font-weight:550}.cash button{margin-top:16px}
+.next-summary{background:var(--color-surface);border:1px solid var(--color-rule);border-radius:var(--radius-panel);padding:20px 24px;margin-bottom:24px}
+.next-summary strong{font-size:18px;font-weight:500}.next-summary p{font-size:13px}
+.distribution,.plans-section,.columns>section,#fund-list,#archived-funds{border:1px solid var(--color-rule);border-radius:var(--radius-panel);background:var(--color-surface);overflow:hidden}
+.distribution{margin-bottom:28px}
+.distribution .section-title,.plans-section .section-title,.columns .section-title{background:var(--color-paper-2);padding:14px 20px;margin:0;border-bottom:1px solid var(--color-rule);min-height:52px}
+.section-title h2{font-size:16px}.section-title .small{font-size:12px}
+.distribution-row{padding:16px 20px;min-height:64px;border-bottom:1px solid #f0f1f3;font-size:14px}
+.distribution-row:last-child{border:0}.distribution-row strong{font-weight:500}
+.bar-track{background:#eef0f3}.bar-track span{background:#848a94}
+.section-head{margin:0 0 14px}.section-head h2{font-size:20px}
+.fund-row{padding:20px;border-top:0;border-bottom:1px solid #f0f1f3;gap:16px}
+.fund-row:last-child{border-bottom:0}.fund-row:hover{background:#f9fafb}
+.fund-initial{width:32px;height:32px;border-radius:50%;background:#eef0f3;font-size:13px;font-weight:500}
+.fund-name{font-size:15px;font-weight:500;gap:10px}.fund-copy{margin-left:42px;font-size:12px;margin-top:0}
+.fund-value{font-size:17px;font-weight:500;font-variant-numeric:tabular-nums}.fund-next{font-size:12px}.fund-next strong{font-size:13px}.fund-next p{margin-bottom:0}
+.page-head{padding:24px 0}.detail-heading h1{font-size:30px}.detail-value{font-size:48px}.back{font-size:13px}
+.plans-section{margin-bottom:24px}.plan-row{padding:16px 20px;border-top:0;border-bottom:1px solid #f0f1f3}.plan-row strong{font-size:15px}
+.plans-section>p,.columns>section>p{margin:16px 20px;font-size:12px;line-height:1.65}
+.plans-section .plan-controls{margin-top:12px}.plans-section .section-title button{min-height:44px}
+.columns{gap:24px;align-items:start}.allocation-row{padding:16px 20px;border-top:0;border-bottom:1px solid #f0f1f3;font-size:14px;min-height:64px}
+.allocation-row small{font-size:12px}.columns>section>.button{margin:0 20px 20px}
+.advanced{padding:8px 20px;border:1px solid var(--color-rule);border-radius:var(--radius-panel);background:var(--color-surface);margin-top:24px}
+.empty{padding:40px 24px;border:1px solid var(--color-rule);border-radius:var(--radius-panel);background:var(--color-surface)}
+#fund-list .empty{border:0}.welcome{margin-top:28px;max-width:none;padding:48px 32px;border:1px solid var(--color-rule);border-radius:var(--radius-panel);background:var(--color-surface)}
+.welcome h1{max-width:600px}.welcome p{max-width:600px}
+#activity>.plan-row{border:1px solid var(--color-rule);background:var(--color-surface);border-radius:var(--radius-panel);margin-top:12px}
+#activity>.plan-row .button{padding:0;border:0;box-shadow:none;font-weight:500}
+.notice{border:1px solid var(--color-rule);border-radius:var(--radius-panel);background:var(--color-surface)}
+dialog{padding:28px;border-radius:var(--radius-panel);box-shadow:0 24px 80px #20212424;font-size:14px}
+dialog h2{font-size:24px}dialog .balance{font-size:44px}dialog .icon{min-width:44px}
+input,select{border-color:var(--color-border);font-size:14px;border-radius:8px;background:var(--color-surface)}
+input:focus,select:focus{border-color:#858b94}
+.dialog-actions{border-top:1px solid var(--color-rule);padding-top:20px;margin-top:20px}
+.review-line{background:var(--color-paper-2);padding:16px;border:1px solid var(--color-rule);border-radius:8px;font-size:14px;margin-top:20px}
+.site-foot{font-size:12px;margin-top:40px}.fund-choices button{border-radius:8px}
+@media(max-width:639px){
+ .top{min-height:80px;gap:4px 12px;padding:12px 0 8px}nav{gap:4px}nav a{padding:8px 14px}
+ h1,.detail-heading h1{font-size:26px}.hero{padding:24px 0;gap:20px}.hero h1{margin-bottom:16px}.balance{font-size:44px}.cash{padding:20px}
+ .next-summary{padding:16px 20px}.distribution .section-title,.plans-section .section-title,.columns .section-title{padding:12px 16px;gap:4px 8px}
+ .distribution-row{padding:16px;font-size:12px;grid-template-columns:38px minmax(12px,1fr) 48px 66px;gap:8px}
+ .fund-row{padding:16px;gap:10px}.fund-copy{margin-left:42px}.fund-next{padding-left:42px}.fund-value{font-size:15px}
+ .allocation-row,.plan-row{padding:16px}.columns{gap:20px}.plans-section>p,.columns>section>p{margin:16px}.columns>section>.button{margin:0 16px 16px}
+ dialog{padding:20px}dialog h2{font-size:22px}.welcome{padding:32px 20px}.welcome h1{font-size:32px}
+ .dialog-actions button{flex-grow:1}.asset-input{grid-template-columns:minmax(0,1fr) 62px 44px;gap:6px}
+}
+/* Flat controls inside the market table and category navigation. */
+#stocks .stock-identity,#stocks .column-sort,#stocks .category-tabs button{box-shadow:none}
+/* Portfolio overview → fund detail: keep cash in global navigation. */
+.hero{grid-template-columns:minmax(0,1fr) minmax(240px,.8fr);align-items:center;padding-bottom:36px}
+.performance-chart{margin:0;min-width:0;width:100%;max-width:440px;justify-self:end}
+.performance-chart figcaption,.chart-labels{display:flex;justify-content:space-between;gap:12px;color:var(--color-muted);font-size:12px}
+.performance-chart svg{display:block;width:100%;height:152px;margin:8px 0}
+.chart-baseline{stroke:var(--color-border);stroke-dasharray:4 4;stroke-width:1}
+.chart-empty{padding:24px 0;color:var(--color-muted)}
+.positive{color:var(--color-success)}.negative{color:var(--color-error)}
+.fund-row{grid-template-columns:minmax(0,1fr) auto;gap:8px 20px}
+.fund-value{grid-column:2;grid-row:1}.fund-return{font-size:12px;font-weight:400;margin:4px 0 0}
+.fund-next{grid-column:1/-1;grid-row:auto;padding-left:42px;font-size:12px}
+#fund-detail .page-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,.8fr);column-gap:32px}
+#fund-detail .back,#fund-detail .detail-heading{grid-column:1/-1}
+#fund-detail .detail-value,#fund-detail .return-line{grid-column:1}
+#fund-detail .performance-chart{grid-column:2;grid-row:3/5;align-self:center}
+#fund-detail .columns{margin-bottom:24px}
+.holding-bar{width:100%;min-width:80px;margin:8px 0}
+#portfolio>.notice{margin:0 0 24px;font-size:14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+@media(max-width:639px){
+ .hero{grid-template-columns:1fr;gap:20px;padding-bottom:28px}
+ .performance-chart{max-width:none}.performance-chart svg{height:120px}
+ #fund-detail .page-head{display:block}#fund-detail .performance-chart{margin-top:24px}
+ .fund-row{gap:8px 12px}.fund-return{font-size:11px}.fund-next{padding-left:0}
+ .account{font-size:12px;padding:8px 10px}.brand{gap:8px;font-size:20px}
+}
+#fund-detail .detail-metrics{grid-column:1;grid-row:3;align-self:center}
+#fund-detail .performance-chart{grid-row:3}
+.allocation-row{grid-template-columns:minmax(0,1fr) 110px}
+@media(max-width:639px){.allocation-row{grid-template-columns:minmax(0,1fr) 96px}}
+.fund-actions{display:flex;gap:8px;flex-shrink:0}
+#share-dialog{width:min(640px,calc(100% - 24px))}
+#share-card{width:100%;height:auto;display:block;border:1px solid var(--color-rule);border-radius:12px;margin:20px 0}
+@media(max-width:639px){.detail-heading .fund-actions{flex-basis:100%;margin-top:8px}.fund-actions button{flex:1}}

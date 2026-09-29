@@ -1,0 +1,56 @@
+.fund-editor{max-width:760px;margin:0 auto;padding-top:6px}
+.fund-editor .back{margin:0 0 24px;min-height:44px;text-align:left;font-size:14px}
+.fund-editor-header{margin-bottom:30px}
+.fund-editor-header h1{margin:0 0 8px;font-size:32px}
+.fund-editor-header p{margin:0;color:var(--muted);font-size:15px}
+.fund-editor-panel{overflow:hidden;border:1px solid var(--rule);border-radius:18px;background:#fff}
+.fund-editor-name{padding:24px;border-bottom:1px solid var(--rule)}
+.fund-editor-name label,.fund-editor-add label{display:block;margin-bottom:8px;font-size:14px;font-weight:600}
+.fund-editor-name input,.fund-editor-add input,.fund-editor-row input,.fund-editor-row select{height:46px;border:1px solid #cfd3d8;border-radius:8px;background:#fff;color:var(--ink);padding:0 12px}
+.fund-editor-name input{width:100%;max-width:420px}
+.fund-editor-section-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;background:#f8f9fa;border-bottom:1px solid var(--rule)}
+.fund-editor-section-head h2{margin:0;font-size:17px;letter-spacing:-.025em}
+.fund-editor-section-head p{margin:4px 0 0;color:var(--muted);font-size:13px}
+.fund-editor-section-head button{flex:none;min-height:40px;font-size:14px}
+.fund-editor-row{display:grid;grid-template-columns:minmax(0,1fr) 110px auto;align-items:center;gap:18px;padding:18px 24px;border-bottom:1px solid var(--rule)}
+.fund-editor-asset{min-width:0}
+.fund-editor-asset>strong{display:block;font-size:16px}
+.fund-editor-asset>span,.fund-editor-asset>small{display:block;overflow:hidden;margin-top:3px;color:var(--muted);font-size:13px;text-overflow:ellipsis;white-space:nowrap}
+.fund-editor-asset label{display:block;max-width:280px;margin-top:10px;color:var(--muted);font-size:13px}
+.fund-editor-asset select{display:block;width:100%;margin-top:5px}
+.fund-editor-weight{position:relative;color:var(--muted);font-size:13px}
+.fund-editor-weight span{position:absolute;right:12px;bottom:12px;color:var(--muted);font-size:14px}
+.fund-editor-weight input{display:block;width:100%;margin-top:6px;padding-right:30px;font-variant-numeric:tabular-nums}
+.fund-editor-remove{border:0;padding:0 4px;color:var(--muted);font-size:13px}
+.fund-editor-remove:hover{color:var(--ink);background:transparent;text-decoration:underline}
+.fund-editor-empty{margin:0;padding:28px 24px;color:var(--muted);font-size:14px;text-align:center}
+.fund-editor-add{padding:20px 24px;border-bottom:1px solid var(--rule)}
+.fund-editor-add input{width:100%}
+.fund-editor-add>p{margin:10px 0 0;font-size:13px}
+.fund-editor-results{overflow:hidden;margin-top:8px;border:1px solid var(--rule);border-radius:8px}
+.fund-editor-results button{display:flex;justify-content:space-between;align-items:center;gap:16px;width:100%;min-height:56px;border:0;border-bottom:1px solid var(--rule);border-radius:0;text-align:left}
+.fund-editor-results button:last-child{border-bottom:0}
+.fund-editor-results button>span:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fund-editor-results button>span:last-child{flex:none;color:var(--muted);font-size:13px}
+.fund-editor-results strong{margin-right:6px}
+.fund-editor-results small{display:block;color:var(--muted);font-size:12px}
+.fund-editor-results p{margin:0;padding:16px;color:var(--muted);font-size:14px}
+.fund-editor-total{display:grid;grid-template-columns:1fr auto;gap:3px 12px;padding:18px 24px;font-variant-numeric:tabular-nums}
+.fund-editor-total strong{font-size:16px}
+.fund-editor-total span{grid-column:1/-1;color:var(--muted);font-size:13px}
+.fund-editor-total.over span{color:var(--error)}
+.fund-editor-note{margin:18px 0;color:var(--muted);font-size:14px}
+.fund-editor-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:24px}
+@media(max-width:650px){
+ .fund-editor-header{margin-bottom:24px}
+ .fund-editor-header h1{font-size:28px}
+ .fund-editor-name,.fund-editor-add,.fund-editor-total{padding:18px 16px}
+ .fund-editor-section-head{padding:16px;align-items:flex-start}
+ .fund-editor-section-head button{padding:0 10px}
+ .fund-editor-row{grid-template-columns:minmax(0,1fr) 96px;gap:12px;padding:16px}
+ .fund-editor-remove{grid-column:1/-1;justify-self:start;min-height:44px;margin-top:-6px}
+ .fund-editor-actions button{flex:1}
+ /* A long basket (up to 8 assets) pushes Total/Save well below the fold on mobile;
+    keep Save reachable without scrolling back down, and clear of the on-screen keyboard. */
+ .fund-editor-actions{position:sticky;bottom:0;z-index:5;margin-top:0;padding-top:12px;padding-bottom:calc(12px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--rule)}
+}

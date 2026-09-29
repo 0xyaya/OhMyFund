@@ -1,0 +1,63 @@
+name: Test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  local-setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: cp apps/api/.env.example apps/api/.env
+      - run: npm run db:up
+      - run: npm run db:migrate
+      - name: Verify local data persists across restart
+        run: |
+          docker compose -p ohmyfund-local exec -T db psql -U ohmyfund -d ohmyfund -c 'CREATE TABLE local_smoke (value integer NOT NULL); INSERT INTO local_smoke VALUES (1);'
+          npm run db:down
+          npm run db:up
+          test "$(docker compose -p ohmyfund-local exec -T db psql -U ohmyfund -d ohmyfund -Atc 'SELECT count(*) FROM local_smoke')" = "1"
+      - name: Verify reset removes only local data and reapplies migrations
+        run: |
+          npm run db:reset
+          test "$(docker compose -p ohmyfund-local exec -T db psql -U ohmyfund -d ohmyfund -Atc "SELECT to_regclass('public.local_smoke') IS NULL")" = "t"
+          test "$(docker compose -p ohmyfund-local exec -T db psql -U ohmyfund -d ohmyfund -Atc "SELECT to_regclass('public.users') IS NOT NULL")" = "t"
+      - if: always()
+        run: docker compose -p ohmyfund-local down --volumes
+
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: ohmyfund_test
+          POSTGRES_DB: ohmyfund_test
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U ohmyfund_test -d ohmyfund_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: docker compose -p ohmyfund-local config --quiet
+      - run: npm run verify
+      - run: npm run test:integration -w @ohmyfund/api
+        env:
+          TEST_DATABASE_URL: postgres://ohmyfund_test@127.0.0.1:5432/ohmyfund_test
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e -w @ohmyfund/web

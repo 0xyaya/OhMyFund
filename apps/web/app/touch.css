@@ -1,0 +1,6 @@
+body .topbar .brand,
+body .topbar nav a,
+body .topbar nav button,
+body .screener-tabs button {
+  min-height: 44px;
+}

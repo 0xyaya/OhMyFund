@@ -1,0 +1,65 @@
+name: myfund
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USER:?Set DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME:?Set DB_NAME}
+    volumes:
+      - myfund_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks: [myfund_internal]
+  api:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.api
+    restart: unless-stopped
+    env_file:
+      - /home/neo/.config/myfund/api.env
+    environment:
+      PORT: 4310
+      NODE_ENV: production
+    ports:
+      - "127.0.0.1:4310:4310"
+    depends_on:
+      db: { condition: service_healthy }
+      policy-provisioner: { condition: service_started }
+    networks: [myfund_internal]
+  policy-provisioner:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.api
+    restart: unless-stopped
+    command: ["node", "apps/api/dist/policy-provisioner.js"]
+    env_file:
+      - /home/neo/.config/myfund/policy-provisioner.env
+    environment:
+      NODE_ENV: production
+      POLICY_PROVISIONER_PORT: 4311
+    depends_on:
+      db: { condition: service_healthy }
+    networks: [myfund_internal]
+  worker:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.api
+    restart: unless-stopped
+    command: ["node", "apps/api/dist/worker.js"]
+    env_file:
+      - /home/neo/.config/myfund/api.env
+    environment:
+      NODE_ENV: production
+    depends_on:
+      db: { condition: service_healthy }
+      policy-provisioner: { condition: service_started }
+    networks: [myfund_internal]
+networks:
+  myfund_internal: {}
+volumes:
+  myfund_pgdata: {}

@@ -1,0 +1,23 @@
+.topbar{border-bottom:0;background:var(--paper)}
+.topbar-inner{min-height:88px;gap:0;border-bottom:1px solid var(--rule)}
+.topbar .brand{min-height:44px;color:var(--ink);text-decoration:none}
+.topbar .brand-logo{display:block;width:158px;height:auto}
+.topbar nav{display:flex;align-items:center;gap:8px;margin-left:64px}
+.topbar nav a,.topbar nav button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 16px;border:0;border-radius:24px;background:transparent;color:var(--muted);text-decoration:none;font-size:14px;font-weight:450}
+.topbar nav a.active,.topbar nav button.active{background:#f0f1f2;color:var(--ink);font-weight:500}
+.topbar nav a:hover,.topbar nav button:hover{background:#f5f6f7;color:var(--ink)}
+.topbar .account-actions{margin-left:auto}
+.topbar .account-control{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 16px;margin-left:auto;border:1px solid var(--rule);border-radius:8px;background:#fff;color:var(--ink);font-size:14px;font-weight:450;text-decoration:none;white-space:nowrap}
+.topbar .account-control:hover{background:#f6f7f8}
+.wallet-amount{display:block;margin-top:18px;font-size:32px;font-variant-numeric:tabular-nums;letter-spacing:-.045em}
+.wallet-address{display:block;overflow-wrap:anywhere;font-size:12px;color:var(--muted)}
+.wallet-dialog-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.wallet-dialog>.primary{margin-top:14px}
+@media(max-width:650px){
+ .topbar-inner{display:flex;flex-wrap:wrap;min-height:112px;gap:0;padding:12px 0 8px}
+ .topbar .brand-logo{width:138px}
+ .topbar nav{order:3;width:100%;gap:4px;margin:4px 0 0}
+ .topbar nav a,.topbar nav button{flex:0 0 auto;padding:0 14px}
+ .topbar .account-actions{margin-left:auto}
+ .topbar .account-control{padding:0 12px;font-size:12px}
+}

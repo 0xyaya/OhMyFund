@@ -1,0 +1,42 @@
+{
+  "name": "@ohmyfund/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --import tsx --watch src/server.ts",
+    "dev:policy-provisioner": "node --env-file=.env.policy-provisioner --import tsx --watch src/policy-provisioner.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "worker": "node dist/worker.js",
+    "policy-provisioner": "node dist/policy-provisioner.js",
+    "reconcile": "node dist/reconcile-attempt.js",
+    "migrate": "tsx src/migrate.ts",
+    "migrate:local": "node --env-file=.env --import tsx src/migrate.ts",
+    "seed:dev": "node --env-file=.env --import tsx src/seed-dev.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --exclude 'dist/**'",
+    "test:integration": "vitest run src/auth.integration.test.ts src/public-funds.integration.test.ts src/plans.integration.test.ts src/reconcile-attempt.integration.test.ts src/recurring/migration.integration.test.ts src/recurring/queue.integration.test.ts src/recurring/executor.integration.test.ts src/recurring/setup.integration.test.ts --fileParallelism=false"
+  },
+  "dependencies": {
+    "@ohmyfund/contracts": "*",
+    "@solana-program/token": "^0.17.0",
+    "@solana-program/token-2022": "^0.19.0",
+    "@solana/kit": "^8.3.0",
+    "@turnkey/crypto": "^2.13.1",
+    "@turnkey/sdk-server": "^8.5.0",
+    "bs58": "^6.0.0",
+    "cookie": "^1.0.2",
+    "fastify": "^5.6.0",
+    "pg": "^8.16.0",
+    "tweetnacl": "^1.0.3",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@types/pg": "^8.15.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.1"
+  }
+}

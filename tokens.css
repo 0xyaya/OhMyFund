@@ -1,0 +1,9 @@
+/* Hallmark · tokens: OhMyFund Orbit · tone: soft technical · anchor hue: indigo */
+:root{
+--color-paper:oklch(96.8% .018 292);--color-surface:oklch(100% 0 0);--color-paper-2:oklch(93.8% .035 291);--color-stage:oklch(92.6% .045 291);--color-rule:oklch(84% .028 288);--color-border:oklch(81% .03 288);--color-muted:oklch(46% .055 286);--color-ink:oklch(29% .12 284);--color-accent:oklch(45% .22 282);--color-accent-ink:oklch(100% 0 0);--color-focus:oklch(48% .22 282);--color-success:oklch(55% .15 158);--color-error:oklch(52% .18 20);--color-overlay:oklch(20% .04 284 / .34);
+--font-display:var(--font-space-grotesk),Arial,sans-serif;--font-body:var(--font-atkinson),Arial,sans-serif;--font-mono:var(--font-plex),monospace;
+--space-3xs:4px;--space-2xs:8px;--space-xs:12px;--space-sm:16px;--space-md:24px;--space-lg:32px;--space-xl:48px;--space-2xl:64px;--space-3xl:96px;
+--text-xs:.75rem;--text-sm:.875rem;--text-base:1rem;--text-md:1.25rem;--text-lg:1.5625rem;--text-xl:1.953rem;--text-2xl:2.441rem;--text-title:clamp(1.875rem,4vw,2.75rem);--text-display:clamp(3.5rem,7vw,6.25rem);
+--radius-input:12px;--radius-panel:24px;--radius-pill:999px;--rule-width:1px;
+--ease-out:cubic-bezier(.16,1,.3,1);--ease-in:cubic-bezier(.7,0,.84,0);--ease-in-out:cubic-bezier(.65,0,.35,1);--dur-short:100ms;--dur-medium:180ms;
+}

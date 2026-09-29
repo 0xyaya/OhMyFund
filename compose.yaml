@@ -1,0 +1,21 @@
+name: ohmyfund-local
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ohmyfund
+      POSTGRES_DB: ohmyfund
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - ohmyfund_local_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ohmyfund -d ohmyfund"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+
+volumes:
+  ohmyfund_local_pgdata:

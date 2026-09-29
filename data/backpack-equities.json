@@ -1,0 +1,3010 @@
+{
+  "source": "https://tokens.xyz/api/v1/assets/curated?list=all&groupBy=asset&variants=all",
+  "sourceRetrievedAt": "2026-09-15T14:51:05.185375+00:00",
+  "filter": "category=equity; exactly one Backpack-attributed tokenized_equity variant",
+  "attribution": "Tokens metadata; issuer omissions use label/tag or exact name suffix plus Backpack-hosted logo. Not independently mint-verified.",
+  "count": 32,
+  "assets": [
+    {
+      "assetId": "amc-entertainment",
+      "name": "AMC Entertainment",
+      "symbol": "AMC",
+      "category": "equity",
+      "mint": "AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "amc-entertainment:amc1qwr9",
+      "tokenName": "AMC Entertainment - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 2.491317687612341,
+        "liquidity": 285064.2156992978,
+        "volume1hUSD": 18896.114447808468,
+        "volume24hUSD": 740792.6595116451,
+        "trade1h": 341,
+        "trade24h": 12730,
+        "uniqueWallet1h": 88,
+        "uniqueWallet24h": 1729,
+        "marketCap": 150061.41941617522,
+        "fdv": 150061.41941617522,
+        "holder": 3537,
+        "totalSupply": 60279.856652,
+        "circulatingSupply": 60279.856652,
+        "priceChange24hPercent": -0.45187974193413816,
+        "priceChange1hPercent": -1.7324014923836506,
+        "decimals": 6,
+        "logoURI": "https://metadata.backpack.exchange/stock-images/backpack_securities.png",
+        "lastTradeAt": 1789483688151,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "boeing",
+      "name": "Boeing",
+      "symbol": "BA",
+      "category": "equity",
+      "mint": "BArimz1PcKZr8PcPh3tcZ2dg4S7FJLk3cw6R5F8GsHKg",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "boeing:barimz1p",
+      "tokenName": "The Boeing Company - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 216.5622929662016,
+        "liquidity": 188967.26098290397,
+        "volume1hUSD": 3321.3012524795854,
+        "volume24hUSD": 385670.9093159544,
+        "trade1h": 128,
+        "trade24h": 8909,
+        "uniqueWallet1h": 33,
+        "uniqueWallet24h": 1691,
+        "marketCap": 101105.11253994261,
+        "fdv": 101105.11253994261,
+        "holder": 2043,
+        "totalSupply": 482.594132,
+        "circulatingSupply": 482.594132,
+        "priceChange24hPercent": 3.680262277399013,
+        "priceChange1hPercent": 3.3377664525556634,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/BA",
+        "lastTradeAt": 1789483688980,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "alibaba",
+      "name": "Alibaba",
+      "symbol": "BABA",
+      "category": "equity",
+      "mint": "BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "alibaba:babanga4",
+      "tokenName": "Alibaba Group Holding - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 109.2384105960265,
+        "liquidity": 160195.10226836396,
+        "volume1hUSD": 4761.80902416026,
+        "volume24hUSD": 182152.3785773872,
+        "trade1h": 144,
+        "trade24h": 3596,
+        "uniqueWallet1h": 36,
+        "uniqueWallet24h": 764,
+        "marketCap": 97192.05469786146,
+        "fdv": 97192.05469786146,
+        "holder": 1695,
+        "totalSupply": 883.787152,
+        "circulatingSupply": 883.787152,
+        "priceChange24hPercent": -0.09513936614670142,
+        "priceChange1hPercent": -2.537117953887963,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/BABA",
+        "lastTradeAt": 1789483688366,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "costco",
+      "name": "Costco",
+      "symbol": "COST",
+      "category": "equity",
+      "mint": "CZEB3WNZuF2Yz1z2H81RcCk8T7fsw82KB33zqamASVsg",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "costco:czeb3wnz",
+      "tokenName": "Costco Wholesale - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 939.0792141324127,
+        "liquidity": 209909.59303693013,
+        "volume1hUSD": 14550.19167318907,
+        "volume24hUSD": 1105075.8237298685,
+        "trade1h": 290,
+        "trade24h": 19741,
+        "uniqueWallet1h": 58,
+        "uniqueWallet24h": 2800,
+        "marketCap": 131073.07090470905,
+        "fdv": 131073.07090470905,
+        "holder": 2138,
+        "totalSupply": 144.123884,
+        "circulatingSupply": 144.123884,
+        "priceChange24hPercent": 2.3994085918787067,
+        "priceChange1hPercent": 1.3576440667527672,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/COST",
+        "lastTradeAt": 1789483689879,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "stock-cfdp5ssu",
+      "name": "Dell Technologies",
+      "symbol": "DELL",
+      "category": "equity",
+      "mint": "DELL2aRKQz7DMq5DrKLtkn47ZCnbxXPZXrSGbkmd13wy",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "stock-cfdp5ssu:dell2ark",
+      "tokenName": "Dell Technologies - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 572.6798345335993,
+        "liquidity": 110712.60395029256,
+        "volume1hUSD": 4987.269148717861,
+        "volume24hUSD": 133854.60927970658,
+        "trade1h": 120,
+        "trade24h": 2233,
+        "uniqueWallet1h": 21,
+        "uniqueWallet24h": 393,
+        "marketCap": 75023.68628915129,
+        "fdv": 75023.68628915129,
+        "holder": 631,
+        "totalSupply": 134.334213,
+        "circulatingSupply": 134.334213,
+        "priceChange24hPercent": 7.783669622277147,
+        "priceChange1hPercent": 1.0415754280257792,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/DELL",
+        "lastTradeAt": 1789483404003,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "gpro",
+      "name": "gopro",
+      "symbol": "GPRO",
+      "category": "equity",
+      "mint": "GPRR2u6NS5yBQHWGauoJ9HXgjrTH8dDsrBfTV5zAYvDH",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "gpro:gprr2u6n",
+      "tokenName": "GoPro - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "birdeye",
+        "price": 1.2909698049094867,
+        "liquidity": 240492.6302716992,
+        "volume1hUSD": 13576.085497786404,
+        "volume24hUSD": 137250.86835249123,
+        "trade1h": 278,
+        "trade24h": 3574,
+        "uniqueWallet1h": 29,
+        "uniqueWallet24h": 379,
+        "marketCap": 267969.9910394288,
+        "fdv": 267969.9910394288,
+        "holder": 10725,
+        "totalSupply": 207572.624875,
+        "circulatingSupply": 207572.624875,
+        "priceChange24hPercent": -3.698078512754572,
+        "priceChange1hPercent": -1.5901604942568366,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/GPRO",
+        "lastTradeAt": 1789483648000,
+        "asOf": null,
+        "lastFetchedAt": 1789483682538
+      }
+    },
+    {
+      "assetId": "grindr",
+      "name": "Grindr",
+      "symbol": "GRND",
+      "category": "equity",
+      "mint": "GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "grindr:grndydpq",
+      "tokenName": "Grindr - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 15.1714796670151,
+        "liquidity": 461799.7957199969,
+        "volume1hUSD": 58363.331407409234,
+        "volume24hUSD": 484552.03547779407,
+        "trade1h": 390,
+        "trade24h": 30193,
+        "uniqueWallet1h": 79,
+        "uniqueWallet24h": 1090,
+        "marketCap": 238353.06684284064,
+        "fdv": 238353.06684284064,
+        "holder": 7802,
+        "totalSupply": 15429.851849,
+        "circulatingSupply": 15429.851849,
+        "priceChange24hPercent": -2.075292496402912,
+        "priceChange1hPercent": -1.8869536289282254,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/GRND",
+        "lastTradeAt": 1789483670607,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "hims-and-hers-health",
+      "name": "Hims & Hers Health",
+      "symbol": "HIMS",
+      "category": "equity",
+      "mint": "HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "hims-and-hers-health:himsszzw",
+      "tokenName": "Hims & Hers Health - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 28.35958940282886,
+        "liquidity": 173023.89698413108,
+        "volume1hUSD": 4608.80826202635,
+        "volume24hUSD": 130246.07735704206,
+        "trade1h": 114,
+        "trade24h": 2421,
+        "uniqueWallet1h": 15,
+        "uniqueWallet24h": 463,
+        "marketCap": 91491.66573376438,
+        "fdv": 91491.66573376438,
+        "holder": 2037,
+        "totalSupply": 3188.430364,
+        "circulatingSupply": 3188.430364,
+        "priceChange24hPercent": -1.3095336156451125,
+        "priceChange1hPercent": -3.4653033187269635,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/HIMS",
+        "lastTradeAt": 1789483671051,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "robinhood",
+      "name": "Robinhood",
+      "symbol": "HOOD",
+      "category": "equity",
+      "mint": "HooDYv5RewLRiMLnEVq3VJqdqxhuE6c5eYvqejMC3e9A",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "provider_label_or_tag",
+      "variantId": "robinhood:Backpack_Securities",
+      "tokenName": "Robinhood Markets - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "birdeye",
+        "price": 110.0600950506218,
+        "liquidity": 372498.7511234787,
+        "volume1hUSD": 85094.50480299999,
+        "volume24hUSD": 282448.75879500003,
+        "trade1h": 351,
+        "trade24h": 2183,
+        "uniqueWallet1h": 24,
+        "uniqueWallet24h": 69,
+        "marketCap": 716068.4197326682,
+        "fdv": 723110.064614007,
+        "holder": 507,
+        "totalSupply": 6570.138471,
+        "circulatingSupply": 6506.158471,
+        "priceChange24hPercent": -3.645880191653477,
+        "priceChange1hPercent": 0.09248354844163945,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/HOOD",
+        "lastTradeAt": 1789483579000,
+        "asOf": null,
+        "lastFetchedAt": 1789483596732
+      }
+    },
+    {
+      "assetId": "ibm",
+      "name": "IBM",
+      "symbol": "IBM",
+      "category": "equity",
+      "mint": "BMKdM4yUxX12moFqVk195k7coMbaybd4RUKCUdm7D1Sk",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "ibm:bmkdm4yu",
+      "tokenName": "International Business Machines - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 254.52163154163324,
+        "liquidity": 104007.9843396735,
+        "volume1hUSD": 1872.9751837967124,
+        "volume24hUSD": 50269.97646172385,
+        "trade1h": 104,
+        "trade24h": 1097,
+        "uniqueWallet1h": 26,
+        "uniqueWallet24h": 224,
+        "marketCap": 68756.30290488208,
+        "fdv": 68756.30290488208,
+        "holder": 828,
+        "totalSupply": 276.907402,
+        "circulatingSupply": 276.907402,
+        "priceChange24hPercent": 3.5162191406369767,
+        "priceChange1hPercent": 0.857658742865622,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/IBM",
+        "lastTradeAt": 1789483503974,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "intel",
+      "name": "Intel",
+      "symbol": "INTC",
+      "category": "equity",
+      "mint": "iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "provider_label_or_tag",
+      "variantId": "intel:Backpack_Securities",
+      "tokenName": "Intel - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 102.05911956105165,
+        "liquidity": 326615.9451876639,
+        "volume1hUSD": 7260.247272376892,
+        "volume24hUSD": 80967.87888424865,
+        "trade1h": 184,
+        "trade24h": 2124,
+        "uniqueWallet1h": 22,
+        "uniqueWallet24h": 231,
+        "marketCap": 451328.67187122867,
+        "fdv": 451328.67187122867,
+        "holder": 742,
+        "totalSupply": 4554.887346,
+        "circulatingSupply": 4554.887346,
+        "priceChange24hPercent": 6.112033291688341,
+        "priceChange1hPercent": 2.8403769113514508,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/INTC",
+        "lastTradeAt": 1789483621453,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "johnson-and-johnson",
+      "name": "Johnson & Johnson",
+      "symbol": "JNJ",
+      "category": "equity",
+      "mint": "JNJg1znKdF712Phe7L7z52AATAvEjEytBdN2w8Lnh1Y",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "johnson-and-johnson:jnjg1znk",
+      "tokenName": "Johnson & Johnson - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 263.3023093588013,
+        "liquidity": 119227.3603817477,
+        "volume1hUSD": 1990.4489277265316,
+        "volume24hUSD": 349191.6016406615,
+        "trade1h": 96,
+        "trade24h": 5015,
+        "uniqueWallet1h": 23,
+        "uniqueWallet24h": 842,
+        "marketCap": 87948.69933757345,
+        "fdv": 87948.69933757345,
+        "holder": 960,
+        "totalSupply": 334.834089,
+        "circulatingSupply": 334.834089,
+        "priceChange24hPercent": -2.0936030129238214,
+        "priceChange1hPercent": -1.5525466556286305,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/JNJ",
+        "lastTradeAt": 1789483267396,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "eli-lilly",
+      "name": "Eli Lilly",
+      "symbol": "LLY",
+      "category": "equity",
+      "mint": "LLYuwZ33keFihgwoxXsBawy31AiRFLFSva32TYq5TvD",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "eli-lilly:llyuwz33",
+      "tokenName": "Eli Lilly and Company - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "birdeye",
+        "price": 1145.433567991659,
+        "liquidity": 297204.2744339305,
+        "volume1hUSD": 14933.254573379501,
+        "volume24hUSD": 265039.0527681108,
+        "trade1h": 155,
+        "trade24h": 3829,
+        "uniqueWallet1h": 35,
+        "uniqueWallet24h": 590,
+        "marketCap": 336929.5302929636,
+        "fdv": 336929.5302929636,
+        "holder": 2755,
+        "totalSupply": 294.150215,
+        "circulatingSupply": 294.150215,
+        "priceChange24hPercent": 0.2232023330189094,
+        "priceChange1hPercent": -0.13164595991145062,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/LLY",
+        "lastTradeAt": 1789483692000,
+        "asOf": null,
+        "lastFetchedAt": 1789483704213
+      }
+    },
+    {
+      "assetId": "lockheed",
+      "name": "Lockheed",
+      "symbol": "LMT",
+      "category": "equity",
+      "mint": "LMT3i1BHgixFqPUgcyteJhnEz2dpy9i3cYy4pi9BoeV",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "lockheed:lmt3i1bh",
+      "tokenName": "Lockheed Martin - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 541.9416191895023,
+        "liquidity": 118013.06746374733,
+        "volume1hUSD": 1370.8958931811353,
+        "volume24hUSD": 225855.6681421878,
+        "trade1h": 66,
+        "trade24h": 3793,
+        "uniqueWallet1h": 24,
+        "uniqueWallet24h": 647,
+        "marketCap": 80947.0932753801,
+        "fdv": 80947.0932753801,
+        "holder": 1267,
+        "totalSupply": 153.748683,
+        "circulatingSupply": 153.748683,
+        "priceChange24hPercent": 2.283628643857612,
+        "priceChange1hPercent": 2.8979568521968524,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/LMT",
+        "lastTradeAt": 1789483540728,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "lululemon",
+      "name": "Lululemon",
+      "symbol": "LULU",
+      "category": "equity",
+      "mint": "LULUmT9VMttkfAJE236LXJcYJ2tTP7nunrSWR5G1BdS",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "lululemon:lulumt9v",
+      "tokenName": "lululemon athletica inc. - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 97.1118536,
+        "liquidity": 157146.0174038729,
+        "volume1hUSD": 7211.926848890186,
+        "volume24hUSD": 67274.51097143,
+        "trade1h": 129,
+        "trade24h": 1708,
+        "uniqueWallet1h": 30,
+        "uniqueWallet24h": 350,
+        "marketCap": 100563.32244355239,
+        "fdv": 100563.32244355239,
+        "holder": 3408,
+        "totalSupply": 1018.719882,
+        "circulatingSupply": 1018.719882,
+        "priceChange24hPercent": -4.270376529199744,
+        "priceChange1hPercent": -1.9729162568496197,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/LULU",
+        "lastTradeAt": 1789483578359,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "moderna",
+      "name": "Moderna",
+      "symbol": "MRNA",
+      "category": "equity",
+      "mint": "MRNAzXzhNcaEXJPibHEn8cd4vyekCDiivTyEwswLUCT",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "provider_label_or_tag",
+      "variantId": "moderna:Backpack_Securities",
+      "tokenName": "Moderna - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 143.2345671641791,
+        "liquidity": 89956.11907131178,
+        "volume1hUSD": 799.315513,
+        "volume24hUSD": 22700.21149988067,
+        "trade1h": 57,
+        "trade24h": 715,
+        "uniqueWallet1h": 8,
+        "uniqueWallet24h": 103,
+        "marketCap": 141273.06477464596,
+        "fdv": 141273.06477464596,
+        "holder": 2179,
+        "totalSupply": 991.669318,
+        "circulatingSupply": 991.669318,
+        "priceChange24hPercent": 1.0766273456472024,
+        "priceChange1hPercent": 0.06460137964019555,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/MRNA",
+        "lastTradeAt": 1789483526739,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "marvell",
+      "name": "Marvell",
+      "symbol": "MRVL",
+      "category": "equity",
+      "mint": "MRVLSjkR2ceUBukujaD3xCyHP1H3B2SzpsNTZF546jo",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "marvell:mrvlsjkr",
+      "tokenName": "Marvell Technology - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 225.0887497438144,
+        "liquidity": 136027.19507431996,
+        "volume1hUSD": 2318.2601306369847,
+        "volume24hUSD": 121363.72505200384,
+        "trade1h": 60,
+        "trade24h": 2547,
+        "uniqueWallet1h": 14,
+        "uniqueWallet24h": 433,
+        "marketCap": 151600.63252409428,
+        "fdv": 151600.63252409428,
+        "holder": 779,
+        "totalSupply": 671.763595,
+        "circulatingSupply": 671.763595,
+        "priceChange24hPercent": 2.7434903803255395,
+        "priceChange1hPercent": 2.215100614901502,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/MRVL",
+        "lastTradeAt": 1789483618597,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "microstrategy",
+      "name": "MicroStrategy",
+      "symbol": "MSTR",
+      "category": "equity",
+      "mint": "MSTRdWXMeZxdE8osAQy3fA4rvTY5rgummDSMEx6U7Nz",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "provider_label_or_tag",
+      "variantId": "microstrategy:Backpack_Securities",
+      "tokenName": "Strategy - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 129.30744095390963,
+        "liquidity": 436789.7747181595,
+        "volume1hUSD": 42872.457071,
+        "volume24hUSD": 289541.3080339999,
+        "trade1h": 395,
+        "trade24h": 3087,
+        "uniqueWallet1h": 20,
+        "uniqueWallet24h": 43,
+        "marketCap": 603612.3411766335,
+        "fdv": 603612.3411766335,
+        "holder": 146,
+        "totalSupply": 4627.566681,
+        "circulatingSupply": 4627.566681,
+        "priceChange24hPercent": -4.076136153227247,
+        "priceChange1hPercent": -0.6390736068062924,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/MSTR",
+        "lastTradeAt": 1789483666971,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "micron",
+      "name": "Micron Technology",
+      "symbol": "MU",
+      "category": "equity",
+      "mint": "MUxEsUKSMACyw5fZf68wxf5FLnZVhtU9CwH8uNNGay1",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "provider_label_or_tag",
+      "variantId": "micron:Backpack_Securities",
+      "tokenName": "Micron Technology - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "birdeye",
+        "price": 935.0355517608238,
+        "liquidity": 6288972.556240712,
+        "volume1hUSD": 885370.8747794479,
+        "volume24hUSD": 4292561.384325841,
+        "trade1h": 2517,
+        "trade24h": 16938,
+        "uniqueWallet1h": 62,
+        "uniqueWallet24h": 648,
+        "marketCap": 6530338.177776827,
+        "fdv": 6530338.177776827,
+        "holder": 5062,
+        "totalSupply": 6984.053350141756,
+        "circulatingSupply": 6984.053350141756,
+        "priceChange24hPercent": 2.0555839743957307,
+        "priceChange1hPercent": -0.08619554272479922,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/MU",
+        "lastTradeAt": 1789483698000,
+        "asOf": null,
+        "lastFetchedAt": 1789483704199
+      }
+    },
+    {
+      "assetId": "nebius",
+      "name": "Nebius Group",
+      "symbol": "NBIS",
+      "category": "equity",
+      "mint": "NBiSF3UaVUFtRzHwAfxyHsBCAZWGEKnMpewAE4oh7BG",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": "Backpack Securities",
+      "matchEvidence": "issuer",
+      "variantId": "nebius:backpack",
+      "tokenName": "Nebius Group N.V. - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 212.2740826347076,
+        "liquidity": 242770.6208318629,
+        "volume1hUSD": 869.5842530000001,
+        "volume24hUSD": 130171.55842470173,
+        "trade1h": 114,
+        "trade24h": 2706,
+        "uniqueWallet1h": 19,
+        "uniqueWallet24h": 291,
+        "marketCap": 547782.4546444468,
+        "fdv": 547782.4546444468,
+        "holder": 1243,
+        "totalSupply": 2553.795046,
+        "circulatingSupply": 2553.795046,
+        "priceChange24hPercent": -1.099301310561641,
+        "priceChange1hPercent": -1.6294807100490065,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/NBIS",
+        "lastTradeAt": 1789483663754,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "nike",
+      "name": "Nike",
+      "symbol": "NKE",
+      "category": "equity",
+      "mint": "NKEda5nHhNGgjrE9nDdMvaEmkmJ96qqxzBVZEcKmjSg",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "nike:nkeda5nh",
+      "tokenName": "NIKE - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "birdeye",
+        "price": 36.38182483341558,
+        "liquidity": 580328.3506136491,
+        "volume1hUSD": 55567.609939701986,
+        "volume24hUSD": 2324461.0077662766,
+        "trade1h": 1041,
+        "trade24h": 48166,
+        "uniqueWallet1h": 114,
+        "uniqueWallet24h": 2858,
+        "marketCap": 374697.3850266336,
+        "fdv": 374697.3850266336,
+        "holder": 10470,
+        "totalSupply": 10299.026691,
+        "circulatingSupply": 10299.026691,
+        "priceChange24hPercent": -1.9777895532627396,
+        "priceChange1hPercent": -0.198668779042023,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/NKE",
+        "lastTradeAt": 1789483764000,
+        "asOf": null,
+        "lastFetchedAt": 1789483777466
+      }
+    },
+    {
+      "assetId": "pfizer",
+      "name": "Pfizer",
+      "symbol": "PFE",
+      "category": "equity",
+      "mint": "PFER6ENqP8r8NF3CqVt4mFowxsin3V5MLidBNQFCC3x",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "pfizer:pfer6enq",
+      "tokenName": "Pfizer - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 27.40017758473608,
+        "liquidity": 112937.19122889025,
+        "volume1hUSD": 2338.83431986163,
+        "volume24hUSD": 78733.27195571296,
+        "trade1h": 101,
+        "trade24h": 1684,
+        "uniqueWallet1h": 15,
+        "uniqueWallet24h": 301,
+        "marketCap": 67259.79519654908,
+        "fdv": 67259.79519654908,
+        "holder": 1441,
+        "totalSupply": 2465.071067,
+        "circulatingSupply": 2465.071067,
+        "priceChange24hPercent": -1.7640757504899913,
+        "priceChange1hPercent": 0.34146486286627004,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/PFE",
+        "lastTradeAt": 1789483332542,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "roblox",
+      "name": "Roblox",
+      "symbol": "RBLX",
+      "category": "equity",
+      "mint": "RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "roblox:rblxdgrd",
+      "tokenName": "Roblox - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 50.26804999348891,
+        "liquidity": 276466.43981449085,
+        "volume1hUSD": 9937.524115126616,
+        "volume24hUSD": 1330117.740796238,
+        "trade1h": 174,
+        "trade24h": 25425,
+        "uniqueWallet1h": 39,
+        "uniqueWallet24h": 3135,
+        "marketCap": 110112.42534734392,
+        "fdv": 114798.64367573931,
+        "holder": 2500,
+        "totalSupply": 2277.722024,
+        "circulatingSupply": 2184.742679,
+        "priceChange24hPercent": 1.4798353066360272,
+        "priceChange1hPercent": -0.43987067545758807,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/RBLX",
+        "lastTradeAt": 1789483371005,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "reddit",
+      "name": "Reddit",
+      "symbol": "RDDT",
+      "category": "equity",
+      "mint": "RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "reddit:rddtgbhh",
+      "tokenName": "Reddit - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 166.2431557925644,
+        "liquidity": 387110.52403869055,
+        "volume1hUSD": 91003.8294367482,
+        "volume24hUSD": 1229251.0488449105,
+        "trade1h": 749,
+        "trade24h": 17077,
+        "uniqueWallet1h": 100,
+        "uniqueWallet24h": 1726,
+        "marketCap": 185430.1686583017,
+        "fdv": 185430.1686583017,
+        "holder": 6758,
+        "totalSupply": 1151.424025,
+        "circulatingSupply": 1151.424025,
+        "priceChange24hPercent": 3.3961215704376357,
+        "priceChange1hPercent": -0.09605352571610483,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/RDDT",
+        "lastTradeAt": 1789483686930,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "rivian-automotive",
+      "name": "Rivian Automotive",
+      "symbol": "RIVN",
+      "category": "equity",
+      "mint": "RcZmt84VMJv9bDhKqmw1uWDahYrUT468VwAChTnfD8p",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "rivian-automotive:rczmt84v",
+      "tokenName": "Rivian Automotive - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 15.483135627810483,
+        "liquidity": 87381.04704493556,
+        "volume1hUSD": 90136.83443871106,
+        "volume24hUSD": 118072.7492426432,
+        "trade1h": 1217,
+        "trade24h": 1954,
+        "uniqueWallet1h": 421,
+        "uniqueWallet24h": 516,
+        "marketCap": 85695.45565748555,
+        "fdv": 85695.45565748555,
+        "holder": 406,
+        "totalSupply": 5497.549431,
+        "circulatingSupply": 5497.549431,
+        "priceChange24hPercent": -3.109266706542544,
+        "priceChange1hPercent": -5.203982048609033,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/RIVN",
+        "lastTradeAt": 1789483593419,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "shopify",
+      "name": "Shopify",
+      "symbol": "SHOP",
+      "category": "equity",
+      "mint": "SH55hfaipFAbwT42nQYhRoM5o5t61QpkmJ6p62vXB3m",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "shopify:sh55hfai",
+      "tokenName": "Shopify - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 135.17854618884937,
+        "liquidity": 113326.6974947607,
+        "volume1hUSD": 2125.5828929850877,
+        "volume24hUSD": 49119.42775378241,
+        "trade1h": 82,
+        "trade24h": 1373,
+        "uniqueWallet1h": 15,
+        "uniqueWallet24h": 314,
+        "marketCap": 76955.1806079641,
+        "fdv": 76955.1806079641,
+        "holder": 757,
+        "totalSupply": 587.297281,
+        "circulatingSupply": 587.297281,
+        "priceChange24hPercent": 3.4991146432980527,
+        "priceChange1hPercent": 0.2732895185974528,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/SHOP",
+        "lastTradeAt": 1789483332536,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "sk-hynix",
+      "name": "SK Hynix",
+      "symbol": "SKHY",
+      "category": "equity",
+      "mint": "SKHYhSjuRWHgikq8eRKbtBbpABgJSkd7ytQV14i9EQ3",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": "Backpack Securities",
+      "matchEvidence": "issuer",
+      "variantId": "sk-hynix:backpack",
+      "tokenName": "SK Hynix - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 177.56577240902786,
+        "liquidity": 3712805.7911284952,
+        "volume1hUSD": 645891.0347241478,
+        "volume24hUSD": 4005682.4814546886,
+        "trade1h": 594,
+        "trade24h": 5333,
+        "uniqueWallet1h": 37,
+        "uniqueWallet24h": 158,
+        "marketCap": 2150095.855558555,
+        "fdv": 2150095.855558555,
+        "holder": 1466,
+        "totalSupply": 12072.157329,
+        "circulatingSupply": 12072.157329,
+        "priceChange24hPercent": 0.5642106698646557,
+        "priceChange1hPercent": -0.6597998823511518,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/SKHY",
+        "lastTradeAt": 1789483435054,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    },
+    {
+      "assetId": "snap",
+      "name": "Snap",
+      "symbol": "SNAP",
+      "category": "equity",
+      "mint": "SNAPcESrvnH8yUdgeMF6xm1hym9b6hW6s8YeqeHdZFz",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "snap:snapcesr",
+      "tokenName": "Snap - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "birdeye",
+        "price": 5.844191923035116,
+        "liquidity": 160711.27108860412,
+        "volume1hUSD": 35977.083798539534,
+        "volume24hUSD": 498820.64475234237,
+        "trade1h": 589,
+        "trade24h": 10228,
+        "uniqueWallet1h": 116,
+        "uniqueWallet24h": 1415,
+        "marketCap": 79291.9912844293,
+        "fdv": 83405.77642097294,
+        "holder": 1568,
+        "totalSupply": 14271.566971,
+        "circulatingSupply": 13567.656971,
+        "priceChange24hPercent": 3.2837098561354234,
+        "priceChange1hPercent": -2.5286011567499678,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/SNAP",
+        "lastTradeAt": 1789483398000,
+        "asOf": null,
+        "lastFetchedAt": 1789483417163
+      }
+    },
+    {
+      "assetId": "sandisk",
+      "name": "SanDisk",
+      "symbol": "SNDK",
+      "category": "equity",
+      "mint": "SNDKbwMUQvZhnLnxLduradgLHG5KrPuKwpnrkkGRhfH",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "provider_label_or_tag",
+      "variantId": "sandisk:Backpack_Securities",
+      "tokenName": "Sandisk - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "birdeye",
+        "price": 1551.083606115108,
+        "liquidity": 862438.4601587018,
+        "volume1hUSD": 361657.31466820993,
+        "volume24hUSD": 2419259.6385695874,
+        "trade1h": 1474,
+        "trade24h": 12500,
+        "uniqueWallet1h": 194,
+        "uniqueWallet24h": 878,
+        "marketCap": 1799854.8032880777,
+        "fdv": 1799854.8032880777,
+        "holder": 3999,
+        "totalSupply": 1160.385421,
+        "circulatingSupply": 1160.385421,
+        "priceChange24hPercent": -0.5066439997809355,
+        "priceChange1hPercent": -0.477265244392276,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/SNDK",
+        "lastTradeAt": 1789483496000,
+        "asOf": null,
+        "lastFetchedAt": 1789483525529
+      }
+    },
+    {
+      "assetId": "spacex",
+      "name": "SpaceX",
+      "symbol": "SPCX",
+      "category": "equity",
+      "mint": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": "Backpack Securities",
+      "matchEvidence": "issuer",
+      "variantId": "spacex:backpack",
+      "tokenName": "SpaceX - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "birdeye",
+        "price": 145.08640835434184,
+        "liquidity": 8926164.491836235,
+        "volume1hUSD": 480582.02420689753,
+        "volume24hUSD": 11170703.92792528,
+        "trade1h": 3870,
+        "trade24h": 157289,
+        "uniqueWallet1h": 226,
+        "uniqueWallet24h": 11529,
+        "marketCap": 6274629.700769369,
+        "fdv": 6274629.700769369,
+        "holder": 26087,
+        "totalSupply": 43247.536223,
+        "circulatingSupply": 43247.536223,
+        "priceChange24hPercent": -2.2631342142200754,
+        "priceChange1hPercent": -0.8782575995842489,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/SPCX",
+        "lastTradeAt": 1789483557000,
+        "asOf": null,
+        "lastFetchedAt": 1789483562409
+      }
+    },
+    {
+      "assetId": "take-two-interactive",
+      "name": "Take-Two Interactive",
+      "symbol": "TTWO",
+      "category": "equity",
+      "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": "Backpack Securities",
+      "matchEvidence": "issuer",
+      "variantId": "take-two-interactive:backpack",
+      "tokenName": "Take-Two Interactive Software - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "birdeye",
+        "price": 217.08939167930936,
+        "liquidity": 626965.1346032919,
+        "volume1hUSD": 49646.14559171209,
+        "volume24hUSD": 1407176.8231902195,
+        "trade1h": 775,
+        "trade24h": 15422,
+        "uniqueWallet1h": 114,
+        "uniqueWallet24h": 1336,
+        "marketCap": 633432.5437108924,
+        "fdv": 633432.5437108924,
+        "holder": 18512,
+        "totalSupply": 2917.841995,
+        "circulatingSupply": 2917.841995,
+        "priceChange24hPercent": -0.25150291646754785,
+        "priceChange1hPercent": -1.064419200836062,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/TTWO",
+        "lastTradeAt": 1789483387000,
+        "asOf": null,
+        "lastFetchedAt": 1789483391453
+      }
+    },
+    {
+      "assetId": "wendy-s",
+      "name": "Wendy's",
+      "symbol": "WEN",
+      "category": "equity",
+      "mint": "WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ",
+      "issuer": "Backpack Securities",
+      "sourceIssuer": null,
+      "matchEvidence": "token_name_and_backpack_logo",
+      "variantId": "wendy-s:wenaz2wy",
+      "tokenName": "The Wendy's Company - Backpack Securities",
+      "advisory": null,
+      "market": {
+        "source": "birdeye",
+        "metricsSource": "clickhouse_trades",
+        "price": 7.865575798282769,
+        "liquidity": 293741.705172694,
+        "volume1hUSD": 5008.174612658883,
+        "volume24hUSD": 547979.5746533117,
+        "trade1h": 213,
+        "trade24h": 12139,
+        "uniqueWallet1h": 69,
+        "uniqueWallet24h": 1390,
+        "marketCap": 105134.52553914991,
+        "fdv": 105134.52553914991,
+        "holder": 2354,
+        "totalSupply": 13785.84804,
+        "circulatingSupply": 13785.84804,
+        "priceChange24hPercent": 2.5534496608703745,
+        "priceChange1hPercent": 3.5976974385657954,
+        "decimals": 6,
+        "logoURI": "https://backpack.exchange/api/stock-logo/WEN",
+        "lastTradeAt": 1789483685624,
+        "asOf": null,
+        "lastFetchedAt": 1789483803668
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "assetId": "xstock-tron",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "american-airlines-group",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-yufzvc8j",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-nwpwrvfc",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "apple",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "abbvie",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "airbnb",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "abbott",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "archer-aviation",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jdotgdrk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-nkbh2dod",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "accenture",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "adobe",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "analog-devices",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-zwusgdgq",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-hrz5vs6c",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jmnrdszu",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-uwh6z6c2",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-cskxd6aq",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ndhvuegr",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "applied-materials",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "amber",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "amd",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ko48myqh",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "amgen",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-nvvop8gf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "amazon",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "pre-prestj4y",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "arista-networks",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "pre-pren1fvf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-b98fynyb",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-fftz9jck",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "apollo-global-management",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "applovin",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-rki25tzm",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "arm-holdings-plc",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-crakmagk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "asml",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "ast-spacemobile",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-zscdhjwf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-egbh3v9r",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "broadcom",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "american-express",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-z1k14ngy",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "astrazeneca",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "bank-of-america",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-gkkrsgvj",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "bigbear-ai-holdings",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-bbmtgf7a",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "baidu",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-wtwpt5yj",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "bilibili",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "ishares-flexible-income-active-etf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-uywdgdzq",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "booking",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-g3jqmp79",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "blackrock",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "bullish",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "bitmine",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-b8udyp3y",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-solm6jrv",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-fznj92an",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "berkshire-hathaway",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-fcfpt8y5",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-gpwmyo4b",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "bending-spoons",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "bit-digital",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-kbuahggh",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "b2gold",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-m7mwfvhy",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "kanzhun",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "citigroup",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-zcs6fuj1",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "caterpillar",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-c7kekjza",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-fvpj4hhh",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "constellation-energy",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-nltgfdt7",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-cy3kdrnw",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "cipher-mining",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ftuoe9pw",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-el1bul9z",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "cleanspark",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "comcast",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "chipotle",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "capital-one",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jymxpcga",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "coinbase",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "conocophillips",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-gnhrgh21",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "core-scientific",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-f4ucqqnk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-hpkpc1xe",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "coupang",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "circle",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-d4rc6kvp",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "salesforce",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "crowdstrike",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "cisco",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "carvana",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "chevron",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "doordash",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "invesco-db-commodity-index-tracking-fund",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "deere",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "defi-development",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "wisdomtree-us-quality-dividend-growth-fund",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jwckwgoj",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "danaher",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "disney",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "denison-mines",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-gtkc3ptk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-t29ybab7",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "duolingo",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-g7vmfs5f",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "ebay",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-mnyetf4b",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-uzqx2mnw",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-nnyvbs9q",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-aqenhxrn",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-awcwgavn",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "equinix",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-bwryatfy",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-teuyhoqu",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "expedia",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-js1cczrn",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "ford-motor",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-dyds22ut",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "figma",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "figure-technology-solutions",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-iicfp8ef",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-bzoe1eps",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-cfxyrhxj",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-zdnkxen5",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-m3xghfwm",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "first-trust-global-tactical-commodity-strategy-fund",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "bitfufu",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "futu-holdings",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-heswwvks",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "general-electric",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "gemini-space-station",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-etnbzce6",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-tzuc3szn",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-yqznqh2y",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "galaxy-digital",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "gamestop",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-eqzwohr9",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "alphabet",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "grab-holdings",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "goldman-sachs",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ifcweb2l",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "home-depot",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-h73fnvbd",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-acx5g8ew",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ktmqkhhn",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-o3pnlke4",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "honeywell",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-axbgkgum",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-nagl8iwm",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "helius-medical",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-zmidoowv",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "hut-8",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-f7iz4bqs",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "iboxx-high-yield-corporate-bond-etf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-gfkubliv",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ztabsukb",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-th3tot4s",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-wuzf2fdz",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-fezxf2if",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jyxkrfux",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-v34vtrbc",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ntujrdtz",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-g4kt9heg",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-mv5mof9x",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "intuit",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-go6dxmdm",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "iren",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "intuitive-surgical",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-vr8rqpdm",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "janus-henderson-aaa-clo-etf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-igwfqo1w",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "jd-com",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "jpmorgan-chase",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "pre-prelwgkk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ksbewee6",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jycn4hhg",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "kla",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "coca-cola",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-esu547we",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-z8afb6uq",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-kmpprwwb",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-tezfca6z",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "li-auto",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "linde",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-syb82jxk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-yrquzhx3",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "lowe-s",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-dhexytmq",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "lam-research",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ndetekbe",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-dkgnhxgs",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "mastercard",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "mara",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ecspcjdp",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "mcdonald-s",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "medtronic",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jiwglgwj",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "mercadolibre",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "meta",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-znkqtvtc",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "monster",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "mp-materials",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "merck",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "microsoft",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-dac8ywur",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "mastec",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-agn43ed4",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-aulvqahu",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-mmy8wbfr",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "nextera-energy",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ztay65fc",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "netflix",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "sprott-nickel-miners-etf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "nio",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-bz2iutxw",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ame2anm5",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "servicenow",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "netease",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-mvaupvwk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "nvidia",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-nupq2buc",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "novo-nordisk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-z7g1brfy",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-fxxymrds",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-gftdvjlp",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "oklo",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "on-semiconductor",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "ondas-holdings",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ahfrgfbh",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "open",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "openai",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "opera",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-t5xwftmc",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "oracle",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "oscar-health",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-av3r9npu",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "occidental-petroleum",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "abrdn-physical-palladium-shares-etf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "palo-alto-networks",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "petrobras",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "pgande",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "invesco-optimum-yld-dvsfd-cmd-str-no-k-1-etf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "pdd-holdings",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-dwfwjcuk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "pepsico",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "procter-and-gamble",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "pinterest",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "planet-labs",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-aq2zxuhq",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "palantir",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "plug-power",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "philip-morris",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "pre-pre8arem",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-zifkbvbh",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-frfzazfg",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-kcc5qzxd",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "proshares-short-qqq",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-rsikbhcd",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-f1yqz2fo",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "paypal",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "d-wave-quantum",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "qualcomm",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-fkznxn9g",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ijaawdnz",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ueeyw3dj",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "vaneck-rare-earth-and-strategic-metals-etf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "rigetti-computing",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "riot-platforms",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "rocket-lab",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jjnseasi",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-e83twwrv",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "rtx",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-bjbrni96",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-vzvgejfs",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "sharplink-gaming",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "starbucks",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "charles-schwab",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "ishares-0-3-month-treasury-bond-etf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-sivse6kj",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-uislmtld",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-i7zs13sf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "super-micro-computer",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-bgy2covw",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "snowflake",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "southern",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "sofi-technologies",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "soundhound-ai",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-isrsjecp",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-io3elhnj",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ivnsacjc",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "virgin-galactic",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "sandp-global",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "spotify",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-n7dwzskv",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-bm2vsrfb",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-mfyszxnj",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "strcon",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ijtkb1cw",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-np42lxps",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "atandt",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-nqysx1zs",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "trip-com-group",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-zjycwyeg",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "tempus-ai",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-micfqeff",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ahvtjqt6",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "target",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "ishares-tips-bond-etf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "talen-energy",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "toyota",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "thermo-fisher",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "t-mobile",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-mpaqb3y5",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "ton",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-crx9vtww",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "tesla",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "tsmc",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-erp2t2my",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-kwmjv2xd",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "texas-instruments",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-nbwnopaf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "uber",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jcps1jpv",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ieoca48c",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "unitedhealth",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-hieztezn",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-aa1drcke",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ey16y4bk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "visa",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-esgtav7y",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-hkvpwfyw",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-f9nfuo4s",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-dyf78b65",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-ja4bmvhl",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "vertiv",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jbzbdfnd",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "vistra",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "vanguard-value-etf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "verizon",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "warner-bros",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-m3m2haan",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "wells-fargo",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-mrnsd1y7",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-bvjmewqb",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "walmart",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-zfb5ptvf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-zpjpmhwk",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "terawulf",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-jtnrmv1u",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "pre-prec1ktj",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "exxon-mobil",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-wcr7yfey",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "block",
+      "reason": "no_backpack_match",
+      "mints": []
+    },
+    {
+      "assetId": "stock-wxpfbh4d",
+      "reason": "no_backpack_match",
+      "mints": []
+    }
+  ]
+}
